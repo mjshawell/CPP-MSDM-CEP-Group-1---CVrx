@@ -1,0 +1,183 @@
+---
+title: "W03: CEP Repository and Collaboration Practice"
+author: "Group 1 — Mickyas Shawel, Tim Arana, Luis Berumen, Wenting Jiang"
+date: today
+format:
+  html:
+    toc: true
+    toc-depth: 4
+    toc-expand: true
+    number-sections: true
+    code-link: true
+    code-overflow: wrap
+    code-tools: true
+    embed-resources: true
+    theme: cosmo
+editor: visual
+execute:
+  freeze: auto
+---
+
+# CEP Repository and Collaboration Practice
+
+This collaborative report documents Group 1's application of Git, GitHub, Quarto, and Positron during our CEP collaboration practice. Each group member will contribute to the report through the shared GitHub repository using the required pull, edit, render, review, stage, commit, and push workflow.
+
+> **Collaboration principle:** The GitHub repository serves as the group's authoritative version of the CEP project. Each member should pull before beginning work and push completed changes so that the group remains synchronized.
+
+# Prompt 1: Repository Setup and Shared Ownership
+
+**Principal Author:** Mickyas Shawel
+
+Explain how your group created its CEP repository from the MSDM CEP template, selected an appropriate visibility setting, invited collaborators, and ensured that every member cloned the same repository. Clearly distinguish among using a template, creating a repository, and cloning a repository. Why would independently cloning or copying the original template create problems for group collaboration?
+
+Our group established one shared CEP repository by using the MSDM CEP GitHub repository as a **template** rather than cloning the original template directly. Using a template created a new repository specifically for Group 1 while preserving the required CEP file structure and supporting files. We named our repository `CPP-MSDM-CEP-Group-1---CVrx` and selected the appropriate repository visibility based on the confidentiality requirements of the project. The designated repository owner then invited the other group members and faculty lead as collaborators so that everyone could contribute to the same remote repository on GitHub.
+
+It is important to distinguish **using a template, creating a repository, and cloning a repository**. Using the MSDM template provides the starting structure for a new CEP repository, while creating the repository establishes our group's independent remote project on GitHub. Cloning occurs afterward and creates a local copy of that group repository on each member's computer while maintaining its connection to the shared remote repository. If members independently cloned or copied the professor's original template instead, they could end up working from separate repositories or disconnected project copies. Our group instead works from the same repository so that Git can maintain a common history of contributions and allow each member to pull teammates' changes and push their own work back to the authoritative project.
+
+# Prompt 2: Local, Remote, and Working Files
+
+**Principal Author:** Mickyas Shawel
+
+Explain the relationship among the files on your computer, the local Git repository, and the remote repository on GitHub. In your explanation, distinguish among saving, staging, committing, pushing, fetching, and pulling. Why does saving a QMD file on your computer not make the change available to your teammates?
+
+The CEP project exists in several related states during our Git workflow. The **working files** are the files we actively see and edit on our computer in Positron, such as the QMD and rendered HTML files. These files are located inside our **local Git repository**, which allows Git to track changes and maintain a history of commits on our computer. The **remote repository** is the shared version hosted on GitHub. Each group member has their own local clone, but those clones are connected to the same remote repository. This relationship allows us to work locally while using GitHub as the central location for sharing completed changes with the rest of the group.
+
+Several Git actions move changes through this workflow. **Saving** records an edit to the working file on the local computer, but it does not add that change to Git's history. **Staging** selects specific changed files to include in the next commit, while **committing** creates a recorded snapshot of those staged changes in the local repository with a descriptive message. **Pushing** sends local commits to the remote GitHub repository so that teammates can access them. **Fetching** checks the remote repository and retrieves information about new commits without automatically integrating them into the current working files. **Pulling** retrieves remote changes and integrates them into the local branch. Therefore, simply saving our shared QMD file in Positron does not make the change available to teammates. The change must be staged, committed, and pushed to GitHub before another member can retrieve it by pulling the latest version.
+
+# Prompt 3: Document Your Group's Round 1 Workflow
+
+**Principal Author:** Mickyas Shawel
+
+Describe the order in which group members completed Round 1. For every member, report:
+
+- the member's name;
+- the section or content added;
+- whether the member pulled before editing;
+- the commit message used; and
+- how the member verified that the push succeeded.
+
+Our group is completing Round 1 sequentially so that each member works from the most recent version of the shared report. Mickyas Shawel began the process by pulling the latest version of the `main` branch and confirming that the local repository was synchronized with `origin/main`. He then created the `Col-Practice` folder and established the initial Quarto report, including the required YAML configuration, essay prompts, collaboration evidence appendix, and the initial responses for Prompts 1–3. After rendering and reviewing the report, the QMD and self-contained HTML files were prepared for the first Round 1 commit.
+
+Table @tbl-round1 documents the Round 1 sequence. The remaining entries will be completed as each group member finishes their contribution so that the final table reflects the actual Git history rather than anticipated activity.
+
+| Order | Member | Section/Content Added | Pulled Before Editing? | Commit Message | Push Verification |
+|---:|---|---|:---:|---|---|
+| 1 | Mickyas Shawel | Created shared Quarto report structure and drafted Prompts 1–3 | Yes | `Create collaboration practice report and draft Prompts 1-3` | Verified commit on GitHub after push |
+| 2 | Tim Arana | *Pending Round 1 contribution* | *Pending* | *Pending* | *Pending* |
+| 3 | Luis Berumen | *Pending Round 1 contribution* | *Pending* | *Pending* | *Pending* |
+| 4 | Wenting Jiang | *Pending Round 1 contribution* | *Pending* | *Pending* | *Pending* |
+
+: Group 1 Round 1 collaboration workflow {#tbl-round1}
+
+We chose a **sequential workflow** for this exercise because the group is intentionally practicing collaboration on one shared QMD file. After one member finishes, that member renders, reviews, commits, and pushes the updated report before the next member begins. The next member then pulls the newest version before editing. This reduces the likelihood that two members will modify the same lines from different versions of the document and create unnecessary merge conflicts. It also produces a chronological Git history that makes the authorship and purpose of each contribution easier to identify.
+
+The sequential process can be summarized as:
+
+> **Pull → Edit → Render → Review → Stage → Commit → Push**
+
+Following this sequence gives the next group member a clear handoff point and helps ensure that the shared GitHub repository remains the authoritative version of the report.
+
+
+
+
+
+**Principal Author:** *To be completed*
+
+Create a numbered checklist that a group member should follow every time they work on the CEP report, beginning before they edit and ending after they push. Explain why pulling before editing and using focused, descriptive commits make collaboration safer and make the project's history more useful.
+
+*Group response to be added here.*
+
+# Prompt 5: Coordinating Work and Preventing Merge Conflicts
+
+**Principal Author:** *To be completed*
+
+Explain what may happen when two people edit the same lines of the same QMD file and then attempt to push their work. Describe at least three practices your group will use during the CEP to reduce merge conflicts. Include how your group will divide sections, communicate who is editing, and decide when work is ready for another member.
+
+*Group response to be added here.*
+
+# Prompt 6: Responding to a Push Rejection or Merge Conflict
+
+**Principal Author:** *To be completed*
+
+Consider this situation: A group member edits the report without pulling first. Meanwhile, another member pushes changes to the same section. Git rejects the first member's push, and a merge conflict appears after pulling.
+
+Explain, in order, what the first member should do. Describe how the member would use Positron's Merge Editor or the conflict markers in the file to compare the current and incoming changes, decide what content to retain, remove the conflict markers, render and inspect the report, commit the resolution, and push it. Also explain why force-pushing, deleting a teammate's work, or replacing the repository with an older local copy would be inappropriate.
+
+*Group response to be added here.*
+
+# Prompt 7: Branches, Issues, and Pull Requests
+
+**Principal Author:** *To be completed*
+
+Based on the collaboration video, explain the purposes of a GitHub Issue, a branch, and a pull request. How could these tools support task assignment, review, and approval during a longer CEP project? Contrast this approach with making a small, coordinated change directly on the main branch. Identify at least one situation in which your group should prefer a branch and pull request.
+
+*Group response to be added here.*
+
+# Prompt 8: Review the Repository History
+
+**Principal Author:** *To be completed*
+
+Review the repository's commit history after both collaboration rounds. What evidence shows that all members worked through Git and GitHub rather than exchanging separate files? Discuss what the history reveals about the sequence, purpose, and authorship of the changes. Identify one commit message that is especially effective and explain why.
+
+*Complete this section after both collaboration rounds.*
+
+# Prompt 9: Security, Confidentiality, and Repository Hygiene
+
+**Principal Author:** *To be completed*
+
+Explain what materials must never be pushed to the CEP repository, even when it is private. Address confidential client data, personally identifiable information, passwords, API keys, access tokens, temporary files, and locally generated files that do not belong under version control. Explain the role of `.gitignore`, and discuss what a student should do before proceeding if they are uncertain whether a file may be shared.
+
+*Group response to be added here.*
+
+# Prompt 10: Group Collaboration Agreement
+
+**Principal Author:** *Group 1*
+
+Develop a short Git/GitHub collaboration agreement that your group will follow for the remainder of the CEP.
+
+::: {.callout-important}
+## Group 1 Git/GitHub Collaboration Agreement
+
+The finalized Group 1 collaboration agreement will be added after all members review the proposed workflow.
+
+The agreement will address:
+
+1. when members must pull and push;
+2. how work will be assigned;
+3. simultaneous editing of files and sections;
+4. expectations for descriptive commit messages;
+5. when branches and pull requests will be used;
+6. responses to conflicts and failed pushes;
+7. responsibility for verifying that the report renders correctly; and
+8. protection of confidential information.
+
+**Group approval:** Pending review by all members.
+:::
+
+# Appendix: Collaboration Evidence
+
+## Individual Contribution Record
+
+| Member | GitHub Username | Round 1 Commit Message | Round 2 Commit Message |
+|---|---|---|---|
+| Mickyas Shawel | `mjshawell` | Pending | Pending |
+| Tim Arana | Pending | Pending | Pending |
+| Luis Berumen | Pending | Pending | Pending |
+| Wenting Jiang | Pending | Pending | Pending |
+
+## Repository and Publication Links
+
+**Group GitHub Repository:**  
+[CPP-MSDM-CEP-Group-1---CVrx](https://github.com/mjshawell/CPP-MSDM-CEP-Group-1---CVrx)
+
+**Published GitHub Pages Report:**  
+*To be added after publication.*
+
+**Repository Commit History:**  
+[View Group 1 Commit History](https://github.com/mjshawell/CPP-MSDM-CEP-Group-1---CVrx/commits/main/)
+
+## Workflow Confirmation
+
+All group members will use Positron, RStudio, or the IDE Terminal to pull, edit, render, stage, commit, and push their contributions. Files will not be uploaded through the GitHub browser interface as a substitute for the required Git workflow.
+
+**Final editor:** *To be identified after Round 2.*
