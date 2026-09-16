@@ -50,24 +50,24 @@ Several Git actions move changes through this workflow. **Saving** records an ed
 
 Describe the order in which group members completed Round 1. For every member, report:
 
--   the member's name;
--   the section or content added;
--   whether the member pulled before editing;
--   the commit message used; and
--   how the member verified that the push succeeded.
+- the member's name;
+- the section or content added;
+- whether the member pulled before editing;
+- the commit message used; and
+- how the member verified that the push succeeded.
 
 Our group is completing Round 1 sequentially so that each member works from the most recent version of the shared report. Mickyas Shawel began the process by pulling the latest version of the `main` branch and confirming that the local repository was synchronized with `origin/main`. He then created the `Col-Practice` folder and established the initial Quarto report, including the required YAML configuration, essay prompts, collaboration evidence appendix, and the initial responses for Prompts 1–3. After rendering and reviewing the report, the QMD and self-contained HTML files were prepared for the first Round 1 commit.
 
 Table @tbl-round1 documents the Round 1 sequence. The remaining entries will be completed as each group member finishes their contribution so that the final table reflects the actual Git history rather than anticipated activity.
 
 | Order | Member | Section/Content Added | Pulled Before Editing? | Commit Message | Push Verification |
-|-----------:|------------|------------|:----------:|------------|------------|
+|---:|----|----|:--:|----|----|
 | 1 | Mickyas Shawel | Created shared Quarto report structure and drafted Prompts 1–3 | Yes | `Create collaboration practice report and draft Prompts 1-3` | Verified commit on GitHub after push |
-| 2 | Tim Arana | *Pending Round 1 contribution* | *Pending* | *Pending* | *Pending* |
-| 3 | Luis Berumen | *Pending Round 1 contribution* | *Pending* | *Pending* | *Pending* |
-| 4 | Wenting Jiang | Added responses to Prompts 4–5 and restored the Prompt 4 heading | Yes | `Add responses to Prompts 4-5 and restore Prompt 4 heading` | Verified commit on GitHub after push |
+| 2 | Wenting Jiang | Added responses to Prompts 4–5 and restored the Prompt 4 heading | Yes | `Add responses to Prompts 4-5 and restore Prompt 4 heading` | Verified commit on GitHub after push |
+| 3 | Tim Arana | Added responses to Prompts 6–7 | Yes | `Add Tim's responses to Prompts 6 and 7` | Verified commit on GitHub after push |
+| 4 | Luis Berumen | Added responses to Prompts 8–10 and completed the assignment | Yes | `Add responses to Prompts 8-10 and complete assignment` | Pending until push is verified |
 
-: Group 1 Round 1 collaboration workflow {#tbl-round1}
+: Group 1 Round 1 collaboration workflow
 
 We chose a **sequential workflow** for this exercise because the group is intentionally practicing collaboration on one shared QMD file. After one member finishes, that member renders, reviews, commits, and pushes the updated report before the next member begins. The next member then pulls the newest version before editing. This reduces the likelihood that two members will modify the same lines from different versions of the document and create unnecessary merge conflicts. It also produces a chronological Git history that makes the authorship and purpose of each contribution easier to identify.
 
@@ -139,19 +139,23 @@ For a longer CEP project, our group could use Issues to identify and assign larg
 
 # Prompt 8: Review the Repository History
 
-**Principal Author:** *To be completed*
+**Principal Author:** Luis Berumen
 
 Review the repository's commit history after both collaboration rounds. What evidence shows that all members worked through Git and GitHub rather than exchanging separate files? Discuss what the history reveals about the sequence, purpose, and authorship of the changes. Identify one commit message that is especially effective and explain why.
 
-*Complete this section after both collaboration rounds.*
+Looking at our repository history we can see that each group member worked through Git and GitHub and added their own part of the assignment. Mickyas Shawel started the report and completed Prompts 1-3, then Wenting Jiang added her responses to Prompts 4-5, and Tim Arana added his responses to Prompts 6-7. Before starting my part I pulled the most recent version of the repository and then worked on Prompts 8-10. This shows how each group member was able to work from the same report instead of sending different copies of the file to each other. It also makes it easier to see who worked on each part and the order the assignment was completed in.
+
+The commit messages also help show what changes were made by each person. One commit message that I think is especially effective is `Create collaboration practice report and draft Prompts 1-3` because it clearly explains what was created and what prompts were completed in that commit. This is much better than using a message like `update` because someone looking at the repository history can understand what was changed without having to open the files. Once Round 2 is completed, the history will also show the changes each person made when reviewing and improving another group member's work.
 
 # Prompt 9: Security, Confidentiality, and Repository Hygiene
 
-**Principal Author:** *To be completed*
+**Principal Author:** Luis Berumen
 
 Explain what materials must never be pushed to the CEP repository, even when it is private. Address confidential client data, personally identifiable information, passwords, API keys, access tokens, temporary files, and locally generated files that do not belong under version control. Explain the role of `.gitignore`, and discuss what a student should do before proceeding if they are uncertain whether a file may be shared.
 
-*Group response to be added here.*
+There are certain files and information that should never be pushed into our CEP repository even if the repository is private. This includes confidential client information, personally identifiable information, passwords, API keys, access tokens, and any other information that someone should not have access to. Temporary files and locally generated files that are not needed for the project should also not be included in the repository. Having a private repository does give the project more protection but it does not mean that it is safe to upload confidential information into it.
+
+The `.gitignore` file helps with this because it tells Git which files should not be tracked or included in commits. This can help prevent temporary files, credentials, or other files that do not belong in the repository from accidentally being included. However, we should still check what files we are staging before making a commit instead of only relying on the `.gitignore` file. If someone in the group is unsure whether a file or information can be shared, they should not push it and should first ask the group or Professor Moore before proceeding. It is better to check before pushing because once sensitive information is added to the repository it can create security and confidentiality problems.
 
 # Prompt 10: Group Collaboration Agreement
 
@@ -162,32 +166,30 @@ Develop a short Git/GitHub collaboration agreement that your group will follow f
 ::: callout-important
 ## Group 1 Git/GitHub Collaboration Agreement
 
-The finalized Group 1 collaboration agreement will be added after all members review the proposed workflow.
+For the rest of the CEP our group will follow these rules to make sure everyone is working from the same version of the project and to reduce problems when working together:
 
-The agreement will address:
+1.  Every group member will pull the newest version before they begin editing and will push their changes after they are finished, rendered, and reviewed.
+2.  We will divide the work between group members so everyone knows what section or task they are responsible for.
+3.  Group members should not edit the same section at the same time. We will communicate with each other when someone is working on the shared file and when they are finished.
+4.  Commit messages should clearly explain what was changed instead of using messages such as `update`, `changes`, or `final`.
+5.  Small changes can be made directly on the `main` branch as long as the group coordinates the work. For larger changes that affect multiple sections or need to be reviewed first, we will use a branch and pull request.
+6.  If a push fails or we have a merge conflict, we will pull the newest changes and review the differences before deciding what needs to be kept. We will not force-push or delete another group member's work just to fix the conflict.
+7.  Each person should render and check the report after making their changes. Before the final submission, the final editor will pull the newest version, render the entire report, check the links and formatting, and then push the final version.
+8.  Confidential client information, personally identifiable information, passwords, API keys, access tokens, and other sensitive information will not be pushed into the repository. If we are unsure whether something can be shared we will check before adding it.
 
-1.  when members must pull and push;
-2.  how work will be assigned;
-3.  simultaneous editing of files and sections;
-4.  expectations for descriptive commit messages;
-5.  when branches and pull requests will be used;
-6.  responses to conflicts and failed pushes;
-7.  responsibility for verifying that the report renders correctly; and
-8.  protection of confidential information.
-
-**Group approval:** Pending review by all members.
+**Group approval:** All Group 1 members have reviewed and approved this agreement and agree to follow it for the remainder of the CEP.
 :::
 
 # Appendix: Collaboration Evidence
 
 ## Individual Contribution Record
 
-| Member | GitHub Username | Round 1 Commit Message | Round 2 Commit Message |
-|------------------|------------------|------------------|------------------|
-| Mickyas Shawel | `mjshawell` | Pending | Pending |
-| Tim Arana |  | Pending | Pending |
-| Luis Berumen | Pending | Pending | Pending |
-| Wenting Jiang | `WentingJiang00` | `Add Wenting's responses to Prompts 4 and 5` | Pending |
+| Member | GitHub Username | Round 1 Commit | Round 2 Commit |
+|----|----|----|----|
+| Mickyas Shawel | `mjshawell` | `Create collaboration practice report and draft Prompts 1-3` | Pending |
+| Wenting Jiang | `wenting4685-lang` | `Add Wenting's responses to Prompts 4 and 5` | Pending |
+| Tim Arana | `Tim Arana` | `Add Tim's responses to Prompts 6 and 7` | Pending |
+| Luis Berumen | `Brahhmen55` | `Add responses to Prompts 8-10 and complete assignment` | Pending |
 
 ## Repository and Publication Links
 
