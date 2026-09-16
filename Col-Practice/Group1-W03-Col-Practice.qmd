@@ -50,22 +50,22 @@ Several Git actions move changes through this workflow. **Saving** records an ed
 
 Describe the order in which group members completed Round 1. For every member, report:
 
-- the member's name;
-- the section or content added;
-- whether the member pulled before editing;
-- the commit message used; and
-- how the member verified that the push succeeded.
+-   the member's name;
+-   the section or content added;
+-   whether the member pulled before editing;
+-   the commit message used; and
+-   how the member verified that the push succeeded.
 
 Our group is completing Round 1 sequentially so that each member works from the most recent version of the shared report. Mickyas Shawel began the process by pulling the latest version of the `main` branch and confirming that the local repository was synchronized with `origin/main`. He then created the `Col-Practice` folder and established the initial Quarto report, including the required YAML configuration, essay prompts, collaboration evidence appendix, and the initial responses for Prompts 1–3. After rendering and reviewing the report, the QMD and self-contained HTML files were prepared for the first Round 1 commit.
 
 Table @tbl-round1 documents the Round 1 sequence. The remaining entries will be completed as each group member finishes their contribution so that the final table reflects the actual Git history rather than anticipated activity.
 
 | Order | Member | Section/Content Added | Pulled Before Editing? | Commit Message | Push Verification |
-|---:|---|---|:---:|---|---|
+|-----------:|------------|------------|:----------:|------------|------------|
 | 1 | Mickyas Shawel | Created shared Quarto report structure and drafted Prompts 1–3 | Yes | `Create collaboration practice report and draft Prompts 1-3` | Verified commit on GitHub after push |
 | 2 | Tim Arana | *Pending Round 1 contribution* | *Pending* | *Pending* | *Pending* |
 | 3 | Luis Berumen | *Pending Round 1 contribution* | *Pending* | *Pending* | *Pending* |
-| 4 | Wenting Jiang | Added responses to Prompts 4–5 and restored the Prompt 4 heading  | Yes | `Add responses to Prompts 4-5 and restore Prompt 4 heading` | Verified commit on GitHub after push |
+| 4 | Wenting Jiang | Added responses to Prompts 4–5 and restored the Prompt 4 heading | Yes | `Add responses to Prompts 4-5 and restore Prompt 4 heading` | Verified commit on GitHub after push |
 
 : Group 1 Round 1 collaboration workflow {#tbl-round1}
 
@@ -77,8 +77,6 @@ The sequential process can be summarized as:
 
 Following this sequence gives the next group member a clear handoff point and helps ensure that the shared GitHub repository remains the authoritative version of the report.
 
-
-
 # Prompt 4: A Reliable Everyday CEP Workflow
 
 **Principal Author:** Wenting Jiang
@@ -87,17 +85,16 @@ Create a numbered checklist that a group member should follow every time they wo
 
 Our group will use the following workflow each time we work on the CEP report:
 
-1. Confirm the assigned section and let the group know who is editing.
-2. Open the shared repository and run `git pull origin main` before making changes.
-3. Edit the assigned section and save the QMD file.
-4. Render the report and check that the content and formatting look correct.
-5. Stage the updated QMD and HTML files with `git add`.
-6. Commit the changes with a clear message describing the work completed.
-7. Use `git push origin main` to send the changes to GitHub and make sure the commit is visible.
-8. Tell the next group member that the file is ready.
+1.  Confirm the assigned section and let the group know who is editing.
+2.  Open the shared repository and run `git pull origin main` before making changes.
+3.  Edit the assigned section and save the QMD file.
+4.  Render the report and check that the content and formatting look correct.
+5.  Stage the updated QMD and HTML files with `git add`.
+6.  Commit the changes with a clear message describing the work completed.
+7.  Use `git push origin main` to send the changes to GitHub and make sure the commit is visible.
+8.  Tell the next group member that the file is ready.
 
 Pulling before editing is important because another member may have already updated the report. Starting with the newest version helps prevent merge conflicts and keeps us from accidentally overwriting someone else’s work. Clear commit messages are also useful because they show what each person changed. For example, `Add Wenting's responses to Prompts 4 and 5` is more helpful than a vague message such as `update`or `final` provides little useful information. Clear commit messages allow the group and instructor to understand the sequence, content, and authorship of each contribution.
-
 
 # Prompt 5: Coordinating Work and Preventing Merge Conflicts
 
@@ -109,33 +106,36 @@ When two group members edit the same lines of the same QMD file from different l
 
 To reduce merge conflicts during the CEP, our group will use the following practices:
 
-1. We will divide the report into clearly assigned prompts or sections so that each member knows which content they are responsible for.
-2. Only one member will edit the shared QMD file at a time during the collaboration practice. Before beginning, the member will notify the group through Slack or text message that the file is being edited.
-3. Every member will pull the newest version from `origin/main` before making any changes.
-4. Members will avoid editing another person’s assigned section unless the change has been discussed or is part of the required peer-review round.
-5. After editing, each member will save, render, and inspect the complete report before committing and pushing both the QMD and HTML files.
-6. The file will be considered ready for the next member only after the current member confirms that the push succeeded and that the commit is visible on GitHub.
+1.  We will divide the report into clearly assigned prompts or sections so that each member knows which content they are responsible for.
+2.  Only one member will edit the shared QMD file at a time during the collaboration practice. Before beginning, the member will notify the group through Slack or text message that the file is being edited.
+3.  Every member will pull the newest version from `origin/main` before making any changes.
+4.  Members will avoid editing another person’s assigned section unless the change has been discussed or is part of the required peer-review round.
+5.  After editing, each member will save, render, and inspect the complete report before committing and pushing both the QMD and HTML files.
+6.  The file will be considered ready for the next member only after the current member confirms that the push succeeded and that the commit is visible on GitHub.
 
 This coordinated handoff process helps the group avoid simultaneous editing and ensures that each person begins with the most recent version of the report. For larger or riskier changes, such as reorganizing several sections or substantially revising the report structure, the group may use a separate branch and pull request so that the changes can be reviewed before they are merged into the `main` branch.
 
-
 # Prompt 6: Responding to a Push Rejection or Merge Conflict
 
-**Principal Author:** *To be completed*
+**Principal Author:** Tim Arana
 
 Consider this situation: A group member edits the report without pulling first. Meanwhile, another member pushes changes to the same section. Git rejects the first member's push, and a merge conflict appears after pulling.
 
 Explain, in order, what the first member should do. Describe how the member would use Positron's Merge Editor or the conflict markers in the file to compare the current and incoming changes, decide what content to retain, remove the conflict markers, render and inspect the report, commit the resolution, and push it. Also explain why force-pushing, deleting a teammate's work, or replacing the repository with an older local copy would be inappropriate.
 
-*Group response to be added here.*
+In a situation when a push is rejected because another team member has already pushed changes, the member should not force the push or overwrite the repository. First, the member should keep their local work and run `git status` to see what the current state of the repository is. Next, they should pull the newest changes from the remote repository. If Git identifies a merge conflict, the member should compare their current changes with the new incoming changes from the teammate. In Positron, this can be done with the Merge Editor. Also, the member can review the conflict markers directly in the QMD file. The member should determine which portions of each version the group wants to keep and combine the correct content when necessary. Finally, the member must remove all conflict markers after resolving the differences.
+
+After resolving the conflict, the member should save the QMD file and render the report again. Rendering is important because a conflict may be resolved from Git’s perspective while still leaving formatting, syntax, or content problems in the report. Next, the member should inspect the rendered HTML, stage the resolved files, and create a descriptive commit explaining the conflict resolution. Then, the member can push the new commit and verify on GitHub that it uploaded successfully. Force-pushing would be inappropriate because it could overwrite changes already made by another group member. Deleting a teammate’s work or replacing the repository with an older local copy could remove contributions and damage the shared project history. The best response is to resolve the conflicting changes so that the repository preserves the work that should remain.
 
 # Prompt 7: Branches, Issues, and Pull Requests
 
-**Principal Author:** *To be completed*
+**Principal Author:** Tim Arana
 
 Based on the collaboration video, explain the purposes of a GitHub Issue, a branch, and a pull request. How could these tools support task assignment, review, and approval during a longer CEP project? Contrast this approach with making a small, coordinated change directly on the main branch. Identify at least one situation in which your group should prefer a branch and pull request.
 
-*Group response to be added here.*
+A GitHub Issue, a branch, and a pull request serve different but related purposes. A **GitHub Issue** can be used to document a task, problem, or improvement and assign responsibility for completing it. A **branch** creates a separate line of development where a member can work on a change without changing the main version of the CEP report. When the work on the branch is ready, a **pull request** allows the changes to be reviewed and approved before they are merged into the main branch. Together, these tools provide a structured way to assign work and review contributions before they become part of the primary report.
+
+For a longer CEP project, our group could use Issues to identify and assign larger tasks, branches to complete those tasks without disrupting the report and pull requests to give other members an opportunity to review the work before approval and merging. A small change, such as correcting a typo could be made directly on the main branch if the member pulls first and notifies the group. Our group should use a branch and pull request when making a change that affects multiple sections or requires review before being added into the main report. This approach would allow the group to evaluate changes without putting the main version of the CEP report at risk.
 
 # Prompt 8: Review the Repository History
 
@@ -159,21 +159,21 @@ Explain what materials must never be pushed to the CEP repository, even when it 
 
 Develop a short Git/GitHub collaboration agreement that your group will follow for the remainder of the CEP.
 
-::: {.callout-important}
+::: callout-important
 ## Group 1 Git/GitHub Collaboration Agreement
 
 The finalized Group 1 collaboration agreement will be added after all members review the proposed workflow.
 
 The agreement will address:
 
-1. when members must pull and push;
-2. how work will be assigned;
-3. simultaneous editing of files and sections;
-4. expectations for descriptive commit messages;
-5. when branches and pull requests will be used;
-6. responses to conflicts and failed pushes;
-7. responsibility for verifying that the report renders correctly; and
-8. protection of confidential information.
+1.  when members must pull and push;
+2.  how work will be assigned;
+3.  simultaneous editing of files and sections;
+4.  expectations for descriptive commit messages;
+5.  when branches and pull requests will be used;
+6.  responses to conflicts and failed pushes;
+7.  responsibility for verifying that the report renders correctly; and
+8.  protection of confidential information.
 
 **Group approval:** Pending review by all members.
 :::
@@ -183,21 +183,21 @@ The agreement will address:
 ## Individual Contribution Record
 
 | Member | GitHub Username | Round 1 Commit Message | Round 2 Commit Message |
-|---|---|---|---|
+|------------------|------------------|------------------|------------------|
 | Mickyas Shawel | `mjshawell` | Pending | Pending |
-| Tim Arana | Pending | Pending | Pending |
+| Tim Arana |  | Pending | Pending |
 | Luis Berumen | Pending | Pending | Pending |
 | Wenting Jiang | `WentingJiang00` | `Add Wenting's responses to Prompts 4 and 5` | Pending |
 
 ## Repository and Publication Links
 
-**Group GitHub Repository:**  
+**Group GitHub Repository:**\
 [CPP-MSDM-CEP-Group-1---CVrx](https://github.com/mjshawell/CPP-MSDM-CEP-Group-1---CVrx)
 
-**Published GitHub Pages Report:**  
+**Published GitHub Pages Report:**\
 *To be added after publication.*
 
-**Repository Commit History:**  
+**Repository Commit History:**\
 [View Group 1 Commit History](https://github.com/mjshawell/CPP-MSDM-CEP-Group-1---CVrx/commits/main/)
 
 ## Workflow Confirmation
