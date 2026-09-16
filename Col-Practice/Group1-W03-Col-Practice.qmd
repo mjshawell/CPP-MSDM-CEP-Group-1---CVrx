@@ -66,7 +66,7 @@ Table @tbl-round1 documents the Round 1 sequence. The remaining entries will be 
 | 1 | Mickyas Shawel | Created shared Quarto report structure and drafted Prompts 1–3 | Yes | `Create collaboration practice report and draft Prompts 1-3` | Verified commit on GitHub after push |
 | 2 | Wenting Jiang | Added responses to Prompts 4–5 and restored the Prompt 4 heading | Yes | `Add responses to Prompts 4-5 and restore Prompt 4 heading` | Verified commit on GitHub after push |
 | 3 | Tim Arana | Added responses to Prompts 6–7 | Yes | `Add Tim's responses to Prompts 6 and 7` | Verified commit on GitHub after push |
-| 4 | Luis Berumen | Added responses to Prompts 8–10 and completed the assignment | Yes | `Add responses to Prompts 8-10 and complete assignment` | Pending until push is verified |
+| 4 | Luis Berumen | Added responses to Prompts 8–10 and completed the assignment | Yes | `Add responses to Prompts 8-10 and complete assignment` | Verified commit on Github after push |
 
 : Group 1 Round 1 collaboration workflow
 
@@ -198,7 +198,7 @@ For the rest of the CEP our group will follow these rules to make sure everyone 
 [CPP-MSDM-CEP-Group-1---CVrx](https://github.com/mjshawell/CPP-MSDM-CEP-Group-1---CVrx)
 
 **Published GitHub Pages Report:**\
-*To be added after publication.*
+[GitHub Pages Report](https://mjshawell.github.io/CPP-MSDM-CEP-Group-1---CVrx/)
 
 **Repository Commit History:**\
 [View Group 1 Commit History](https://github.com/mjshawell/CPP-MSDM-CEP-Group-1---CVrx/commits/main/)
@@ -207,4 +207,3 @@ For the rest of the CEP our group will follow these rules to make sure everyone 
 
 All group members will use Positron, RStudio, or the IDE Terminal to pull, edit, render, stage, commit, and push their contributions. Files will not be uploaded through the GitHub browser interface as a substitute for the required Git workflow.
 
-**Final editor:** *To be identified after Round 2.*
