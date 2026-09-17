@@ -218,5 +218,3 @@ Zotero provides the team with a centralized system for collecting credible sourc
 - **Zotero Group Library:** https://www.zotero.org/groups/6676730/cvrx-group_1-research/library
 
 - **GitHub Repository:** [Group 1 CEP GitHub Repository](https://github.com/mjshawell/CPP-MSDM-CEP-Group-1---CVrx)
-
-- **Published CEP01 Report:** [Add GitHub Pages Link](%5BADD-GITHUB-PAGES-URL%5D)

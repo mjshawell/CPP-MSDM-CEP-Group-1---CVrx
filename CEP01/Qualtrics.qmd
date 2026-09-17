@@ -1,0 +1,15 @@
+---
+title: "Qualtrics M01-1 Designing Survey (Rough draft & Sharing Qualtrics)"
+author: "Mickyas Shawel"
+format: html
+editor: visual
+embed-resources: true 
+---
+
+## 
+
+![](images/clipboard-1471537720.png)
+
+![](images/clipboard-2613236893.png)
+
+Link to Qualtrics: https://cpp.az1.qualtrics.com/jfe/form/SV_8BQj1D2TTlhhiSy
