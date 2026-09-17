@@ -206,4 +206,3 @@ For the rest of the CEP our group will follow these rules to make sure everyone 
 ## Workflow Confirmation
 
 All group members will use Positron, RStudio, or the IDE Terminal to pull, edit, render, stage, commit, and push their contributions. Files will not be uploaded through the GitHub browser interface as a substitute for the required Git workflow.
-
