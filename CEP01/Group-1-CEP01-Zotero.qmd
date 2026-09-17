@@ -1,0 +1,222 @@
+---
+title: "CEP01 - Bibliography Database Using Zotero"
+subtitle: "CVRx Group 1 | Culminating Experience Project"
+author: "Group 1"
+date: today
+format:
+  html:
+    theme: cosmo
+    toc: true
+    toc-depth: 4
+    toc-expand: true
+    number-sections: true
+    code-link: true
+    code-tools: true
+    code-overflow: wrap
+    embed-resources: true
+editor: visual
+execute:
+  freeze: auto
+  echo: false
+  warning: false
+  message: false
+---
+
+# Introduction
+
+This report documents Group 1's development of a shared bibliography database using Zotero for the CVRx Culminating Experience Project (CEP). The purpose of the database is to create a centralized and organized collection of credible sources that can support our research, analysis, presentations, recommendations, and final project documentation throughout the CEP.
+
+Our current research collection focuses on topics related to **sales technology, customer relationship management (CRM), CRM technology adoption, mobile CRM, cloud-based CRM, sales-force technology, and sales performance**. These areas provide a research foundation that can help our team better understand the role of technology in supporting sales organizations and customer relationship management.
+
+Using Zotero allows our team to collaboratively collect sources, maintain citation information, store supporting files and links, organize research using notes and tags, and access the same bibliography throughout the project.
+
+::: callout-note
+## Purpose of the Bibliography Database
+
+The Zotero group library will serve as a shared research resource throughout the CVRx Culminating Experience Project. Sources collected during CEP01 can continue to be reviewed, expanded, and cited during later stages of the project.
+:::
+
+# Zotero Group Library
+
+## Group Library Setup
+
+Group 1 created a shared Zotero group library to organize research associated with the CVRx Culminating Experience Project. Group members were invited to the library so that each member could contribute, review, and organize sources collaboratively.
+
+**Zotero Group Library Name:**\
+`CVrx-Group 1-Research`
+
+**Zotero Group Library Access:**\
+https://www.zotero.org/groups/6676730/cvrx-group\_-research/items/2EFJ5MNP/item-list
+
+The shared library currently contains research addressing several areas relevant to the project, including sales-force automation, sales technology, mobile customer relationship management, cloud CRM, CRM technology acceptance, and sales performance.
+
+## Group Library Screenshot
+
+@fig-zotero-library shows the shared Zotero group library used by Group 1. The library contains research related to sales technology, customer relationship management, technology adoption, and sales performance. The **Added By** column also provides evidence of individual group member contributions.
+
+![](images/Full%20Database.png)
+
+::: callout-tip
+## Current Library Status
+
+The shared library currently contains eight visible research sources contributed by multiple Group 1 members. Additional sources will continue to be added as the CEP research develops.
+:::
+
+# Source Collection and Evaluation
+
+Our group evaluates potential sources before adding them to the bibliography database. Sources are reviewed based on their relevance to the CVRx project, credibility, usefulness, recency, and objectivity.
+
+## Source Evaluation Criteria
+
+1.  **Relevance** — The source should directly contribute to understanding the CEP topic or an important component of the project.
+
+2.  **Credibility** — Preference is given to peer-reviewed journals, universities, government organizations, research institutions, established companies, and recognized industry experts.
+
+3.  **Usefulness** — Sources should provide concepts, evidence, data, frameworks, methods, examples, or other information that can support the project.
+
+4.  **Recency** — Current sources are prioritized when researching rapidly changing topics such as CRM platforms, sales technology, artificial intelligence, analytics, and digital transformation.
+
+5.  **Objectivity** — Sources are evaluated for potential promotional, organizational, or commercial bias before being incorporated into the project.
+
+::: callout-important
+## Source Quality Standard
+
+Our group prioritizes credible and relevant sources that can directly support the research, analysis, and recommendations developed throughout the CVRx Culminating Experience Project.
+:::
+
+# Current Research Collection
+
+The initial bibliography demonstrates a focus on the relationship between technology and sales organizations. The research collection includes studies examining sales-force automation, CRM adoption, mobile CRM, cloud CRM, sales technology, and technology acceptance among sales professionals.
+
+## Current Zotero Sources
+
+The following sources are currently visible in the Group 1 Zotero library.
+
+| Source Title | Contributed By | Type of Source | Research Area |
+|:-----------------|:-----------------|:-----------------|:-----------------|
+| *The Hidden Minefields in the Adoption of Sales Force Automation Technologies* | Wenting Jiang | Journal Article | Sales-force automation and technology adoption |
+| *The Roles of Sales Technologies for Salespeople: Techno Demands and Resources Model Perspective* | Luis berumen | Journal Article | Sales technology and salesperson technology use |
+| *The impact of mobile customer relationship management (mCRM) on sales collaboration and sales performance* | Wenting Jiang | Journal Article | Mobile CRM and sales performance |
+| *Customer Relationship Management as a Cloud Service: Empirical Inductive Analysis of Cloud CRM...* | Tim Arana | Thesis | Cloud CRM |
+| *Antecedents and consequences of CRM technology acceptance in the sales force* | Tim Arana | Journal Article | CRM technology acceptance |
+| *Sales technology research: a review and future research agenda* | Luis Berumen | Journal Article | Sales technology research |
+| *What helps in enhancing pharma sales? Interplay between technology and human interaction* | Mickyas Shawel | Journal Article | Healthcare sales, technology, and human interaction |
+| *The Role of Salesforce CRM in Enhancing Patient Engagement* | Mickyas Shawel | Journal Article | Salesforce CRM and patient engagement |
+
+::: callout-note
+## Contributor Information
+
+The contributor names above reflect the **Added By** information currently displayed in the shared Zotero library. The group will continue adding sources so that each member's required contributions are represented in the final bibliography database.
+:::
+
+# Zotero Item Organization
+
+Each source added to the shared bibliography database is reviewed and organized to make the library useful for future research.
+
+::: panel-tabset
+## Citation Information
+
+Each Zotero record is reviewed for reasonably complete citation information, including:
+
+- Source title
+- Author or organization
+- Publication year or date
+- Journal, website, report publisher, or other source name
+- DOI or URL when available
+
+Although Zotero can automatically retrieve much of this information, the group reviews each record and corrects obvious metadata errors when necessary.
+
+## Attachments
+
+When available, PDFs, webpage snapshots, or other supporting files are attached directly to the Zotero record. When an attachment is unavailable, the source URL is retained so that the original material can be accessed later.
+
+## Notes
+
+Each source includes a short note of approximately **3–5 sentences** describing the source, its important concepts or evidence, and how the source may contribute to the CVRx CEP.
+
+These notes allow group members to understand the potential value of a source without having to completely reread it each time the bibliography is reviewed.
+
+## Tags
+
+Each source is assigned at least **2–3 descriptive tags**. Tags allow team members to locate related sources and organize the bibliography by topic, methodology, industry, technology, or source type.
+
+Current and potential research tags include:
+
+- CRM
+- CRM adoption
+- sales technology
+- sales-force automation
+- sales performance
+- mobile CRM
+- cloud CRM
+- technology acceptance
+- artificial intelligence
+- change management
+:::
+
+# Example Completed Zotero Item
+
+A completed Zotero item demonstrates how an individual research source is organized within the shared library. The completed record should include accurate citation information, an available PDF, snapshot, or URL, research notes, and descriptive tags.
+
+![](images/Complete%20Entry%20.png)
+
+# Group Source Summary
+
+The bibliography database is a collaborative resource. Each group member is responsible for contributing at least two credible and useful sources to the shared Zotero library.
+
+The final source summary will include the source title, contributor, source type, and a brief explanation of why each source is useful to the project.
+
+| Source Title | Contributed By | Type of Source | Why This Source Is Useful |
+|:-----------------|:-----------------|:-----------------|:-----------------|
+| *The Hidden Minefields in the Adoption of Sales Force Automation Technologies* | Wenting Jiang | Journal Article | Examines challenges associated with adopting sales-force automation technology and can help the group understand barriers to successful sales technology implementation. |
+| *The Roles of Sales Technologies for Salespeople: Techno Demands and Resources Model Perspective* | Luis Berumen | Journal Article | Provides a framework for understanding how sales technologies can create both demands and resources for sales professionals. |
+| *The impact of mobile customer relationship management (mCRM) on sales collaboration and sales performance* | Wenting Jiang | Journal Article | Examines the relationship between mobile CRM, collaboration, and sales performance, making it relevant to technology-enabled sales processes. |
+| *Customer Relationship Management as a Cloud Service: Empirical Inductive Analysis of Cloud CRM...* | Tim Arana | Thesis | Provides research related to cloud-based CRM and can help the team understand CRM technology delivered through cloud services. |
+| *Antecedents and consequences of CRM technology acceptance in the sales force* | Tim Arana | Journal Article | Examines factors associated with CRM technology acceptance among sales professionals and the potential consequences of adoption. |
+| *Sales technology research: a review and future research agenda* | Luis Berumen | Journal Article | Provides a broader review of sales technology research and can help identify major concepts, research themes, and potential directions for the CEP. |
+| *What helps in enhancing pharma sales? Interplay between technology and human interaction* | Mickyas Shawel | Journal Article | Examines how technology and human interaction work together to enhance pharmaceutical sales. This source is especially relevant to the CVRx project because it provides insight into technology-enabled selling within a healthcare-related sales environment while recognizing the continuing importance of salesperson interaction. |
+| *The Role of Salesforce CRM in Enhancing Patient Engagement* | Mickyas Shawel | Journal Article | Examines the use of Salesforce CRM in supporting patient engagement. This source is relevant to the CVRx project because it connects CRM technology with healthcare engagement and provides an industry-specific perspective on how CRM systems can support relationship management and communication. |
+
+\:::
+
+# Group Collaboration
+
+The shared Zotero library provides Group 1 with a centralized research environment where members can contribute and review sources. Each group member is responsible for adding at least two high-quality sources and completing the required citation information, attachments or links, notes, and tags.
+
+The **Added By** field in Zotero provides a visible record of contributions and helps the group demonstrate participation in developing the bibliography database.
+
+The group will periodically review the shared library to identify duplicate sources, correct incomplete citation information, improve notes and tags, and remove sources that are not sufficiently credible or relevant. This collaborative process will help maintain the quality and usefulness of the bibliography as the CEP develops.
+
+# Zotero Group Library Access
+
+The bibliography database is a collaborative resource in which each group member contributes research relevant to the CVRx project. The current library contains eight sources covering sales technology, CRM adoption, mobile and cloud CRM, healthcare sales, patient engagement, and sales performance. The table below summarizes the sources currently included in the shared library.
+
+**Library Name:**\
+`CVrx-Group 1-Research`
+
+**Public Zotero Group Library:**\
+https://www.zotero.org/groups/6676730/cvrx-group_1-research/library
+
+::: callout-important
+## Instructor Access
+
+The Zotero group library will be configured as a **public group library** so that the instructor can access and verify the bibliography database and group contributions.
+:::
+
+# Conclusion
+
+The CEP01 bibliography database establishes a shared research foundation for Group 1's CVRx Culminating Experience Project. The initial collection focuses on sales technology, CRM systems, technology adoption, and sales performance, providing the team with research that can support future project analysis.
+
+Zotero provides the team with a centralized system for collecting credible sources, maintaining citation information, organizing research notes and tags, and sharing materials among group members. As the CEP progresses, the team can continue expanding this database and use the collected literature to support project research, presentations, analysis, recommendations, and final documentation.[^1]
+
+[^1]: The Zotero bibliography database is intended to remain an active research resource throughout the CEP rather than serving only as a one-time CEP01 assignment deliverable.
+
+# Appendix
+
+## Project Resources
+
+- **Zotero Group Library:** https://www.zotero.org/groups/6676730/cvrx-group_1-research/library
+
+- **GitHub Repository:** [Group 1 CEP GitHub Repository](https://github.com/mjshawell/CPP-MSDM-CEP-Group-1---CVrx)
+
+- **Published CEP01 Report:** [Add GitHub Pages Link](%5BADD-GITHUB-PAGES-URL%5D)
