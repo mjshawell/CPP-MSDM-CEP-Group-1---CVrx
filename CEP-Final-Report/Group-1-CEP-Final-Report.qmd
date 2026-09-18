@@ -1,0 +1,609 @@
+cat > Group-1-CEP-Final-Report.qmd <<'EOF'
+---
+title: "MSDM Culminating Experience Project"
+subtitle: "Group 1 — CVRx"
+author:
+  - "Mickyas Shawel"
+  - "Tim Arana"
+  - "Luis Berumen"
+  - "Wenting Jiang"
+date: today
+date-format: "MMMM D, YYYY"
+
+format:
+  html:
+    theme: cosmo
+    toc: true
+    toc-depth: 4
+    toc-location: left
+    number-sections: true
+    smooth-scroll: true
+    code-fold: true
+    code-tools: true
+    embed-resources: true
+
+execute:
+  echo: false
+  warning: false
+  message: false
+
+bibliography: references.bib
+---
+
+# Title Page {.unnumbered}
+
+**MSDM Culminating Experience Project**
+
+## [Final CVRx Project Title]
+
+**Client:** CVRx
+
+**Prepared by Group 1**
+
+Mickyas Shawel  
+Tim Arana  
+Luis Berumen  
+Wenting Jiang
+
+**Master of Science in Digital Marketing**  
+**California State Polytechnic University, Pomona**
+
+---
+
+# Signature Page {.unnumbered}
+
+> **To be completed according to the MSDM CEP signature-page requirements.**
+
+---
+
+# Acknowledgments {.unnumbered}
+
+[Insert acknowledgments.]
+
+---
+
+# Abstract {.unnumbered}
+
+[Insert final abstract summarizing the business problem, data, analytical methods, major findings, and recommendations.]
+
+---
+
+# Summary of Individual Contributions {.unnumbered}
+
+## Mickyas Shawel
+
+[Insert contribution summary.]
+
+## Tim Arana
+
+[Insert contribution summary.]
+
+## Luis Berumen
+
+[Insert contribution summary.]
+
+## Wenting Jiang
+
+[Insert contribution summary.]
+
+---
+
+# Chapter 1: Introduction
+
+## Background and Business Problem(s)
+
+[Describe CVRx, the relevant business environment, and the primary business or marketing problem addressed by the project.]
+
+## Project Objectives
+
+[Define the overall project objectives.]
+
+## Analytics Objectives
+
+### AO1 — [Title]
+
+**Lead:** [Team Member]
+
+[Describe the analytics objective.]
+
+### AO2 — [Title]
+
+**Lead:** [Team Member]
+
+[Describe the analytics objective.]
+
+### AO3 — [Title]
+
+**Lead:** [Team Member]
+
+[Describe the analytics objective.]
+
+### AO4 — [Title]
+
+**Lead:** [Team Member]
+
+[Describe the analytics objective.]
+
+## Significance of the Topic
+
+[Explain why solving the identified problem is important to CVRx and its marketing strategy.]
+
+---
+
+# Chapter 2: Background and Analytics Objectives
+
+## Client Background
+
+### Company Mission and Vision
+
+[Insert content.]
+
+### Core Competencies
+
+[Insert content.]
+
+### Value Proposition
+
+[Insert content.]
+
+### Business Objectives
+
+[Insert content.]
+
+## Current Marketing Program
+
+### Marketing Team and Expertise
+
+[Insert content.]
+
+### Current Target Market
+
+[Insert content.]
+
+### Current Positioning
+
+[Insert content.]
+
+### Current Products and Services
+
+[Insert content.]
+
+### Current Pricing
+
+[Insert content.]
+
+### Current Marketing Channels
+
+[Insert content.]
+
+### Integrated Marketing Communications
+
+[Insert content.]
+
+## Current Digital Marketing Practices
+
+### Brand Persona
+
+[Insert content.]
+
+### Website and Landing Pages
+
+[Insert content.]
+
+### Keyword Research and SEO
+
+[Insert content.]
+
+### Email Marketing
+
+[Insert content.]
+
+### Social Media
+
+[Insert content.]
+
+### Paid Search Advertising
+
+[Insert content.]
+
+### Social Media Advertising
+
+[Insert content.]
+
+### Display Advertising
+
+[Insert content.]
+
+### Conversion Rate Optimization
+
+[Insert content.]
+
+### Other Digital Marketing Activities
+
+[Insert content.]
+
+## Customer Influence Strategy
+
+### Demand Generation
+
+[Insert content.]
+
+### Demand Harvesting
+
+[Insert content.]
+
+### Loyalty Building
+
+[Insert content.]
+
+## Analytics Infrastructure
+
+[Describe the client's current analytics platforms, data sources, tracking infrastructure, reporting systems, and relevant limitations.]
+
+## Competitive Analysis
+
+### Industry Overview
+
+[Insert content.]
+
+### Industry Size and Outlook
+
+[Insert content.]
+
+### Key Competitors
+
+[Insert content.]
+
+### Competitor Digital Marketing Strategies
+
+[Insert content.]
+
+## Customer Analysis
+
+### Customer Segments
+
+[Insert content.]
+
+### Segment Analysis
+
+[Insert content.]
+
+## SWOT Analysis
+
+### Strengths
+
+[Insert content.]
+
+### Weaknesses
+
+[Insert content.]
+
+### Opportunities
+
+[Insert content.]
+
+### Threats
+
+[Insert content.]
+
+### SWOT Summary
+
+[Insert summary table or visualization.]
+
+## Research Framework and Literature Review
+
+### AO1 — [Title]
+
+#### Existing Research and Models
+
+[Insert literature review with Zotero citations.]
+
+#### Adequacy of Existing Information
+
+[Insert content.]
+
+#### Need for Additional Analysis
+
+[Insert content.]
+
+#### Analytics Objective Assessment
+
+[Insert content.]
+
+### AO2 — [Title]
+
+[Repeat the literature-review framework.]
+
+### AO3 — [Title]
+
+[Repeat the literature-review framework.]
+
+### AO4 — [Title]
+
+[Repeat the literature-review framework.]
+
+---
+
+# Chapter 3: Methods
+
+## Data and Sampling
+
+### Population
+
+[Define the population.]
+
+### Sampling Frame
+
+[Describe the sampling frame.]
+
+### Sampling Method
+
+[Describe the sampling method.]
+
+## Data Collection
+
+[Explain where the data originated and how it was collected.]
+
+## Data Wrangling
+
+### Data Import
+
+[Describe the data import process.]
+
+### Data Cleaning and Tidying
+
+[Describe cleaning, missing values, variable transformations, and other preparation.]
+
+### Data Integration
+
+[Describe joins or integrations if multiple datasets are used.]
+
+## Understanding the Data
+
+### Data Transformation
+
+[Describe transformations and derived variables.]
+
+### Exploratory Visualization
+
+[Insert relevant exploratory visualizations.]
+
+## Programming and Analytical Environment
+
+[Describe R, Positron, Quarto, packages, GitHub, and other tools used in the analytical workflow.]
+
+## Sample Characteristics
+
+[Describe the final analytical sample.]
+
+## Measures
+
+### Independent Variables
+
+[Insert variables.]
+
+### Dependent Variables
+
+[Insert variables.]
+
+### Control Variables
+
+[Insert variables.]
+
+## Analytics Methods
+
+### AO1 — [Title]
+
+#### Method
+
+[Describe the analytical method.]
+
+#### Justification
+
+[Explain why the method addresses AO1.]
+
+#### Variables
+
+[Identify variables used.]
+
+### AO2 — [Title]
+
+[Repeat.]
+
+### AO3 — [Title]
+
+[Repeat.]
+
+### AO4 — [Title]
+
+[Repeat.]
+
+---
+
+# Chapter 4: Analysis, Modeling, and Results
+
+## AO1 — [Title]
+
+### Introduction
+
+[Insert content.]
+
+### Descriptive Analysis
+
+[Insert analysis, tables, and visualizations.]
+
+### Predictive or Inferential Analysis
+
+[Insert model and results.]
+
+### Key Findings
+
+[Summarize findings.]
+
+## AO2 — [Title]
+
+[Repeat analysis framework.]
+
+## AO3 — [Title]
+
+[Repeat analysis framework.]
+
+## AO4 — [Title]
+
+[Repeat analysis framework.]
+
+---
+
+# Chapter 5: Data-Informed Marketing Strategy and Conclusion
+
+## AO1 — [Title]
+
+### Summary of Findings
+
+[Insert findings.]
+
+### Strategic Recommendations
+
+[Translate the analytical findings into actionable marketing recommendations.]
+
+## AO2 — [Title]
+
+[Repeat.]
+
+## AO3 — [Title]
+
+[Repeat.]
+
+## AO4 — [Title]
+
+[Repeat.]
+
+## Digital Marketing Plan
+
+### Target Market
+
+[Insert content.]
+
+### Positioning
+
+[Insert content.]
+
+### Brand Persona
+
+[Insert content.]
+
+### Campaign Objectives
+
+[Insert content.]
+
+### SEO Strategy
+
+[Insert content.]
+
+### Website and Landing Page Strategy
+
+[Insert content.]
+
+### Social Media Strategy
+
+[Insert content.]
+
+### Email Marketing Strategy
+
+[Insert content.]
+
+### Paid Advertising Strategy
+
+[Insert content.]
+
+### Additional Digital Marketing Tactics
+
+[Insert content.]
+
+### Implementation Timeline
+
+[Insert timeline.]
+
+## Implementation
+
+[Document implementation of the proposed digital marketing plan.]
+
+## Post-Implementation Analysis
+
+### Baseline KPIs
+
+[Insert baseline measurements.]
+
+### Target KPIs
+
+[Insert targets.]
+
+### Effectiveness Analysis
+
+[Evaluate post-implementation performance.]
+
+## Conclusion and Recommendations
+
+[Insert final conclusions and recommendations.]
+
+## Limitations
+
+### Theoretical Limitations
+
+[Insert content.]
+
+### Practical Limitations
+
+[Insert content.]
+
+## Future Directions
+
+### Future Research
+
+[Insert content.]
+
+### Future Marketing Efforts
+
+[Insert content.]
+
+---
+
+# References {.unnumbered}
+
+::: {#refs}
+:::
+
+---
+
+# Appendices {.unnumbered}
+
+## Appendix A: Data
+
+### Data Source
+
+[Insert data source or repository link.]
+
+### Data Dictionary
+
+[Insert data dictionary.]
+
+## Appendix B: Programming Code
+
+[Insert or link to analytical code.]
+
+## Appendix C: Literature Review Materials
+
+[Insert Zotero/library information.]
+
+## Appendix D: Survey Instrument
+
+[Insert if applicable.]
+
+## Appendix E: IRB Documentation
+
+[Insert if applicable.]
+
+## Appendix F: Additional Technical Materials
+
+[Insert supporting documentation.]
+EOF
