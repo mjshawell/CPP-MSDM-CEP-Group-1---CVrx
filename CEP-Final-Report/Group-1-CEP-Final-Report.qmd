@@ -1,134 +1,109 @@
-cat > Group-1-CEP-Final-Report.qmd <<'EOF'
----
-title: "MSDM Culminating Experience Project"
-subtitle: "Group 1 — CVRx"
-author:
-  - "Mickyas Shawel"
-  - "Tim Arana"
-  - "Luis Berumen"
-  - "Wenting Jiang"
-date: today
-date-format: "MMMM D, YYYY"
-
-format:
-  html:
-    theme: cosmo
-    toc: true
-    toc-depth: 4
-    toc-location: left
-    number-sections: true
-    smooth-scroll: true
-    code-fold: true
-    code-tools: true
-    embed-resources: true
-
-execute:
-  echo: false
-  warning: false
-  message: false
-
-bibliography: references.bib
----
+cat \> Group-1-CEP-Final-Report.qmd \<\<'EOF' 31b8e172-b470-440e-83d8-e6b185028602:dAB5AHAAZQA6AFoAUQBBAHgAQQBEAGcAQQBNAFEAQQA1AEEARABZAEEATQBBAEEAMQBBAEMAMABBAE0AQQBCAGgAQQBHAE0AQQBaAEEAQQB0AEEARABRAEEAWgBnAEIAaABBAEcAVQBBAEwAUQBBADQAQQBHAEkAQQBPAFEAQQA1AEEAQwAwAEEATwBRAEIAagBBAEQARQBBAFkAZwBBADMAQQBHAEkAQQBaAEEAQQAzAEEARwBNAEEATQBBAEIAbQBBAEQARQBBAAoAcABvAHMAaQB0AGkAbwBuADoATgBBAEEAegBBAEEAPQA9AAoAcAByAGUAZgBpAHgAOgAKAHMAbwB1AHIAYwBlADoATABRAEEAdABBAEMAMABBAEMAZwBCADAAQQBHAGsAQQBkAEEAQgBzAEEARwBVAEEATwBnAEEAZwBBAEMASQBBAFQAUQBCAFQAQQBFAFEAQQBUAFEAQQBnAEEARQBNAEEAZABRAEIAcwBBAEcAMABBAGEAUQBCAHUAQQBHAEUAQQBkAEEAQgBwAEEARwA0AEEAWgB3AEEAZwBBAEUAVQBBAGUAQQBCAHcAQQBHAFUAQQBjAGcAQgBwAEEARwBVAEEAYgBnAEIAagBBAEcAVQBBAEkAQQBCAFEAQQBIAEkAQQBiAHcAQgBxAEEARwBVAEEAWQB3AEIAMABBAEMASQBBAEMAZwBCAHoAQQBIAFUAQQBZAGcAQgAwAEEARwBrAEEAZABBAEIAcwBBAEcAVQBBAE8AZwBBAGcAQQBDAEkAQQBSAHcAQgB5AEEARwA4AEEAZABRAEIAdwBBAEMAQQBBAE0AUQBBAGcAQQBCAFEAZwBJAEEAQgBEAEEARgBZAEEAVQBnAEIANABBAEMASQBBAEMAZwBCAGgAQQBIAFUAQQBkAEEAQgBvAEEARwA4AEEAYwBnAEEANgBBAEEAbwBBAEkAQQBBAGcAQQBDADAAQQBJAEEAQQBpAEEARQAwAEEAYQBRAEIAagBBAEcAcwBBAGUAUQBCAGgAQQBIAE0AQQBJAEEAQgBUAEEARwBnAEEAWQBRAEIAMwBBAEcAVQBBAGIAQQBBAGkAQQBBAG8AQQBJAEEAQQBnAEEAQwAwAEEASQBBAEEAaQBBAEYAUQBBAGEAUQBCAHQAQQBDAEEAQQBRAFEAQgB5AEEARwBFAEEAYgBnAEIAaABBAEMASQBBAEMAZwBBAGcAQQBDAEEAQQBMAFEAQQBnAEEAQwBJAEEAVABBAEIAMQBBAEcAawBBAGMAdwBBAGcAQQBFAEkAQQBaAFEAQgB5AEEASABVAEEAYgBRAEIAbABBAEcANABBAEkAZwBBAEsAQQBDAEEAQQBJAEEAQQB0AEEAQwBBAEEASQBnAEIAWABBAEcAVQBBAGIAZwBCADAAQQBHAGsAQQBiAGcAQgBuAEEAQwBBAEEAUwBnAEIAcABBAEcARQBBAGIAZwBCAG4AQQBDAEkAQQBDAGcAQgBrAEEARwBFAEEAZABBAEIAbABBAEQAbwBBAEkAQQBCADAAQQBHADgAQQBaAEEAQgBoAEEASABrAEEAQwBnAEIAawBBAEcARQBBAGQAQQBCAGwAQQBDADAAQQBaAGcAQgB2AEEASABJAEEAYgBRAEIAaABBAEgAUQBBAE8AZwBBAGcAQQBDAEkAQQBUAFEAQgBOAEEARQAwAEEAVABRAEEAZwBBAEUAUQBBAEwAQQBBAGcAQQBGAGsAQQBXAFEAQgBaAEEARgBrAEEASQBnAEEASwBBAEEAbwBBAFoAZwBCAHYAQQBIAEkAQQBiAFEAQgBoAEEASABRAEEATwBnAEEASwBBAEMAQQBBAEkAQQBCAG8AQQBIAFEAQQBiAFEAQgBzAEEARABvAEEAQwBnAEEAZwBBAEMAQQBBAEkAQQBBAGcAQQBIAFEAQQBhAEEAQgBsAEEARwAwAEEAWgBRAEEANgBBAEMAQQBBAFkAdwBCAHYAQQBIAE0AQQBiAFEAQgB2AEEAQQBvAEEASQBBAEEAZwBBAEMAQQBBAEkAQQBCADAAQQBHADgAQQBZAHcAQQA2AEEAQwBBAEEAZABBAEIAeQBBAEgAVQBBAFoAUQBBAEsAQQBDAEEAQQBJAEEAQQBnAEEAQwBBAEEAZABBAEIAdgBBAEcATQBBAEwAUQBCAGsAQQBHAFUAQQBjAEEAQgAwAEEARwBnAEEATwBnAEEAZwBBAEQAUQBBAEMAZwBBAGcAQQBDAEEAQQBJAEEAQQBnAEEASABRAEEAYgB3AEIAagBBAEMAMABBAGIAQQBCAHYAQQBHAE0AQQBZAFEAQgAwAEEARwBrAEEAYgB3AEIAdQBBAEQAbwBBAEkAQQBCAHMAQQBHAFUAQQBaAGcAQgAwAEEAQQBvAEEASQBBAEEAZwBBAEMAQQBBAEkAQQBCAHUAQQBIAFUAQQBiAFEAQgBpAEEARwBVAEEAYwBnAEEAdABBAEgATQBBAFoAUQBCAGoAQQBIAFEAQQBhAFEAQgB2AEEARwA0AEEAYwB3AEEANgBBAEMAQQBBAGQAQQBCAHkAQQBIAFUAQQBaAFEAQQBLAEEAQwBBAEEASQBBAEEAZwBBAEMAQQBBAGMAdwBCAHQAQQBHADgAQQBiAHcAQgAwAEEARwBnAEEATABRAEIAegBBAEcATQBBAGMAZwBCAHYAQQBHAHcAQQBiAEEAQQA2AEEAQwBBAEEAZABBAEIAeQBBAEgAVQBBAFoAUQBBAEsAQQBDAEEAQQBJAEEAQQBnAEEAQwBBAEEAWQB3AEIAdgBBAEcAUQBBAFoAUQBBAHQAQQBHAFkAQQBiAHcAQgBzAEEARwBRAEEATwBnAEEAZwBBAEgAUQBBAGMAZwBCADEAQQBHAFUAQQBDAGcAQQBnAEEAQwBBAEEASQBBAEEAZwBBAEcATQBBAGIAdwBCAGsAQQBHAFUAQQBMAFEAQgAwAEEARwA4AEEAYgB3AEIAcwBBAEgATQBBAE8AZwBBAGcAQQBIAFEAQQBjAGcAQgAxAEEARwBVAEEAQwBnAEEAZwBBAEMAQQBBAEkAQQBBAGcAQQBHAFUAQQBiAFEAQgBpAEEARwBVAEEAWgBBAEEAdABBAEgASQBBAFoAUQBCAHoAQQBHADgAQQBkAFEAQgB5AEEARwBNAEEAWgBRAEIAegBBAEQAbwBBAEkAQQBCADAAQQBIAEkAQQBkAFEAQgBsAEEAQQBvAEEAQwBnAEIAbABBAEgAZwBBAFoAUQBCAGoAQQBIAFUAQQBkAEEAQgBsAEEARABvAEEAQwBnAEEAZwBBAEMAQQBBAFoAUQBCAGoAQQBHAGcAQQBiAHcAQQA2AEEAQwBBAEEAWgBnAEIAaABBAEcAdwBBAGMAdwBCAGwAQQBBAG8AQQBJAEEAQQBnAEEASABjAEEAWQBRAEIAeQBBAEcANABBAGEAUQBCAHUAQQBHAGMAQQBPAGcAQQBnAEEARwBZAEEAWQBRAEIAcwBBAEgATQBBAFoAUQBBAEsAQQBDAEEAQQBJAEEAQgB0AEEARwBVAEEAYwB3AEIAegBBAEcARQBBAFoAdwBCAGwAQQBEAG8AQQBJAEEAQgBtAEEARwBFAEEAYgBBAEIAegBBAEcAVQBBAEMAZwBBAEsAQQBHAEkAQQBhAFEAQgBpAEEARwB3AEEAYQBRAEIAdgBBAEcAYwBBAGMAZwBCAGgAQQBIAEEAQQBhAEEAQgA1AEEARABvAEEASQBBAEIAeQBBAEcAVQBBAFoAZwBCAGwAQQBIAEkAQQBaAFEAQgB1AEEARwBNAEEAWgBRAEIAegBBAEMANABBAFkAZwBCAHAAQQBHAEkAQQBDAGcAQQB0AEEAQwAwAEEATABRAEEAPQAKAHMAdQBmAGYAaQB4ADoA:31b8e172-b470-440e-83d8-e6b185028602
 
 # Title Page {.unnumbered}
 
 **MSDM Culminating Experience Project**
 
-## [Final CVRx Project Title]
+## \[Final CVRx Project Title\]
 
 **Client:** CVRx
 
 **Prepared by Group 1**
 
-Mickyas Shawel  
-Tim Arana  
-Luis Berumen  
+Mickyas Shawel\
+Tim Arana\
+Luis Berumen\
 Wenting Jiang
 
-**Master of Science in Digital Marketing**  
+**Master of Science in Digital Marketing**\
 **California State Polytechnic University, Pomona**
 
----
+------------------------------------------------------------------------
 
 # Signature Page {.unnumbered}
 
 > **To be completed according to the MSDM CEP signature-page requirements.**
 
----
+------------------------------------------------------------------------
 
 # Acknowledgments {.unnumbered}
 
-[Insert acknowledgments.]
+\[Insert acknowledgments.\]
 
----
+------------------------------------------------------------------------
 
 # Abstract {.unnumbered}
 
-[Insert final abstract summarizing the business problem, data, analytical methods, major findings, and recommendations.]
+\[Insert final abstract summarizing the business problem, data, analytical methods, major findings, and recommendations.\]
 
----
+------------------------------------------------------------------------
 
 # Summary of Individual Contributions {.unnumbered}
 
 ## Mickyas Shawel
 
-[Insert contribution summary.]
+\[Insert contribution summary.\]
 
 ## Tim Arana
 
-[Insert contribution summary.]
+\[Insert contribution summary.\]
 
 ## Luis Berumen
 
-[Insert contribution summary.]
+\[Insert contribution summary.\]
 
 ## Wenting Jiang
 
-[Insert contribution summary.]
+\[Insert contribution summary.\]
 
----
+------------------------------------------------------------------------
 
 # Chapter 1: Introduction
 
 ## Background and Business Problem(s)
 
-[Describe CVRx, the relevant business environment, and the primary business or marketing problem addressed by the project.]
+\[Describe CVRx, the relevant business environment, and the primary business or marketing problem addressed by the project.\]
 
 ## Project Objectives
 
-[Define the overall project objectives.]
+The project objectives describe what CVRx wants to accomplish with the team, rather than a statistical technique. Based on the faculty project briefing and kickoff discussion with Professor Moore, the four objectives are:
+
+1.  **Measure current Salesforce adoption.** Establish a baseline for meaningful use and data reliability across approved field workflows.
+2.  **Identify adoption barriers and drivers.** Understand what helps or prevents field users from keeping Salesforce information current and useful.
+3.  **Segment users and develop a targeted engagement strategy.** Group users by relevant patterns and design support or communications that address their needs.
+4.  **Implement and evaluate an engagement campaign.** Pilot a limited intervention and assess changes in use, data quality, and user feedback.
 
 ## Analytics Objectives
 
-### AO1 — [Title]
+### AO1 — Measure Meaningful Salesforce Adoption (Luis Berumen)
 
-**Lead:** [Team Member]
+My analytical objective is to develop a Salesforce Adoption Index and use it to examine how adoption differs across approved roles, territories, and time periods. The index would bring together opportunity update timeliness, record completeness, documentation of customer interactions, consistency with defined workflows, and a smaller measure of platform activity. I would first confirm with CVRx which fields and actions are actually required for its commercial decisions. Then I would use approved Salesforce records to calculate separate scores for each area and look at the overall pattern. The unit of analysis could be a deidentified user-month, with results shared in aggregate.
 
-[Describe the analytics objective.]
+This objective answers PO1 by showing where use is consistent and where records are late or incomplete. It could help CVRx decide which workflow needs attention first and provide a baseline for evaluating the later pilot. I would compare like with like: a user with few active opportunities should not receive a low score simply because there was less work to enter. Research supports matching usage measures to the task rather than relying on time spent or access alone [@burtonjones2006]. Sales technology can also affect work in different ways, so an overall score should be accompanied by the separate measures and context [@ahearne2008]. This is a proposed measure; its final rules and weights depend on the data CVRx approves and the field team's actual workflow.
 
-### AO2 — [Title]
+### AO2 — \[Title\]
 
-**Lead:** [Team Member]
+**Lead:** \[Team Member\]
 
-[Describe the analytics objective.]
+\[Describe the analytics objective.\]
 
-### AO3 — [Title]
+### AO3 — \[Title\]
 
-**Lead:** [Team Member]
+**Lead:** \[Team Member\]
 
-[Describe the analytics objective.]
+\[Describe the analytics objective.\]
 
-### AO4 — [Title]
+### AO4 — \[Title\]
 
-**Lead:** [Team Member]
+**Lead:** \[Team Member\]
 
-[Describe the analytics objective.]
+\[Describe the analytics objective.\]
 
 ## Significance of the Topic
 
-[Explain why solving the identified problem is important to CVRx and its marketing strategy.]
+\[Explain why solving the identified problem is important to CVRx and its marketing strategy.\]
 
----
+------------------------------------------------------------------------
 
 # Chapter 2: Background and Analytics Objectives
 
@@ -136,193 +111,193 @@ Wenting Jiang
 
 ### Company Mission and Vision
 
-[Insert content.]
+\[Insert content.\]
 
 ### Core Competencies
 
-[Insert content.]
+\[Insert content.\]
 
 ### Value Proposition
 
-[Insert content.]
+\[Insert content.\]
 
 ### Business Objectives
 
-[Insert content.]
+\[Insert content.\]
 
 ## Current Marketing Program
 
 ### Marketing Team and Expertise
 
-[Insert content.]
+\[Insert content.\]
 
 ### Current Target Market
 
-[Insert content.]
+\[Insert content.\]
 
 ### Current Positioning
 
-[Insert content.]
+\[Insert content.\]
 
 ### Current Products and Services
 
-[Insert content.]
+\[Insert content.\]
 
 ### Current Pricing
 
-[Insert content.]
+\[Insert content.\]
 
 ### Current Marketing Channels
 
-[Insert content.]
+\[Insert content.\]
 
 ### Integrated Marketing Communications
 
-[Insert content.]
+\[Insert content.\]
 
 ## Current Digital Marketing Practices
 
 ### Brand Persona
 
-[Insert content.]
+\[Insert content.\]
 
 ### Website and Landing Pages
 
-[Insert content.]
+\[Insert content.\]
 
 ### Keyword Research and SEO
 
-[Insert content.]
+\[Insert content.\]
 
 ### Email Marketing
 
-[Insert content.]
+\[Insert content.\]
 
 ### Social Media
 
-[Insert content.]
+\[Insert content.\]
 
 ### Paid Search Advertising
 
-[Insert content.]
+\[Insert content.\]
 
 ### Social Media Advertising
 
-[Insert content.]
+\[Insert content.\]
 
 ### Display Advertising
 
-[Insert content.]
+\[Insert content.\]
 
 ### Conversion Rate Optimization
 
-[Insert content.]
+\[Insert content.\]
 
 ### Other Digital Marketing Activities
 
-[Insert content.]
+\[Insert content.\]
 
 ## Customer Influence Strategy
 
 ### Demand Generation
 
-[Insert content.]
+\[Insert content.\]
 
 ### Demand Harvesting
 
-[Insert content.]
+\[Insert content.\]
 
 ### Loyalty Building
 
-[Insert content.]
+\[Insert content.\]
 
 ## Analytics Infrastructure
 
-[Describe the client's current analytics platforms, data sources, tracking infrastructure, reporting systems, and relevant limitations.]
+\[Describe the client's current analytics platforms, data sources, tracking infrastructure, reporting systems, and relevant limitations.\]
 
 ## Competitive Analysis
 
 ### Industry Overview
 
-[Insert content.]
+\[Insert content.\]
 
 ### Industry Size and Outlook
 
-[Insert content.]
+\[Insert content.\]
 
 ### Key Competitors
 
-[Insert content.]
+\[Insert content.\]
 
 ### Competitor Digital Marketing Strategies
 
-[Insert content.]
+\[Insert content.\]
 
 ## Customer Analysis
 
 ### Customer Segments
 
-[Insert content.]
+\[Insert content.\]
 
 ### Segment Analysis
 
-[Insert content.]
+\[Insert content.\]
 
 ## SWOT Analysis
 
 ### Strengths
 
-[Insert content.]
+\[Insert content.\]
 
 ### Weaknesses
 
-[Insert content.]
+\[Insert content.\]
 
 ### Opportunities
 
-[Insert content.]
+\[Insert content.\]
 
 ### Threats
 
-[Insert content.]
+\[Insert content.\]
 
 ### SWOT Summary
 
-[Insert summary table or visualization.]
+\[Insert summary table or visualization.\]
 
 ## Research Framework and Literature Review
 
-### AO1 — [Title]
+### AO1 — \[Title\]
 
 #### Existing Research and Models
 
-[Insert literature review with Zotero citations.]
+\[Insert literature review with Zotero citations.\]
 
 #### Adequacy of Existing Information
 
-[Insert content.]
+\[Insert content.\]
 
 #### Need for Additional Analysis
 
-[Insert content.]
+\[Insert content.\]
 
 #### Analytics Objective Assessment
 
-[Insert content.]
+\[Insert content.\]
 
-### AO2 — [Title]
+### AO2 — \[Title\]
 
-[Repeat the literature-review framework.]
+\[Repeat the literature-review framework.\]
 
-### AO3 — [Title]
+### AO3 — \[Title\]
 
-[Repeat the literature-review framework.]
+\[Repeat the literature-review framework.\]
 
-### AO4 — [Title]
+### AO4 — \[Title\]
 
-[Repeat the literature-review framework.]
+\[Repeat the literature-review framework.\]
 
----
+------------------------------------------------------------------------
 
 # Chapter 3: Methods
 
@@ -330,250 +305,250 @@ Wenting Jiang
 
 ### Population
 
-[Define the population.]
+\[Define the population.\]
 
 ### Sampling Frame
 
-[Describe the sampling frame.]
+\[Describe the sampling frame.\]
 
 ### Sampling Method
 
-[Describe the sampling method.]
+\[Describe the sampling method.\]
 
 ## Data Collection
 
-[Explain where the data originated and how it was collected.]
+\[Explain where the data originated and how it was collected.\]
 
 ## Data Wrangling
 
 ### Data Import
 
-[Describe the data import process.]
+\[Describe the data import process.\]
 
 ### Data Cleaning and Tidying
 
-[Describe cleaning, missing values, variable transformations, and other preparation.]
+\[Describe cleaning, missing values, variable transformations, and other preparation.\]
 
 ### Data Integration
 
-[Describe joins or integrations if multiple datasets are used.]
+\[Describe joins or integrations if multiple datasets are used.\]
 
 ## Understanding the Data
 
 ### Data Transformation
 
-[Describe transformations and derived variables.]
+\[Describe transformations and derived variables.\]
 
 ### Exploratory Visualization
 
-[Insert relevant exploratory visualizations.]
+\[Insert relevant exploratory visualizations.\]
 
 ## Programming and Analytical Environment
 
-[Describe R, Positron, Quarto, packages, GitHub, and other tools used in the analytical workflow.]
+\[Describe R, Positron, Quarto, packages, GitHub, and other tools used in the analytical workflow.\]
 
 ## Sample Characteristics
 
-[Describe the final analytical sample.]
+\[Describe the final analytical sample.\]
 
 ## Measures
 
 ### Independent Variables
 
-[Insert variables.]
+\[Insert variables.\]
 
 ### Dependent Variables
 
-[Insert variables.]
+\[Insert variables.\]
 
 ### Control Variables
 
-[Insert variables.]
+\[Insert variables.\]
 
 ## Analytics Methods
 
-### AO1 — [Title]
+### AO1 — \[Title\]
 
 #### Method
 
-[Describe the analytical method.]
+\[Describe the analytical method.\]
 
 #### Justification
 
-[Explain why the method addresses AO1.]
+\[Explain why the method addresses AO1.\]
 
 #### Variables
 
-[Identify variables used.]
+\[Identify variables used.\]
 
-### AO2 — [Title]
+### AO2 — \[Title\]
 
-[Repeat.]
+\[Repeat.\]
 
-### AO3 — [Title]
+### AO3 — \[Title\]
 
-[Repeat.]
+\[Repeat.\]
 
-### AO4 — [Title]
+### AO4 — \[Title\]
 
-[Repeat.]
+\[Repeat.\]
 
----
+------------------------------------------------------------------------
 
 # Chapter 4: Analysis, Modeling, and Results
 
-## AO1 — [Title]
+## AO1 — \[Title\]
 
 ### Introduction
 
-[Insert content.]
+\[Insert content.\]
 
 ### Descriptive Analysis
 
-[Insert analysis, tables, and visualizations.]
+\[Insert analysis, tables, and visualizations.\]
 
 ### Predictive or Inferential Analysis
 
-[Insert model and results.]
+\[Insert model and results.\]
 
 ### Key Findings
 
-[Summarize findings.]
+\[Summarize findings.\]
 
-## AO2 — [Title]
+## AO2 — \[Title\]
 
-[Repeat analysis framework.]
+\[Repeat analysis framework.\]
 
-## AO3 — [Title]
+## AO3 — \[Title\]
 
-[Repeat analysis framework.]
+\[Repeat analysis framework.\]
 
-## AO4 — [Title]
+## AO4 — \[Title\]
 
-[Repeat analysis framework.]
+\[Repeat analysis framework.\]
 
----
+------------------------------------------------------------------------
 
 # Chapter 5: Data-Informed Marketing Strategy and Conclusion
 
-## AO1 — [Title]
+## AO1 — \[Title\]
 
 ### Summary of Findings
 
-[Insert findings.]
+\[Insert findings.\]
 
 ### Strategic Recommendations
 
-[Translate the analytical findings into actionable marketing recommendations.]
+\[Translate the analytical findings into actionable marketing recommendations.\]
 
-## AO2 — [Title]
+## AO2 — \[Title\]
 
-[Repeat.]
+\[Repeat.\]
 
-## AO3 — [Title]
+## AO3 — \[Title\]
 
-[Repeat.]
+\[Repeat.\]
 
-## AO4 — [Title]
+## AO4 — \[Title\]
 
-[Repeat.]
+\[Repeat.\]
 
 ## Digital Marketing Plan
 
 ### Target Market
 
-[Insert content.]
+\[Insert content.\]
 
 ### Positioning
 
-[Insert content.]
+\[Insert content.\]
 
 ### Brand Persona
 
-[Insert content.]
+\[Insert content.\]
 
 ### Campaign Objectives
 
-[Insert content.]
+\[Insert content.\]
 
 ### SEO Strategy
 
-[Insert content.]
+\[Insert content.\]
 
 ### Website and Landing Page Strategy
 
-[Insert content.]
+\[Insert content.\]
 
 ### Social Media Strategy
 
-[Insert content.]
+\[Insert content.\]
 
 ### Email Marketing Strategy
 
-[Insert content.]
+\[Insert content.\]
 
 ### Paid Advertising Strategy
 
-[Insert content.]
+\[Insert content.\]
 
 ### Additional Digital Marketing Tactics
 
-[Insert content.]
+\[Insert content.\]
 
 ### Implementation Timeline
 
-[Insert timeline.]
+\[Insert timeline.\]
 
 ## Implementation
 
-[Document implementation of the proposed digital marketing plan.]
+\[Document implementation of the proposed digital marketing plan.\]
 
 ## Post-Implementation Analysis
 
 ### Baseline KPIs
 
-[Insert baseline measurements.]
+\[Insert baseline measurements.\]
 
 ### Target KPIs
 
-[Insert targets.]
+\[Insert targets.\]
 
 ### Effectiveness Analysis
 
-[Evaluate post-implementation performance.]
+\[Evaluate post-implementation performance.\]
 
 ## Conclusion and Recommendations
 
-[Insert final conclusions and recommendations.]
+\[Insert final conclusions and recommendations.\]
 
 ## Limitations
 
 ### Theoretical Limitations
 
-[Insert content.]
+\[Insert content.\]
 
 ### Practical Limitations
 
-[Insert content.]
+\[Insert content.\]
 
 ## Future Directions
 
 ### Future Research
 
-[Insert content.]
+\[Insert content.\]
 
 ### Future Marketing Efforts
 
-[Insert content.]
+\[Insert content.\]
 
----
+------------------------------------------------------------------------
 
 # References {.unnumbered}
 
 ::: {#refs}
 :::
 
----
+------------------------------------------------------------------------
 
 # Appendices {.unnumbered}
 
@@ -581,29 +556,28 @@ Wenting Jiang
 
 ### Data Source
 
-[Insert data source or repository link.]
+\[Insert data source or repository link.\]
 
 ### Data Dictionary
 
-[Insert data dictionary.]
+\[Insert data dictionary.\]
 
 ## Appendix B: Programming Code
 
-[Insert or link to analytical code.]
+\[Insert or link to analytical code.\]
 
 ## Appendix C: Literature Review Materials
 
-[Insert Zotero/library information.]
+\[Insert Zotero/library information.\]
 
 ## Appendix D: Survey Instrument
 
-[Insert if applicable.]
+\[Insert if applicable.\]
 
 ## Appendix E: IRB Documentation
 
-[Insert if applicable.]
+\[Insert if applicable.\]
 
 ## Appendix F: Additional Technical Materials
 
-[Insert supporting documentation.]
-EOF
+\[Insert supporting documentation.\] EOF
