@@ -24,8 +24,7 @@ format:
 Mickyas Shawel\
 Tim Arana\
 Luis Berumen\
-Wenting Jiang
-
+Wenting Jiang\
 **Master of Science in Digital Marketing**\
 **California State Polytechnic University, Pomona**
 
@@ -65,7 +64,7 @@ Wenting Jiang
 
 ## Wenting Jiang
 
-\[Insert contribution summary.\]
+Contributed to AO4 by identifying pre- and post-intervention measures for Salesforce adoption, data quality, and user perceptions. I also considered using a comparison group to evaluate the intervention’s effectiveness.
 
 ------------------------------------------------------------------------
 
@@ -106,15 +105,17 @@ Analyze Salesforce usage patterns to identify distinct user segments based on ad
 
 This analytics objective supports PO3 by examining differences in Salesforce adoption behavior among CVRx sales representatives and identifying meaningful groups of users with similar usage patterns. Prior research shows that CRM technology acceptance among salespeople can vary based on individual and organizational factors [@avlonitis2005]. Research on sales force automation also found differences in technology acceptance associated with salespeople’s job experience [@guan2004]. The analysis will consider relevant Salesforce usage and activity measures available from the client and may incorporate findings from the analyses of current adoption levels and adoption barriers and drivers. Identifying these user segments will allow the team to evaluate whether different users require different engagement approaches rather than applying a single strategy across the entire sales force. The findings will provide an analytical foundation for developing targeted engagement strategies and for the subsequent implementation and evaluation of the engagement campaign.
 
-### AO4 — \[Title\]
+### AO4 — Implement and evaluate an engagement campaign.
 
-**Lead:** \[Team Member\]
+**Lead:** Wenting Jiang
 
-\[Describe the analytics objective.\]
+This analytics objective is to evaluate the effectiveness of a targeted field engagement intervention designed to improve meaningful Salesforce adoption among CVRx’s commercial field users. The intervention may include role-specific communications, short workflow demonstrations, training sessions, manager toolkits, or other engagement tactics selected based on the adoption barriers and user segments identified in the earlier objectives. The evaluation will compare meaningful Salesforce adoption, data quality, workflow consistency, and user perceptions before and after implementation. When operationally feasible, the analysis will also compare the intervention group with a reference group.
+
+This objective supports PO4 by implementing an engagement strategy, measuring its outcomes, and identifying what CVRx should continue, modify, or expand. Evaluation measures will be aligned with employees’ actual work requirements rather than relying only on login frequency or time spent in the platform[@rodriguez2020]. Because sales technology can affect employees differently depending on their roles and working conditions, the results will also be interpreted in the context of the selected user segment and intervention design [@abdillah2025]. The findings will help CVRx determine whether the campaign produces meaningful and measurable improvements in Salesforce adoption and data reliability.
 
 ## Significance of the Topic
 
-\[Explain why solving the identified problem is important to CVRx and its marketing strategy.\]
+Meaningful Salesforce adoption is important to CVRx because reliable and timely CRM data supports opportunity management, customer engagement, and commercial decision-making. Inconsistent use can create incomplete records, reduce leadership visibility, and make it difficult to understand field activities and customer needs. By identifying adoption barriers and evaluating a targeted engagement campaign, this project can help CVRx improve data quality, workflow consistency, and employee engagement. The findings will also help the company determine which adoption strategies should be continued, modified, or expanded to better support its commercial and marketing goals.
 
 ------------------------------------------------------------------------
 
