@@ -91,11 +91,17 @@ My analytical objective is to develop a Salesforce Adoption Index and use it to 
 
 This objective answers PO1 by showing where use is consistent and where records are late or incomplete. It could help CVRx decide which workflow needs attention first and provide a baseline for evaluating the later pilot. I would compare like with like: a user with few active opportunities should not receive a low score simply because there was less work to enter. Research supports matching usage measures to the task rather than relying on time spent or access alone [@burtonjones2006]. Sales technology can also affect work in different ways, so an overall score should be accompanied by the separate measures and context [@ahearne2008]. This is a proposed measure; its final rules and weights depend on the data CVRx approves and the field team's actual workflow.
 
-### AO2 — \[Title\]
+### AO2 – Identify Drivers and Barriers of Meaningful Salesforce Adoption
 
-**Lead:** \[Team Member\]
+**Lead:** Mickyas Shawel
 
-\[Describe the analytics objective.\]
+Identify and quantify the factors associated with meaningful Salesforce adoption among CVRx sales representatives, with particular attention to the behavioral, organizational, and user-experience factors that may encourage or inhibit consistent CRM use.
+
+This analytics objective builds on AO1 by moving beyond the measurement of Salesforce adoption to investigate **why adoption levels differ across users**. The analysis will examine available Salesforce usage measures alongside relevant employee, workflow, training, and engagement variables to identify factors associated with stronger or weaker adoption. Potential drivers may include perceived usefulness, ease of use, managerial support, training effectiveness, workflow compatibility, and the perceived value of CRM information, while barriers may include administrative burden, system complexity, redundant processes, insufficient training, or limited integration with established sales routines.
+
+The analysis will use the variables available in the final dataset to evaluate relationships between potential adoption factors and the meaningful-adoption measures established in AO1. Depending on the measurement structure and data quality, appropriate methods may include descriptive comparisons, correlation analysis, group comparisons, and multivariable regression or classification models. The purpose is not only to determine whether a factor is associated with adoption, but also to estimate the **direction, magnitude, and statistical significance** of those relationships while accounting for other relevant variables.
+
+The findings from AO2 will provide an evidence-based explanation of the factors most closely associated with Salesforce adoption and will directly support subsequent analytics objectives. In particular, the identified drivers and barriers can help inform the user segments developed in AO3 and provide a stronger analytical basis for designing targeted engagement strategies rather than applying the same intervention to all Salesforce users.
 
 ### AO3 — Salesforce User Segmentation and Targeted Engagement
 
