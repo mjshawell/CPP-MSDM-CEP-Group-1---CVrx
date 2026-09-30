@@ -287,23 +287,35 @@ Meaningful Salesforce adoption is important to CVRx because reliable and timely 
 
 ## Research Framework and Literature Review
 
-### AO1 — \[Title\]
+### AO1 — Measure Meaningful Salesforce Adoption (Luis Berumen)
 
 #### Existing Research and Models
 
-\[Insert literature review with Zotero citations.\]
+Measuring Salesforce adoption starts with deciding what successful use means. A person can open the platform regularly and still leave records incomplete or enter information too late to support a decision. The research reviewed for AO1 offers three useful perspectives: the quality of the information a system produces, the tasks completed through it, and the conditions that help people use it. Together, these perspectives provide a basis for the proposed index, while leaving its specific scoring rules to be developed for CVRx.
+
+The Information Systems Success Model separates system quality, information quality, service quality, use, user satisfaction, and net benefits. These dimensions are related, but they describe different parts of success [@delone2003]. For AO1, this distinction means platform activity and record quality should be examined separately before combining them. Required-field completion and update timeliness would describe the information available to CVRx, while documented activities would describe selected uses of Salesforce. A limitation is that a completed field may still contain inaccurate information. The model provides a way to organize the measures, but it does not establish which CVRx fields are necessary or how much weight each measure should receive.
+
+Research on system usage strengthens the case for matching measurement to the work being done. Burton-Jones and Straub define usage through the user, system, and task, and show that the choice of usage measures can change the conclusions drawn about task performance [@burtonjones2006]. Task-Technology Fit adds that technology must be used and fit the tasks it supports to contribute to performance [@goodhue1995]. Applied to AO1, these frameworks suggest measuring required opportunity updates and workflow steps rather than treating every action as equally useful. They also support checking expectations by role. An action required of one role may be irrelevant to another, so a common activity count could produce an unfair comparison.
+
+Sales technology studies make this measurement issue more concrete. Research distinguishes using technology to access, analyze, and communicate information, showing why sales technology use should be examined through different activities [@hunter2007]. In a pharmaceutical sales setting, technology use was associated with improved customer service and adaptability through the mechanisms examined in the study [@ahearne2008]. Together, these studies suggest that the way technology supports sales work matters when interpreting use. For CVRx, I would therefore report the index's component scores alongside the overall score. These studies concern sales work and performance, however, and do not test a CVRx adoption index. They cannot establish that a higher proposed index score will produce higher sales.
+
+Adoption also continues after a system is introduced. Research on post-adoptive behavior examines how users continue, extend, and deepen their use of installed systems [@jasperson2005]. Evidence from two sales organizations shows that initially positive reactions after training can decline after implementation [@speier2002]. This combination supports examining patterns across months and collecting feedback rather than relying on a single snapshot. It does not establish that CVRx users have experienced the same problems. Changes in work volume or responsibilities could also affect activity, so those conditions need to be considered when interpreting trends.
+
+Acceptance models help explain the limits of behavioral records. The Technology Acceptance Model identifies perceived usefulness and perceived ease of use as important beliefs associated with technology acceptance [@davis1989]. UTAUT brings together factors involving expected benefits, effort, social influence, and supporting conditions [@venkatesh2003]. Salesforce records cannot directly measure these perceptions. These models support considering user responses when explaining the baseline, but acceptance or an intention to use a system is different from producing complete and timely records. Their survey measures should complement the behavioral measures rather than replace them.
+
+Research on sales force technology also identifies training and organizational support as relevant to use [@buehrer2005]. This provides another reason to avoid interpreting a low score as a lack of willingness. Limited support, a difficult workflow, or unclear expectations could help explain the pattern, but these explanations must be investigated at CVRx. The reviewed studies are older and cover different technologies, tasks, and organizations. Their shared contribution is a reasoned approach to measurement and interpretation. They do not supply current CVRx findings or a ready-made Salesforce scoring formula.
 
 #### Adequacy of Existing Information
 
-\[Insert content.\]
+The gathered research is sufficient to support the general direction of AO1: define meaningful use through relevant tasks, examine information quality, show component scores, and consider patterns over time. It is not sufficient to calculate CVRx's baseline. We still need confirmation of required fields, expected update periods, role-specific workflows, and the available record histories. We also need to know whether the data distinguish missing information from tasks that were not required. Existing research cannot tell us which CVRx workflow has the largest gap or whether a proposed weighting system produces useful comparisons. Those questions require approved company information and a review of the proposed measures with CVRx.
 
 #### Need for Additional Analysis
 
-\[Insert content.\]
+Additional analysis is needed to turn the proposed index into a usable baseline. I would first review the approved fields and histories, define eligible records for each measure, and calculate completeness, timeliness, documentation, workflow, and activity scores separately. A month with no relevant opportunities should be identified as having no eligible work for that measure rather than automatically receiving a low score. I would then compare approved roles, territories, and months while considering workload and checking whether alternative weights change the conclusions. Survey or interview responses could help explain whether low scores relate to usefulness, ease, workflow fit, or support. Those responses would address beliefs and experiences that records cannot show. Any connection between survey responses and behavior would depend on approved identifiers and matching time periods; otherwise, the results would be interpreted separately.
 
 #### Analytics Objective Assessment
 
-\[Insert content.\]
+I would keep AO1 as written because existing research does not answer the CVRx-specific baseline question. The review refines how I would carry it out: use clearly defined task measures, retain the separate component scores, limit the influence of platform activity, and account for differences in eligible work. I would also keep the distinction between measuring adoption under AO1 and explaining its drivers under AO2. The index would remain a proposed measure until CVRx confirms its rules and the available data support its calculation.
 
 ### AO2 — \[Title\]
 
