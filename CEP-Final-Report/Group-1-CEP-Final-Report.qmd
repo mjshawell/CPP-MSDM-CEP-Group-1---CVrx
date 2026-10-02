@@ -342,9 +342,26 @@ Additional analysis is needed to determine whether meaningful Salesforce user se
 
 Based on the literature reviewed, AO3 remains appropriate for supporting PO3 but should use a flexible analytical approach. Existing research supports examining Salesforce usage patterns to identify meaningful differences among users, while also showing that behavioral data alone may not fully explain technology adoption. Therefore, the analysis should initially identify candidate segments from available Salesforce usage measures and then incorporate relevant adoption barriers, drivers, and contextual characteristics when interpreting those groups. Any resulting segments should also be evaluated for stability, interpretability, and practical usefulness before they are used to develop targeted engagement strategies. The specific segmentation technique should remain flexible until the CVRx dataset, available variables, and sample size are fully evaluated.
 
-### AO4 — \[Title\]
+### AO4 —  Implement and evaluate an engagement campaign
 
-\[Repeat the literature-review framework.\]
+#### Existing Research and Models
+
+Evaluating the impact of field engagement interventions requires measuring behavioral change, system adoption, and perceived utility over time [@rodriguez2020]. Research on change management and sales enablement suggests that targeted interventions—such as role-specific communications, workflow demonstrations, and manager toolkits—are most effective when aligned with specific user barriers [@abdillah2025; @singh2019]. Speier and Venkatesh (2002) highlight that implementing sales force automation (SFA) technologies often reveals hidden adoption minefields, where early user resistance or perceived friction can negatively impact long-term technology integration [@speier2002]. In the age of digital transformation, sales professionals must adapt to increasingly complex tools; however, merely adopting SFA tools is insufficient for driving performance unless engagement strategies address individual, organizational, and contextual factors [@jelinek2006; @jelinek2013; @singh2019]. Evaluation frameworks must therefore extend beyond raw usage volume, incorporating pre- and post-implementation comparisons of record completeness, data quality, and workflow adherence [@rodriguez2020; @jelinek2006]. Quasi-experimental designs that compare intervention groups with reference groups provide a robust method for isolating campaign effects and avoiding the "all pain, no gain" pitfall within active commercial environments [@abdillah2025; @jelinek2013].
+
+#### Adequacy of Existing Information
+
+The gathered literature and change-management frameworks are sufficient to define the general evaluation approach for A04: identifying hidden adoption barriers [@speier2002], comparing pre- and post-intervention behavioral metrics, measuring shifts in data quality, and contextualizing findings across user segments [@singh2019; @jelinek2006]. However, existing research is not sufficient to determine the specific intervention tactics, campaign timeline, or target user groups for CVRx. Those choices depend directly on the specific adoption barriers and user segments identified in A01 through A03, as well as operational feasibility within CVRx's commercial team.
+
+#### Need for Additional Analysis
+
+Additional analysis is needed to operationalize and evaluate the engagement campaign. Prior to implementation, baseline metrics for targeted user segments must be established, and intervention activities must be mapped to identified barriers [@speier2002]. Following campaign execution, comparative analysis must be conducted to measure changes in meaningful adoption, data reliability, and workflow consistency [@jelinek2013]. Where possible, differences between the intervention group and reference groups should be evaluated to confirm whether observed improvements can be attributed to the campaign rather than external factors.
+
+#### Analytics Objective Assessment
+
+I would keep A04 as written because evaluating engagement interventions is critical for translating diagnostic findings into actionable operational improvements. The literature review refines how A04 should be executed: addressing adoption minefields [@speier2002], focusing on multi-dimensional evaluation (data quality, workflow adherence, and user perception), controlling for role differences [@singh2019], and using reference group comparisons where operationally feasible to validate campaign effectiveness [@jelinek2013].
+
+
+
 
 ------------------------------------------------------------------------
 
