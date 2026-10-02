@@ -321,9 +321,26 @@ I would keep AO1 as written because existing research does not answer the CVRx-s
 
 \[Repeat the literature-review framework.\]
 
-### AO3 — \[Title\]
+### AO3 — Salesforce User Segmentation and Targeted Engagement
 
-\[Repeat the literature-review framework.\]
+#### Existing Research and Models
+
+Research on CRM and sales force technologies indicates that adoption and usage can vary substantially among users. Studies of sales technology acceptance have identified perceived usefulness, ease of use, job experience, organizational support, training, and other individual or organizational characteristics as factors associated with technology adoption and usage [@avlonitis2005; @guan2004; @buehrer_sales_2005]. These findings suggest that a sales force should not necessarily be treated as a homogeneous group when evaluating CRM adoption.
+
+Behavioral segmentation provides one approach for identifying meaningful differences among technology users. Behavioral segmentation provides one approach for identifying meaningful differences among technology users. @miller_segmenting_2022 demonstrated that observed digital usage patterns could be used to identify distinct user segments, while @namin_consumers_2026 found behavioral and psychographic characteristics useful for explaining differences in technology acceptance. For CVRx, similar behavioral indicators could potentially include Salesforce activity frequency, timeliness of opportunity updates, record completeness, consistency of system use, and other approved measures of engagement.
+
+However, behavioral activity alone may not explain why users exhibit different adoption patterns. Technology acceptance research emphasizes factors such as performance expectancy, effort expectancy, social influence, facilitating conditions, task complexity, role perceptions, and organizational experiences [@speier_hidden_2002; @venkatesh_user_2003; @rangarajan_impact_2005]. Therefore, two sales representatives displaying similar Salesforce activity could have different motivations or barriers underlying that behavior. Research also cautions that cluster-derived segments should not automatically be assumed to be stable or meaningful over time [@muller_stability_2014]. A hybrid approach that combines segmentation with technology-adoption factors may therefore provide more interpretable and actionable user groups [@joshi_identifying_2023].
+#### Adequacy of Existing Information
+
+Existing research provides a strong foundation for understanding technology adoption, user heterogeneity, and potential approaches to segmentation. The literature identifies behavioral, perceptual, organizational, and contextual factors that may distinguish technology users and provides evidence that usage patterns can support meaningful segmentation. However, the existing research is not sufficient to determine which segments exist within CVRx specifically. Prior studies were conducted in different organizations, industries, technologies, and user populations, and several were not focused on CRM systems or medical-device sales organizations. Therefore, the literature can guide the selection of variables and analytical approaches, but it cannot substitute for analysis of CVRx's own Salesforce users and organizational context.
+
+#### Need for Additional Analysis
+
+Additional analysis is needed to determine whether meaningful Salesforce user segments exist within CVRx and whether those segments can support differentiated engagement strategies. CVRx-specific Salesforce usage data should be examined to identify patterns in adoption behavior, while findings from the analysis of adoption barriers and drivers may provide additional context for interpreting those patterns. Relevant measures may include activity frequency, timeliness of updates, record completeness, consistency of system use, and other indicators available in the approved dataset. User or organizational characteristics may also be considered where appropriate. Because differences in workload, territory, opportunity volume, or job responsibilities could influence observed Salesforce activity, these factors should be evaluated before interpreting behavioral differences as differences in adoption.
+
+#### Analytics Objective Assessment
+
+Based on the literature reviewed, AO3 remains appropriate for supporting PO3 but should use a flexible analytical approach. Existing research supports examining Salesforce usage patterns to identify meaningful differences among users, while also showing that behavioral data alone may not fully explain technology adoption. Therefore, the analysis should initially identify candidate segments from available Salesforce usage measures and then incorporate relevant adoption barriers, drivers, and contextual characteristics when interpreting those groups. Any resulting segments should also be evaluated for stability, interpretability, and practical usefulness before they are used to develop targeted engagement strategies. The specific segmentation technique should remain flexible until the CVRx dataset, available variables, and sample size are fully evaluated.
 
 ### AO4 — \[Title\]
 
