@@ -177,7 +177,7 @@ The final source summary will include the source title, contributor, source type
 | *What helps in enhancing pharma sales? Interplay between technology and human interaction* | Mickyas Shawel | Journal Article | Examines how technology and human interaction work together to enhance pharmaceutical sales. This source is especially relevant to the CVRx project because it provides insight into technology-enabled selling within a healthcare-related sales environment while recognizing the continuing importance of salesperson interaction. |
 | *The Role of Salesforce CRM in Enhancing Patient Engagement* | Mickyas Shawel | Journal Article | Examines the use of Salesforce CRM in supporting patient engagement. This source is relevant to the CVRx project because it connects CRM technology with healthcare engagement and provides an industry-specific perspective on how CRM systems can support relationship management and communication. |
 
-\:::
+:::
 
 # Group Collaboration
 
