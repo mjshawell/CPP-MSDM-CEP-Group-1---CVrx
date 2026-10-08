@@ -127,163 +127,257 @@ Meaningful Salesforce adoption is important to CVRx because reliable and timely 
 
 # Chapter 2: Background and Analytics Objectives
 
-## Client Background
-
-### Company Mission and Vision
-
-\[Insert content.\]
-
-### Core Competencies
-
-\[Insert content.\]
-
-### Value Proposition
-
-\[Insert content.\]
-
-### Business Objectives
-
-\[Insert content.\]
-
-## Current Marketing Program
-
-### Marketing Team and Expertise
-
-\[Insert content.\]
-
-### Current Target Market
-
-\[Insert content.\]
-
-### Current Positioning
-
-\[Insert content.\]
-
-### Current Products and Services
-
-\[Insert content.\]
-
-### Current Pricing
-
-\[Insert content.\]
-
-### Current Marketing Channels
-
-\[Insert content.\]
-
-### Integrated Marketing Communications
-
-\[Insert content.\]
-
 ## Current Digital Marketing Practices
 
 ### Brand Persona
 
-\[Insert content.\]
+CVRx's digital brand persona combines patient-centered encouragement with clinical credibility. Patient-facing Barostim communications translate a complex neuromodulation therapy into messaging centered on improving quality of life and helping individuals with heart failure return to meaningful everyday activities. Rather than emphasizing technical device specifications alone, the patient-facing brand frequently connects Barostim with themes of independence, activity, and living beyond the limitations associated with heart failure.
+
+The brand takes a more technical and evidence-oriented approach when communicating with healthcare professionals. Professional content emphasizes the mechanism of action, clinical evidence, appropriate patient selection, implantation, reimbursement, and integration of Barostim into heart-failure care. This creates a dual communication approach in which patients receive accessible and benefit-oriented information while healthcare professionals receive more detailed clinical and procedural information. Both approaches remain consistent with CVRx's broader patient-centered positioning.
 
 ### Website and Landing Pages
 
-\[Insert content.\]
+The Barostim website functions as a central component of CVRx's digital marketing ecosystem. Patient-facing pages explain heart failure, introduce Barostim, describe how the therapy works, present patient experiences, address frequently asked questions, and provide information about the treatment process. The website therefore supports users across multiple stages of the decision journey, ranging from initial awareness to consideration and potential evaluation.
+
+The website also contains action-oriented pathways intended to move interested visitors toward the next stage of the patient journey. A prominent "Do I Qualify?" pathway allows visitors to answer questions related to potential treatment eligibility and provide information for additional support. Other website resources help users learn about treatment locations and connect with healthcare professionals familiar with Barostim.
+
+CVRx maintains separate resources for healthcare professionals. These pages provide more detailed information regarding clinical evidence, patient identification, professional education, reimbursement, implantation, and related clinical resources. The website therefore serves both patient and professional audiences while directing each group toward content appropriate to its role in the treatment process.
 
 ### Keyword Research and SEO
 
-\[Insert content.\]
+CVRx's public website contains content addressing search topics closely related to its target patient population and product category. These topics include heart failure, heart failure with reduced ejection fraction (HFrEF), Barostim, Baroreflex Activation Therapy, heart-failure treatment, treatment qualification, symptoms, and device-based treatment options.
+
+Educational pages and frequently asked questions also address informational queries that potential patients or caregivers may encounter while researching heart-failure treatment. This content structure can support organic discovery by matching website information with questions users may enter into search engines.
+
+However, public information does not reveal CVRx's internal keyword-research methodology, target keyword portfolio, SEO platform, backlink strategy, rankings, organic traffic, or search-performance KPIs. A complete SEO assessment would require access to tools such as Google Search Console, website analytics, or internal SEO reports. Therefore, the public website demonstrates search-relevant content development, but the effectiveness of CVRx's SEO strategy cannot be determined from publicly available information alone.
 
 ### Email Marketing
 
-\[Insert content.\]
+Email and direct digital communication may support continued education after prospective patients express interest in Barostim or submit information through digital channels. These communications can potentially help individuals access educational resources and understand subsequent steps in the treatment journey.
+
+Public information, however, provides limited visibility into CVRx's current email-marketing infrastructure. The company does not publicly disclose its email service provider, segmentation methodology, automated workflows, campaign frequency, audience size, or performance indicators such as open rates, click-through rates, and downstream conversions.
+
+Consequently, email should be considered a potential component of CVRx's patient communication and nurturing ecosystem, but its current scale and effectiveness cannot be independently assessed without internal marketing data.
 
 ### Social Media
 
-\[Insert content.\]
+Social media provides CVRx with an additional channel for increasing awareness of Barostim and distributing educational content to patients, caregivers, and healthcare professionals. Patient stories, educational information, treatment explanations, company developments, and clinical content can extend the reach of information hosted on the Barostim website.
+
+This channel is particularly relevant because neuromodulation for heart failure may be unfamiliar to potential patients. Social content can help introduce the treatment category before an individual actively searches for Barostim, while patient-centered content can make the therapy easier to understand and connect the technology with real-world experiences.
+
+Evaluating the effectiveness of these activities would require channel-level information such as impressions, reach, engagement, referral traffic, audience characteristics, and conversions. Public-facing social activity can demonstrate that the channel is being used, but it does not provide sufficient evidence to determine its contribution to patient acquisition or treatment adoption.
 
 ### Paid Search Advertising
 
-\[Insert content.\]
+Paid search could support CVRx's patient-acquisition strategy by reaching individuals actively searching for information about heart failure, persistent symptoms, treatment alternatives, or device-based therapies. Search advertising could then direct appropriate users toward educational content, qualification resources, or other relevant Barostim webpages.
+
+However, publicly available information does not provide sufficient evidence to determine the current scope of CVRx's paid-search program. Information regarding Google Ads campaigns, keyword bidding, advertising budgets, cost-per-click, conversion rates, or return on advertising investment is not publicly disclosed.
+
+Therefore, paid search should not be assumed to represent a specific level of CVRx's current marketing activity without access to internal advertising accounts or campaign reports.
 
 ### Social Media Advertising
 
-\[Insert content.\]
+Paid social media could complement CVRx's direct-to-consumer strategy by generating awareness among patients and caregivers who may not yet be actively searching for Barostim. Educational videos, patient experiences, quality-of-life messaging, and treatment-awareness content could potentially support this objective.
+
+Public information does not provide enough detail to determine the company's current paid-social platforms, targeting methodology, media spending, campaign structure, or performance. Any assessment of paid-social effectiveness would therefore require internal campaign and analytics data.
 
 ### Display Advertising
 
-\[Insert content.\]
+Publicly available information does not provide sufficient evidence to determine whether display or programmatic advertising currently represents a significant component of CVRx's digital media strategy.
+
+Display advertising could theoretically support awareness and remarketing throughout the longer consideration process associated with a specialized medical therapy. However, because Barostim is a regulated medical device and digital advertising may involve health-related information, campaign execution must also account for applicable regulatory, privacy, and advertising-platform requirements.
+
+Without internal advertising data, the role and performance of display advertising within CVRx's current digital marketing program cannot be reliably assessed.
 
 ### Conversion Rate Optimization
 
-\[Insert content.\]
+The Barostim website contains several features consistent with conversion-oriented digital design. Calls to action direct users toward learning whether they may qualify for Barostim, while educational resources address questions that could otherwise prevent users from progressing further in the treatment journey.
+
+The qualification pathway is particularly important because it provides a transition from general education to potential patient identification. Supporting information such as patient experiences, frequently asked questions, treatment explanations, and provider resources may further reduce informational barriers and help visitors determine an appropriate next step.
+
+The presence of these features does not establish that CVRx currently operates a formal conversion-rate-optimization program. Information regarding A/B testing, landing-page experimentation, funnel analysis, form optimization, or systematic conversion testing is not publicly available. Access to website analytics and internal testing information would therefore be necessary to evaluate CRO performance.
 
 ### Other Digital Marketing Activities
 
-\[Insert content.\]
+Digital education represents an important component of CVRx's broader market-development strategy. Online educational resources allow the company to explain HFrEF, introduce Barostim, communicate potential benefits and risks, and provide patients with pathways for learning more about treatment.
+
+CVRx also maintains digital resources for healthcare professionals, including clinical evidence, professional education, patient-identification information, reimbursement resources, and other materials supporting the implementation of Barostim programs.
+
+Together, these activities demonstrate that CVRx's digital ecosystem extends beyond conventional advertising. Digital channels support patient education, professional education, treatment awareness, potential patient identification, and connection with healthcare providers across multiple stages of the Barostim journey.
 
 ## Customer Influence Strategy
 
 ### Demand Generation
 
-\[Insert content.\]
+CVRx's demand-generation strategy involves increasing awareness and understanding of Barostim across multiple stakeholder groups, including patients, caregivers, physicians, advanced practice providers, and healthcare organizations. Because Barostim represents a specialized device-based therapy for HFrEF, demand generation requires education not only about the brand but also about the treatment category and the patients for whom the therapy may be appropriate.
+
+Patient-facing digital communication can introduce Barostim to individuals who may be seeking additional options for persistent heart-failure symptoms. Educational website content, patient experiences, digital outreach, and other awareness activities can then direct individuals toward additional information about the therapy.
+
+Professional demand generation operates alongside patient outreach. Physician education, clinical evidence, key opinion leader engagement, and referral-network development can increase awareness among healthcare professionals responsible for identifying, evaluating, referring, and treating appropriate patients.
+
+The strategy therefore reflects the multi-stakeholder nature of medical-device adoption. Generating demand for Barostim requires building awareness among patients while simultaneously developing clinical awareness and confidence among the healthcare professionals and institutions involved in treatment.
 
 ### Demand Harvesting
 
-\[Insert content.\]
+CVRx's patient journey provides several mechanisms for converting existing awareness and interest into further action. Potential patients who encounter Barostim through digital marketing, search, physician referral, educational content, or other sources can use the website to learn more about the therapy and investigate whether they may meet preliminary qualification criteria.
+
+The "Do I Qualify?" pathway represents an important transition from general awareness to potential patient identification. Rather than ending the digital experience with educational content, the qualification process provides interested individuals with a structured next step.
+
+Demand harvesting also occurs through CVRx's professional and commercial infrastructure. Account Managers develop relationships with cardiology centers and relevant physicians, while Field Clinical Specialists provide clinical and procedural support. Market-access resources can further assist with reimbursement and prior-authorization requirements as appropriate patients progress toward treatment.
+
+The overall customer journey can therefore be conceptualized as:
+
+**Awareness → Education → Qualification → Provider Connection → Clinical Evaluation → Authorization → Treatment**
+
+This pathway demonstrates how CVRx's digital, commercial, clinical, and market-access activities can work together to move appropriate potential patients from awareness toward evaluation and treatment.
 
 ### Loyalty Building
 
-\[Insert content.\]
+Loyalty within CVRx's market differs from conventional consumer-product loyalty because Barostim is an implantable medical therapy rather than a frequently repurchased product. Relationship development therefore extends across patients, physicians, referral networks, and healthcare organizations.
+
+For patients, continued education, treatment support, follow-up communication, and access to relevant resources can help maintain confidence throughout the treatment journey. Patient experiences may also contribute to advocacy and awareness by allowing individuals to communicate how treatment has affected their quality of life.
+
+For healthcare professionals and institutions, loyalty is more closely associated with confidence, continued engagement, and integration of Barostim into appropriate treatment pathways. Account Manager relationships, Field Clinical Specialist support, professional education, reimbursement assistance, and consistent clinical support can contribute to stronger long-term relationships with participating centers.
+
+Traditional repeat-purchase metrics alone would therefore provide an incomplete view of loyalty. More relevant measures could include continued physician engagement, referral activity, active treatment-center participation, patient satisfaction, advocacy, follow-up engagement, and sustained utilization among healthcare organizations offering Barostim.
+
 
 ## Analytics Infrastructure
 
-\[Describe the client's current analytics platforms, data sources, tracking infrastructure, reporting systems, and relevant limitations.\]
+CVRx's analytics environment for this CEP is centered on Salesforce, which serves as an important source of commercial and customer-relationship data. Salesforce can provide behavioral information about how members of the commercial organization document and manage activities, accounts, opportunities, and other relevant workflow processes. For this project, these records provide a potential foundation for measuring meaningful Salesforce adoption rather than relying only on self-reported system usage.
+
+The proposed analytics framework distinguishes between system activity and meaningful use. Relevant Salesforce measures may include record completeness, update timeliness, documented activities, completion of required workflow steps, and other role-appropriate behaviors that can be reliably extracted from the available data. These measures can support the adoption index proposed in AO1 and provide the dependent measures needed to investigate adoption drivers and barriers in AO2.
+
+Salesforce data alone, however, cannot fully explain why users adopt the platform differently. Behavioral records can show what users document in the system but cannot directly measure perceptions such as usefulness, ease of use, training effectiveness, managerial support, administrative burden, or workflow compatibility. Survey responses, interviews, and other approved employee feedback can therefore provide complementary information for interpreting behavioral patterns.
+
+The project's analytics infrastructure can consequently be viewed as two related evidence streams. The first consists of behavioral Salesforce data describing observable system use. The second consists of employee-level or qualitative information describing users' experiences with Salesforce. When permitted identifiers and comparable time periods are available, these sources may be analyzed together. If reliable linkage is not possible, the behavioral and perceptual evidence should be analyzed separately and compared at an aggregate level.
+
+Several limitations must be considered. Salesforce activity does not necessarily represent the full range of work completed outside the platform, and a completed field does not automatically indicate that the information entered is accurate or useful. Differences in roles, territories, workloads, account responsibilities, and required workflows may also affect apparent adoption levels. Survey and interview information may introduce self-reporting or response bias, while small sample sizes may limit the statistical methods that can be applied.
+
+The final analytics infrastructure used for the CEP will therefore depend on the data CVRx authorizes the team to access. Before modeling begins, the team should document available Salesforce objects and fields, required workflows, historical coverage, user roles, missing-data patterns, survey variables, and any restrictions on connecting employee-level information. This validation will determine which measures and analytical methods proposed in AO1 through AO4 can be implemented reliably.
 
 ## Competitive Analysis
 
 ### Industry Overview
 
-\[Insert content.\]
+CVRx operates within the cardiovascular medical-device industry and, more specifically, within the market for device-based therapies addressing heart failure with reduced ejection fraction (HFrEF). Heart failure is a chronic cardiovascular condition in which the heart cannot circulate blood effectively enough to meet the body's needs. Treatment commonly involves guideline-directed medical therapy, while selected patients may also receive implantable device-based therapies.
+
+Barostim occupies a differentiated position within this environment because it uses Baroreflex Activation Therapy to influence the autonomic nervous system rather than directly pacing or stimulating the heart muscle. CVRx describes Barostim as the first and only commercially available neuromodulation device indicated to improve symptoms in patients with HFrEF. The therapy is intended to complement guideline-directed medical therapy for appropriately indicated patients rather than replace pharmaceutical treatment.
+
+Competition within this market extends beyond products with identical mechanisms of action. CVRx competes for physician attention, hospital adoption, reimbursement, clinical acceptance, patient awareness, and commercial resources within the broader heart-failure treatment environment. Important competitive factors include clinical effectiveness, safety, reliability, ease of use, reimbursement, product support, clinical evidence, and sales-force experience.
 
 ### Industry Size and Outlook
 
-\[Insert content.\]
+Heart failure represents a large global healthcare burden. CVRx estimates that approximately 64 million people worldwide have heart failure, including approximately 6.7 million people in the United States and 10.5 million across Germany, France, Italy, Spain, and the United Kingdom.
+
+Within its currently addressed HFrEF population, CVRx estimates an annual market opportunity of approximately $2.2 billion in the United States and $2.8 billion across those five European markets. These estimates reflect the population the company believes may be eligible for Barostim under its current commercial strategy and regulatory indications.
+
+The longer-term opportunity could expand if Barostim receives evidence and regulatory support for broader patient populations. CVRx's BENEFIT-HF clinical program is evaluating Barostim in an expanded heart-failure population. The company has estimated that a successful expansion could increase its prevalence-based U.S. addressable population from approximately 339,000 to approximately 983,000 patients. Because that potential expansion depends on future clinical, regulatory, reimbursement, and commercialization outcomes, it should be considered a prospective opportunity rather than part of the currently addressable market.
+
+The industry's outlook is also shaped by continued innovation in pharmaceuticals, implantable devices, remote monitoring, and other heart-failure technologies. As new therapies emerge, companies must demonstrate not only clinical effectiveness but also reimbursement viability, physician acceptance, operational support, and the ability to identify appropriate patients.
 
 ### Key Competitors
 
-\[Insert content.\]
+CVRx identifies other device-based therapies for HFrEF as an important source of competition. The most directly comparable commercially available device identified in CVRx's disclosures is Cardiac Contractility Modulation (CCM), delivered through the Optimizer Smart Mini system developed by Impulse Dynamics. CCM is designed for selected symptomatic heart-failure patients who remain symptomatic despite guideline-directed medical therapy and are not indicated for cardiac resynchronization therapy.
+
+Barostim and CCM address overlapping portions of the heart-failure population but use different therapeutic mechanisms. Barostim stimulates baroreceptors in the carotid artery to influence autonomic cardiovascular function, whereas CCM delivers electrical signals to the heart intended to modify cardiac contractility.
+
+CVRx also operates within a broader competitive environment that includes established cardiac-device manufacturers such as Medtronic, Boston Scientific, Abbott, and Johnson & Johnson. These organizations participate in various portions of cardiovascular and heart-failure care and possess substantially greater financial, technical, clinical, sales, and marketing resources than CVRx.
+
+Cardiac resynchronization therapy (CRT) represents another established device-based treatment for certain heart-failure patients. CRT devices coordinate contractions between the heart's ventricles and are offered by large medical-device manufacturers. Barostim is not simply a replacement for CRT because patient eligibility and mechanisms differ; instead, these therapies exist within a broader treatment landscape in which physicians determine the appropriate therapy according to each patient's clinical characteristics.
+
+Pharmaceutical therapies are also central to HFrEF treatment. CVRx does not consider existing pharmaceutical therapies direct competitors because Barostim is intended to complement guideline-directed medical therapy. Nevertheless, pharmaceutical innovation can influence treatment pathways, physician decision-making, and the population considered for additional device-based therapies.
 
 ### Competitor Digital Marketing Strategies
 
-\[Insert content.\]
+Digital marketing within the heart-failure device market relies heavily on patient education, physician education, clinical evidence, treatment qualification, and provider-location resources. Because these therapies require medical evaluation and physician involvement, competitor websites generally function as educational and patient-navigation platforms rather than conventional e-commerce environments.
+
+Impulse Dynamics provides a useful comparison. Its digital presence for the Optimizer Smart Mini emphasizes the patient-facing message "Hope Is Here," quality-of-life improvements, patient testimonials, treatment education, and a physician-finder pathway. The company also maintains separate professional content explaining CCM therapy, clinical evidence, patient eligibility, reimbursement, and procedural information.
+
+Large cardiovascular-device companies such as Medtronic similarly maintain extensive patient and healthcare-professional digital ecosystems. Medtronic provides educational pages explaining cardiac resynchronization therapy, available CRT devices, benefits and risks, patient support, and clinical information for healthcare professionals.
+
+CVRx follows a comparable dual-audience structure but differentiates its messaging around Barostim's neuromodulation mechanism and patient journey. The Barostim website combines patient stories and quality-of-life messaging with a qualification questionnaire and connection to Barostim-trained cardiologists. Healthcare-professional content emphasizes clinical evidence, patient identification, treatment implementation, and reimbursement.
+
+Digital competition therefore extends beyond advertising reach. Companies compete through the clarity of patient education, visibility in treatment-related searches, strength of clinical evidence, physician resources, treatment-center accessibility, patient stories, and the ability to convert digital interest into appropriate clinical evaluation.
 
 ## Customer Analysis
 
 ### Customer Segments
 
-\[Insert content.\]
+CVRx operates in a multi-stakeholder healthcare market in which the purchaser, clinical decision-maker, referral source, payer, and patient may represent different participants. Customer analysis should therefore extend beyond a single definition of the customer.
+
+The first major segment consists of healthcare institutions, particularly hospitals and cardiovascular treatment centers. Hospitals represent an important commercial customer because they purchase Barostim and provide the clinical setting in which implantation occurs. Institutional adoption depends on factors including physician interest, patient volume, reimbursement, clinical support, operational readiness, and the organization's ability to identify eligible patients.
+
+The second segment consists of healthcare professionals. This includes heart-failure specialists, electrophysiologists, interventional and general cardiologists, advanced practice providers, vascular surgeons, and other clinicians involved in identifying, referring, evaluating, or treating potential Barostim patients. These stakeholders require clinical evidence, patient-selection guidance, procedural education, and treatment-support resources.
+
+The third segment consists of patients with HFrEF who may satisfy the clinical criteria for Barostim. Patients may enter the journey through their physicians, referrals, digital outreach, online research, patient stories, or other awareness channels. Their information needs differ from those of clinicians and include understanding their condition, treatment eligibility, potential benefits and risks, the implant process, insurance considerations, and what to expect after treatment.
+
+A fourth stakeholder group consists of third-party payers. Although payers are not conventional customers, reimbursement and prior-authorization decisions can influence whether eligible patients can progress toward treatment. Market-access activity is therefore an important component of CVRx's broader commercial strategy.
 
 ### Segment Analysis
 
-\[Insert content.\]
+The institutional segment is important because expanding Barostim requires more than generating patient awareness. CVRx must establish and maintain treatment centers capable of identifying, evaluating, implanting, and supporting appropriate patients. Commercial relationships with hospitals and cardiovascular centers therefore represent an important component of market expansion.
+
+Healthcare professionals influence several stages of the patient journey. Referring clinicians must recognize potentially eligible patients, treating cardiologists must evaluate appropriateness, implanting physicians require procedural knowledge, and clinical teams must support patients after implantation. Professional education and clinical evidence are therefore central to this segment.
+
+Patients represent the ultimate beneficiaries of Barostim and an increasingly important audience within CVRx's direct-to-consumer strategy. The company's website allows potential patients to complete a short qualification questionnaire and then connect with a Barostim Coordinator and a trained cardiologist. This creates a digital pathway through which patient interest can potentially be translated into clinical evaluation.
+
+These segments are interdependent. Patient awareness alone cannot produce treatment without physician evaluation and institutional capability. Physician interest cannot produce treatment if eligible patients are not identified or reimbursement barriers prevent access. Hospital adoption may also produce limited utilization if referral networks are not sufficiently developed.
+
+CVRx's commercial challenge is therefore best understood as a coordinated ecosystem rather than a simple business-to-business or business-to-consumer market. Successful commercialization requires alignment among patients, clinicians, hospitals, referral networks, and payers.
 
 ## SWOT Analysis
 
 ### Strengths
 
-\[Insert content.\]
+CVRx's primary strength is the differentiated nature of Barostim. The therapy uses a distinct neuromodulation mechanism and is the first FDA-approved medical technology using neuromodulation to improve symptoms in patients with heart failure. This differentiation is supported by specialized clinical expertise, an expanding commercial infrastructure, physician education, field clinical support, reimbursement resources, and an established patient-education ecosystem.
+
+Another strength is the company's focused specialization in Barostim and cardiovascular neuromodulation. This focus allows CVRx to build clinical, commercial, and educational capabilities around a clearly defined therapy and patient population.
 
 ### Weaknesses
 
-\[Insert content.\]
+CVRx remains highly dependent on Barostim as its principal commercial product, creating concentration risk if adoption, reimbursement, clinical acceptance, or market growth does not develop as expected.
+
+The company also competes against substantially larger medical-device organizations with greater financial resources, established physician relationships, broader product portfolios, larger sales organizations, and stronger brand recognition.
+
+From the perspective of this CEP, inconsistent meaningful Salesforce adoption could represent an internal commercial limitation if important customer and field activities are not documented completely or consistently. However, the existence and magnitude of this issue must be established through the analyses proposed in AO1 and AO2 rather than assumed.
 
 ### Opportunities
 
-\[Insert content.\]
+A major opportunity is continued penetration of the currently addressable HFrEF population. CVRx estimates a multibillion-dollar annual market opportunity in the United States and major European markets, suggesting substantial room for additional patient and treatment-center adoption.
+
+Further opportunities include expanding physician and patient awareness, increasing the number and productivity of treatment centers, strengthening referral networks, improving digital patient identification, and using commercial data more effectively to support customer engagement.
+
+Clinical development may create additional long-term opportunities. The BENEFIT-HF program is evaluating Barostim in a broader heart-failure population, which could substantially expand the addressable market if supported by successful clinical, regulatory, and reimbursement outcomes.
+
+The Salesforce CEP itself represents an operational opportunity. Improved understanding of meaningful adoption, user barriers, user segments, and engagement strategies could help CVRx strengthen the quality and consistency of its commercial information infrastructure.
 
 ### Threats
 
-\[Insert content.\]
+CVRx faces competition from established and emerging heart-failure therapies. Competing medical-device companies may introduce technologies that demonstrate stronger clinical outcomes, lower costs, easier implantation, improved patient convenience, or other advantages.
+
+Large cardiovascular-device companies also possess substantially greater financial, research, clinical, sales, and marketing resources. Their established relationships with physicians and hospitals may create competitive pressure as new technologies enter adjacent heart-failure populations.
+
+Reimbursement represents another potential threat because patient access to implantable medical technologies depends partly on coverage and payment policies. Changes in reimbursement, prior-authorization requirements, or payer policies could influence treatment access and hospital adoption.
+
+Other threats include regulatory uncertainty, dependence on continued clinical evidence, technological change, challenges in recruiting and retaining qualified commercial personnel, and the possibility that future pharmaceutical or device-based innovations alter existing heart-failure treatment pathways.
 
 ### SWOT Summary
 
-\[Insert summary table or visualization.\]
+| **Strengths** | **Weaknesses** |
+|---|---|
+| Differentiated neuromodulation technology | Heavy dependence on Barostim |
+| FDA-approved therapy with specialized indication | Smaller scale than major medtech competitors |
+| Specialized clinical and commercial support | Commercial execution depends on effective field adoption |
+| Patient and professional education ecosystem | Salesforce adoption and data-quality gaps require evaluation |
+
+| **Opportunities** | **Threats** |
+|---|---|
+| Large underpenetrated HFrEF market | Competing and emerging heart-failure therapies |
+| Expansion of treatment centers and referral networks | Larger competitors with greater resources |
+| Digital patient identification and education | Reimbursement and access uncertainty |
+| Potential indication/market expansion | Regulatory and clinical-development risk |
+| Better use of Salesforce and commercial analytics | Rapid technological change |
 
 ## Research Framework and Literature Review
 
@@ -317,9 +411,63 @@ Additional analysis is needed to turn the proposed index into a usable baseline.
 
 I would keep AO1 as written because existing research does not answer the CVRx-specific baseline question. The review refines how I would carry it out: use clearly defined task measures, retain the separate component scores, limit the influence of platform activity, and account for differences in eligible work. I would also keep the distinction between measuring adoption under AO1 and explaining its drivers under AO2. The index would remain a proposed measure until CVRx confirms its rules and the available data support its calculation.
 
-### AO2 — \[Title\]
+### AO2 — Identify Drivers and Barriers of Meaningful Salesforce Adoption (Mickyas Shawel)
 
-\[Repeat the literature-review framework.\]
+#### Existing Research and Models
+
+After establishing how meaningful Salesforce adoption will be measured in AO1, the next step is to examine the factors associated with differences in adoption across users. Technology-adoption research suggests that system use can be influenced by a combination of individual perceptions, organizational conditions, workflow characteristics, training, managerial support, and experiences with the technology. These factors provide a theoretical foundation for AO2, but they should be treated as potential drivers and barriers rather than assumed explanations for Salesforce adoption at CVRx.
+
+The Technology Acceptance Model (TAM) provides one framework for understanding individual technology acceptance. Davis identifies perceived usefulness and perceived ease of use as important beliefs associated with technology acceptance [@davis1989]. Applied to Salesforce, perceived usefulness would describe whether users believe the platform helps them perform their work more effectively, while perceived ease of use would describe the degree to which using the system is perceived as requiring limited effort. These constructs provide potential explanations for differences in Salesforce adoption, but they cannot establish whether usefulness or ease of use currently explains adoption patterns at CVRx without company-specific evidence.
+
+The Unified Theory of Acceptance and Use of Technology (UTAUT) expands this perspective by incorporating performance expectancy, effort expectancy, social influence, and facilitating conditions [@venkatesh2003]. This framework is relevant because Salesforce adoption may depend on more than an individual's opinion of the platform. Expectations from managers and coworkers, availability of organizational support, training, and access to necessary resources may also influence whether employees incorporate Salesforce into their normal work routines. For AO2, UTAUT therefore provides a basis for examining both individual perceptions and organizational conditions associated with meaningful adoption.
+
+Task-Technology Fit provides another perspective by focusing on the relationship between technology and the work users are expected to perform. Goodhue and Thompson argue that technology is more likely to contribute to individual performance when its capabilities fit the tasks being performed [@goodhue1995]. In the CVRx context, this suggests examining whether Salesforce supports or complicates the workflows of commercial users. Workflow compatibility may function as a potential driver of adoption, while redundant processes, unnecessary administrative requirements, or poor alignment between Salesforce and established work routines may represent potential barriers. However, these relationships must be evaluated using CVRx-specific information rather than inferred from the framework alone.
+
+Research focused specifically on sales technologies provides additional support for examining these factors. Avlonitis and Panagopoulos studied CRM technology acceptance among salespeople and found that perceived usefulness was an important influence on acceptance, along with accurate expectations regarding system usage, salesperson innovativeness, perceived ease of use, and supervisor encouragement and support [@avlonitis2005]. This research is particularly relevant to AO2 because it examines CRM acceptance within a sales-force environment rather than general technology adoption. Nevertheless, the study involved a different organization and CRM environment, so its findings identify candidate factors for CVRx rather than establishing which factors currently influence Salesforce adoption within the company.
+
+Research on sales force technology also highlights the importance of organizational support and training. Buehrer and colleagues examined reasons for using sales force technology, barriers to its use, and organizational support surrounding adoption [@buehrer2005]. Their findings provide a basis for examining factors such as training, management support, technical support, and perceived productivity benefits. For CVRx, these factors could help determine whether differences in meaningful Salesforce adoption are associated with users' experiences with the system and the organizational environment surrounding its use.
+
+Job experience may also contribute to differences in technology perceptions. Guan and colleagues examined sales force automation acceptance across different levels of sales experience and found differences in areas such as perceived productivity and efficiency gains, perceptions of sales force automation as a micromanagement tool, and satisfaction with system functionality [@guan2004]. This suggests that employee characteristics and professional experience may be relevant when interpreting Salesforce adoption patterns. AO2 should therefore avoid assuming that all users experience Salesforce in the same way.
+
+Adoption should also be viewed as an ongoing process rather than a one-time decision. Jasperson and colleagues conceptualize post-adoptive behavior as the ways individuals continue, extend, and modify their use of information systems after implementation [@jasperson2005]. Evidence from sales organizations similarly indicates that initially favorable reactions toward sales force automation may change after employees begin using the technology in their actual work environment [@speier2002]. These findings support examining current Salesforce experiences rather than assuming that initial training or acceptance reflects sustained meaningful use.
+
+Research on sales technology further suggests that technology use can involve multiple work activities rather than a single measure of system activity. Hunter and Perreault examine how sales technology can support accessing, analyzing, and communicating information [@hunter2007]. Research in a pharmaceutical sales environment also links salesperson technology use with mechanisms involving customer service and adaptability [@ahearne2008]. These studies reinforce the importance of examining Salesforce within the context of commercial work. They do not establish that greater Salesforce use will automatically improve performance at CVRx, but they support investigating whether users perceive the system as valuable to their work and whether those perceptions are associated with the meaningful-adoption measures established in AO1.
+
+Together, the literature identifies several theoretically supported candidate drivers of meaningful Salesforce adoption, including perceived usefulness, ease of use, managerial support, training effectiveness, workflow compatibility, appropriate expectations, and perceived value of CRM information. Potential barriers include administrative burden, system complexity, insufficient support, redundant processes, perceptions of excessive monitoring, and poor alignment with established sales routines. AO2 will use these factors as a framework for investigation rather than treating them as existing findings about CVRx.
+
+#### Adequacy of Existing Information
+
+The existing literature provides sufficient theoretical support for identifying potential drivers and barriers of Salesforce adoption, but it cannot determine which factors are most relevant within CVRx. The reviewed studies were conducted in different organizations, industries, technology environments, and time periods. Their findings provide constructs that can guide the analysis, but they cannot establish the relative importance of those constructs for CVRx employees.
+
+Additional company-specific information is therefore required. AO2 will depend on the meaningful-adoption measures established in AO1 as well as approved information describing employees' experiences with Salesforce. Relevant information may include survey responses, interviews, training experiences, workflow characteristics, job or role information, managerial support, perceived usefulness, ease of use, and other organizational or engagement variables that CVRx makes available.
+
+It will also be important to distinguish between behavioral Salesforce records and employee perceptions. A user could perceive Salesforce as useful while still maintaining incomplete or untimely records. Conversely, another user could maintain high-quality records while reporting frustration with the platform. Behavioral measures and employee perceptions therefore provide different forms of evidence and should not automatically be treated as interchangeable measures of adoption.
+
+The available information must also be evaluated for completeness and comparability. If survey, interview, or employee information cannot be reliably connected with the adoption measures developed in AO1, those sources may need to be analyzed separately rather than combined at the individual-user level. Similarly, differences in roles, territories, workloads, or Salesforce requirements may need to be considered before interpreting differences between users.
+
+#### Need for Additional Analysis
+
+Additional analysis is required to determine which candidate factors are actually associated with meaningful Salesforce adoption at CVRx. The analysis should begin by examining the distribution and quality of the available driver and barrier measures. Descriptive statistics and group comparisons can then be used to identify patterns in adoption across relevant employee characteristics, roles, territories, training experiences, or other approved groups.
+
+Correlation analysis may provide an initial assessment of relationships between potential explanatory variables and the meaningful-adoption measures established in AO1. For example, the analysis could examine whether higher perceived usefulness, stronger managerial support, greater training effectiveness, or better workflow compatibility is associated with stronger meaningful-adoption scores.
+
+If the available sample size and measurement quality are sufficient, multivariable regression or classification methods could then be used to evaluate several factors simultaneously. This would allow AO2 to estimate the direction and magnitude of relationships while accounting for other relevant variables. For example, the analysis could examine whether perceived usefulness remains associated with meaningful adoption after considering training, managerial support, job experience, workflow compatibility, or other available characteristics.
+
+Qualitative information from interviews or open-ended survey responses may provide additional context for interpreting quantitative patterns. Users may identify workflow problems, administrative burdens, training gaps, unclear expectations, or useful Salesforce capabilities that are not observable in system records. Combining these perspectives could provide a more complete explanation of the barriers and drivers associated with adoption.
+
+The analysis should avoid interpreting statistical association as proof of causation. Salesforce records and cross-sectional survey responses may reveal meaningful relationships without establishing that one factor caused another. The objective is therefore to identify and quantify factors associated with meaningful adoption and use those findings to guide subsequent analysis rather than to make unsupported causal claims.
+
+#### Analytics Objective Assessment
+
+AO2 should remain **Identify Drivers and Barriers of Meaningful Salesforce Adoption** because the existing literature provides theoretical explanations for technology adoption but does not answer the CVRx-specific question. The literature review strengthens the objective by identifying theoretically supported constructs that can be evaluated using company data instead of assuming in advance why employees use Salesforce differently.
+
+The objective should focus on identifying and quantifying associations between potential explanatory factors and the meaningful-adoption measures developed in AO1. Perceived usefulness, ease of use, managerial support, training effectiveness, workflow compatibility, administrative burden, job experience, and related factors should be treated as candidate variables whose relevance must be evaluated using CVRx data. The final analytical methods will depend on the quality, structure, and quantity of the information made available for the project.
+
+AO2 also provides an important connection between the group's analytics objectives. AO1 establishes how meaningful Salesforce adoption will be measured. AO2 examines factors associated with variation in that adoption. The resulting evidence can then help inform the user segments developed in AO3 and provide a stronger analytical basis for the targeted engagement strategies evaluated in AO4.
+
+The progression of the analytics framework can therefore be summarized as:
+
+**AO1: Measure Adoption → AO2: Explain Adoption Patterns → AO3: Segment Users → AO4: Target and Evaluate Engagement**
 
 ### AO3 — Salesforce User Segmentation and Targeted Engagement
 
@@ -343,6 +491,7 @@ Additional analysis is needed to determine whether meaningful Salesforce user se
 Based on the literature reviewed, AO3 remains appropriate for supporting PO3 but should use a flexible analytical approach. Existing research supports examining Salesforce usage patterns to identify meaningful differences among users, while also showing that behavioral data alone may not fully explain technology adoption. Therefore, the analysis should initially identify candidate segments from available Salesforce usage measures and then incorporate relevant adoption barriers, drivers, and contextual characteristics when interpreting those groups. Any resulting segments should also be evaluated for stability, interpretability, and practical usefulness before they are used to develop targeted engagement strategies. The specific segmentation technique should remain flexible until the CVRx dataset, available variables, and sample size are fully evaluated.
 
 ### AO4 —  Implement and evaluate an engagement campaign
+<<<<<<< Updated upstream
 
 #### Existing Research and Models
 
@@ -362,6 +511,24 @@ I would keep A04 as written because evaluating engagement interventions is criti
 
 
 
+=======
+
+#### Existing Research and Models
+
+Evaluating the impact of field engagement interventions requires measuring behavioral change, system adoption, and perceived utility over time [@rodriguez2020]. Research on change management and sales enablement suggests that targeted interventions—such as role-specific communications, workflow demonstrations, and manager toolkits—are most effective when aligned with specific user barriers [@abdillah2025; @singh2019]. Speier and Venkatesh (2002) highlight that implementing sales force automation (SFA) technologies often reveals hidden adoption minefields, where early user resistance or perceived friction can negatively impact long-term technology integration [@speier2002]. In the age of digital transformation, sales professionals must adapt to increasingly complex tools; however, merely adopting SFA tools is insufficient for driving performance unless engagement strategies address individual, organizational, and contextual factors [@jelinek2006; @jelinek2013; @singh2019]. Evaluation frameworks must therefore extend beyond raw usage volume, incorporating pre- and post-implementation comparisons of record completeness, data quality, and workflow adherence [@rodriguez2020; @jelinek2006]. Quasi-experimental designs that compare intervention groups with reference groups provide a robust method for isolating campaign effects and avoiding the "all pain, no gain" pitfall within active commercial environments [@abdillah2025; @jelinek2013].
+
+#### Adequacy of Existing Information
+
+The gathered literature and change-management frameworks are sufficient to define the general evaluation approach for A04: identifying hidden adoption barriers [@speier2002], comparing pre- and post-intervention behavioral metrics, measuring shifts in data quality, and contextualizing findings across user segments [@singh2019; @jelinek2006]. However, existing research is not sufficient to determine the specific intervention tactics, campaign timeline, or target user groups for CVRx. Those choices depend directly on the specific adoption barriers and user segments identified in A01 through A03, as well as operational feasibility within CVRx's commercial team.
+
+#### Need for Additional Analysis
+
+Additional analysis is needed to operationalize and evaluate the engagement campaign. Prior to implementation, baseline metrics for targeted user segments must be established, and intervention activities must be mapped to identified barriers [@speier2002]. Following campaign execution, comparative analysis must be conducted to measure changes in meaningful adoption, data reliability, and workflow consistency [@jelinek2013]. Where possible, differences between the intervention group and reference groups should be evaluated to confirm whether observed improvements can be attributed to the campaign rather than external factors.
+
+#### Analytics Objective Assessment
+
+I would keep A04 as written because evaluating engagement interventions is critical for translating diagnostic findings into actionable operational improvements. The literature review refines how A04 should be executed: addressing adoption minefields [@speier2002], focusing on multi-dimensional evaluation (data quality, workflow adherence, and user perception), controlling for role differences [@singh2019], and using reference group comparisons where operationally feasible to validate campaign effectiveness [@jelinek2013].
+>>>>>>> Stashed changes
 
 ------------------------------------------------------------------------
 
