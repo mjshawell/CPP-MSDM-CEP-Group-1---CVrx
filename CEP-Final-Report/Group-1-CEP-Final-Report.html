@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.10.18">
+<meta name="generator" content="quarto-1.6.42">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -13,16 +13,10 @@
 
 <title>CVRx CRM Adoption Project</title>
 <style>
-/* Default styles provided by pandoc.
-** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
-*/
+code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
-div.columns{display: flex; gap: 1.5em;}
-div.column{flex: auto;}
-@media screen {
-div.columns{gap: min(4vw, 1.5em);}
-div.column{overflow-x: auto;}
-}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
 div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
@@ -34,6 +28,7 @@ ul.task-list li input[type="checkbox"] {
 div.csl-bib-body { }
 div.csl-entry {
   clear: both;
+  margin-bottom: 0em;
 }
 .hanging-indent div.csl-entry {
   margin-left:2em;
@@ -53,21 +48,20 @@ div.csl-indent {
 
 
 <script src="Group-1-CEP-Final-Report_files/libs/clipboard/clipboard.min.js"></script>
-<script src="Group-1-CEP-Final-Report_files/libs/quarto-html/quarto.js" type="module"></script>
-<script src="Group-1-CEP-Final-Report_files/libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="Group-1-CEP-Final-Report_files/libs/quarto-html/quarto.js"></script>
 <script src="Group-1-CEP-Final-Report_files/libs/quarto-html/popper.min.js"></script>
 <script src="Group-1-CEP-Final-Report_files/libs/quarto-html/tippy.umd.min.js"></script>
 <script src="Group-1-CEP-Final-Report_files/libs/quarto-html/anchor.min.js"></script>
 <link href="Group-1-CEP-Final-Report_files/libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="Group-1-CEP-Final-Report_files/libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="Group-1-CEP-Final-Report_files/libs/quarto-html/quarto-syntax-highlighting-2f5df379a58b258e96c21c0638c20c03.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="Group-1-CEP-Final-Report_files/libs/bootstrap/bootstrap.min.js"></script>
 <link href="Group-1-CEP-Final-Report_files/libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="Group-1-CEP-Final-Report_files/libs/bootstrap/bootstrap-917079515d91bccb85b543faf8aa8bb6.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="Group-1-CEP-Final-Report_files/libs/bootstrap/bootstrap-c0367b04c37547644fece4185067e4a7.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 
 
 </head>
 
-<body class="quarto-light">
+<body>
 
 <div id="quarto-content" class="page-columns page-rows-contents page-layout-article">
 <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
@@ -348,7 +342,10 @@ Wenting Jiang<br>
 <h1>Chapter 1: Introduction</h1>
 <section id="background-and-business-problems" class="level2">
 <h2 class="anchored" data-anchor-id="background-and-business-problems">Background and Business Problem(s)</h2>
-<p>[Describe CVRx, the relevant business environment, and the primary business or marketing problem addressed by the project.]</p>
+<p>CVRx, Inc.&nbsp;is a commercial-stage medical device company focused on developing, manufacturing, and commercializing neuromodulation therapies for cardiovascular disease. Its primary commercial product, Barostim, uses Baroreflex Activation Therapy to modulate the autonomic nervous system and is intended for eligible patients with heart failure. CVRx’s commercial success depends not only on the clinical value of Barostim but also on the effectiveness of its field organization in supporting physician awareness, patient access, and therapy adoption.</p>
+<p>Salesforce is an important customer relationship management platform within CVRx’s commercial operations. The system provides a centralized environment for field users to document customer interactions, maintain account and opportunity information, support sales processes, and provide information that can be used for commercial planning and decision-making. However, the value of a CRM system depends on users entering information accurately, consistently, and at the appropriate time.</p>
+<p>CVRx has identified inconsistent Salesforce adoption and usage among members of its field organization as a business problem. Differences in record completeness, update timeliness, workflow consistency, and other usage behaviors may reduce data quality and limit the organization’s ability to rely on Salesforce information for commercial decision-making. At the same time, differences in adoption may reflect underlying factors such as perceived usefulness, ease of use, workflow compatibility, training, managerial support, trust in Salesforce data, or administrative burden.</p>
+<p>This project will evaluate current Salesforce adoption, identify factors associated with stronger or weaker adoption, segment users based on meaningful usage patterns, and develop targeted engagement strategies based on the resulting evidence. The project will also evaluate whether a targeted engagement intervention improves meaningful Salesforce adoption, data quality and timeliness, and user perceptions. The broader goal is to provide CVRx with an evidence-based approach for improving Salesforce adoption and strengthening the usefulness of CRM data within its commercial field organization.</p>
 </section>
 <section id="project-objectives" class="level2">
 <h2 class="anchored" data-anchor-id="project-objectives">Project Objectives</h2>
@@ -378,8 +375,13 @@ Wenting Jiang<br>
 <section id="ao3-salesforce-user-segmentation-and-targeted-engagement" class="level3">
 <h3 class="anchored" data-anchor-id="ao3-salesforce-user-segmentation-and-targeted-engagement">AO3 — Salesforce User Segmentation and Targeted Engagement</h3>
 <p><strong>Lead:</strong> Tim Arana</p>
-<p>Analyze Salesforce usage patterns to identify distinct user segments based on adoption behavior and determine how those segments can inform targeted engagement strategies.</p>
-<p>This analytics objective supports PO3 by examining differences in Salesforce adoption behavior among CVRx sales representatives and identifying meaningful groups of users with similar usage patterns. Prior research shows that CRM technology acceptance among salespeople can vary based on individual and organizational factors <span class="citation" data-cites="avlonitis2005">(<a href="#ref-avlonitis2005" role="doc-biblioref">Avlonitis and Panagopoulos 2005</a>)</span>. Research on sales force automation also found differences in technology acceptance associated with salespeople’s job experience <span class="citation" data-cites="guan2004">(<a href="#ref-guan2004" role="doc-biblioref">Guan et al. 2004</a>)</span>. The analysis will consider relevant Salesforce usage and activity measures available from the client and may incorporate findings from the analyses of current adoption levels and adoption barriers and drivers. Identifying these user segments will allow the team to evaluate whether different users require different engagement approaches rather than applying a single strategy across the entire sales force. The findings will provide an analytical foundation for developing targeted engagement strategies and for the subsequent implementation and evaluation of the engagement campaign.</p>
+<p><strong>PO3:</strong> Segment users and develop a targeted engagement strategy. Group users by relevant patterns and design support or communications that address their needs.</p>
+<p><strong>AO3:</strong> Analyze Salesforce usage patterns to identify distinct user segments based on adoption behavior and determine how those segments can inform targeted engagement strategies.</p>
+<p><strong>Data Source:</strong> Approved CVRx Salesforce user-level usage and activity data, including relevant adoption measures developed in AO1. Where available and approved, AO2 survey measures describing adoption barriers, drivers, needs, and relevant user or organizational characteristics may also be used to profile and interpret the resulting segments.</p>
+<p><strong>How to Address AO3</strong></p>
+<p>AO3 will examine differences in Salesforce adoption behavior among CVRx users to determine whether meaningful user segments can be identified. Relevant behavioral measures may include activity frequency, update timeliness, record completeness, workflow consistency, and other approved adoption indicators developed through AO1. Depending on the available sample size and data quality, candidate segments may be developed using a transparent rule-based approach or empirical clustering. Findings from AO2 may then be used to profile and interpret the segments based on relevant adoption barriers, drivers, needs, and contextual characteristics.</p>
+<p><strong>How AO3 Will Help Achieve PO3</strong></p>
+<p>AO3 directly supports PO3 by identifying whether CVRx Salesforce users can be organized into meaningful groups with different adoption patterns and needs. Rather than applying the same engagement strategy to all users, the resulting segments can provide an analytical basis for developing more targeted communications, training, support, or other engagement strategies. These segments can also inform the targeted intervention that will subsequently be implemented and evaluated under AO4.</p>
 </section>
 <section id="ao4-implement-and-evaluate-an-engagement-campaign." class="level3">
 <h3 class="anchored" data-anchor-id="ao4-implement-and-evaluate-an-engagement-campaign.">AO4 — Implement and evaluate an engagement campaign.</h3>
@@ -648,9 +650,9 @@ Wenting Jiang<br>
 <p>The Information Systems Success Model separates system quality, information quality, service quality, use, user satisfaction, and net benefits. These dimensions are related, but they describe different parts of success <span class="citation" data-cites="delone2003">(<a href="#ref-delone2003" role="doc-biblioref">DeLone and McLean 2003</a>)</span>. For AO1, this distinction means platform activity and record quality should be examined separately before combining them. Required-field completion and update timeliness would describe the information available to CVRx, while documented activities would describe selected uses of Salesforce. A limitation is that a completed field may still contain inaccurate information. The model provides a way to organize the measures, but it does not establish which CVRx fields are necessary or how much weight each measure should receive.</p>
 <p>Research on system usage strengthens the case for matching measurement to the work being done. Burton-Jones and Straub define usage through the user, system, and task, and show that the choice of usage measures can change the conclusions drawn about task performance <span class="citation" data-cites="burtonjones2006">(<a href="#ref-burtonjones2006" role="doc-biblioref"><strong>burtonjones2006?</strong></a>)</span>. Task-Technology Fit adds that technology must be used and fit the tasks it supports to contribute to performance <span class="citation" data-cites="goodhue1995">(<a href="#ref-goodhue1995" role="doc-biblioref">Goodhue and Thompson 1995</a>)</span>. Applied to AO1, these frameworks suggest measuring required opportunity updates and workflow steps rather than treating every action as equally useful. They also support checking expectations by role. An action required of one role may be irrelevant to another, so a common activity count could produce an unfair comparison.</p>
 <p>Sales technology studies make this measurement issue more concrete. Research distinguishes using technology to access, analyze, and communicate information, showing why sales technology use should be examined through different activities <span class="citation" data-cites="hunter2007">(<a href="#ref-hunter2007" role="doc-biblioref">Hunter and Perreault 2007</a>)</span>. In a pharmaceutical sales setting, technology use was associated with improved customer service and adaptability through the mechanisms examined in the study <span class="citation" data-cites="ahearne2008">(<a href="#ref-ahearne2008" role="doc-biblioref">Ahearne et al. 2008</a>)</span>. Together, these studies suggest that the way technology supports sales work matters when interpreting use. For CVRx, I would therefore report the index’s component scores alongside the overall score. These studies concern sales work and performance, however, and do not test a CVRx adoption index. They cannot establish that a higher proposed index score will produce higher sales.</p>
-<p>Adoption also continues after a system is introduced. Research on post-adoptive behavior examines how users continue, extend, and deepen their use of installed systems <span class="citation" data-cites="jasperson2005">(<a href="#ref-jasperson2005" role="doc-biblioref">Jasperson et al. 2005</a>)</span>. Evidence from two sales organizations shows that initially positive reactions after training can decline after implementation <span class="citation" data-cites="speier2002">(<a href="#ref-speier2002" role="doc-biblioref">Speier and Venkatesh 2002</a>)</span>. This combination supports examining patterns across months and collecting feedback rather than relying on a single snapshot. It does not establish that CVRx users have experienced the same problems. Changes in work volume or responsibilities could also affect activity, so those conditions need to be considered when interpreting trends.</p>
+<p>Adoption also continues after a system is introduced. Research on post-adoptive behavior examines how users continue, extend, and deepen their use of installed systems <span class="citation" data-cites="jasperson2005">(<a href="#ref-jasperson2005" role="doc-biblioref">Jasperson, Carter, and Zmud 2005</a>)</span>. Evidence from two sales organizations shows that initially positive reactions after training can decline after implementation <span class="citation" data-cites="speier2002">(<a href="#ref-speier2002" role="doc-biblioref">Speier and Venkatesh 2002</a>)</span>. This combination supports examining patterns across months and collecting feedback rather than relying on a single snapshot. It does not establish that CVRx users have experienced the same problems. Changes in work volume or responsibilities could also affect activity, so those conditions need to be considered when interpreting trends.</p>
 <p>Acceptance models help explain the limits of behavioral records. The Technology Acceptance Model identifies perceived usefulness and perceived ease of use as important beliefs associated with technology acceptance <span class="citation" data-cites="davis1989">(<a href="#ref-davis1989" role="doc-biblioref"><strong>davis1989?</strong></a>)</span>. UTAUT brings together factors involving expected benefits, effort, social influence, and supporting conditions <span class="citation" data-cites="venkatesh2003">(<a href="#ref-venkatesh2003" role="doc-biblioref"><strong>venkatesh2003?</strong></a>)</span>. Salesforce records cannot directly measure these perceptions. These models support considering user responses when explaining the baseline, but acceptance or an intention to use a system is different from producing complete and timely records. Their survey measures should complement the behavioral measures rather than replace them.</p>
-<p>Research on sales force technology also identifies training and organizational support as relevant to use <span class="citation" data-cites="buehrer2005">(<a href="#ref-buehrer2005" role="doc-biblioref">Buehrer et al. 2005</a>)</span>. This provides another reason to avoid interpreting a low score as a lack of willingness. Limited support, a difficult workflow, or unclear expectations could help explain the pattern, but these explanations must be investigated at CVRx. The reviewed studies are older and cover different technologies, tasks, and organizations. Their shared contribution is a reasoned approach to measurement and interpretation. They do not supply current CVRx findings or a ready-made Salesforce scoring formula.</p>
+<p>Research on sales force technology also identifies training and organizational support as relevant to use <span class="citation" data-cites="buehrer2005">(<a href="#ref-buehrer2005" role="doc-biblioref">Buehrer, Senecal, and Pullins 2005</a>)</span>. This provides another reason to avoid interpreting a low score as a lack of willingness. Limited support, a difficult workflow, or unclear expectations could help explain the pattern, but these explanations must be investigated at CVRx. The reviewed studies are older and cover different technologies, tasks, and organizations. Their shared contribution is a reasoned approach to measurement and interpretation. They do not supply current CVRx findings or a ready-made Salesforce scoring formula.</p>
 </section>
 <section id="adequacy-of-existing-information" class="level4">
 <h4 class="anchored" data-anchor-id="adequacy-of-existing-information">Adequacy of Existing Information</h4>
@@ -674,9 +676,9 @@ Wenting Jiang<br>
 <p>The Unified Theory of Acceptance and Use of Technology (UTAUT) expands this perspective by incorporating performance expectancy, effort expectancy, social influence, and facilitating conditions <span class="citation" data-cites="venkatesh2003">(<a href="#ref-venkatesh2003" role="doc-biblioref"><strong>venkatesh2003?</strong></a>)</span>. This framework is relevant because Salesforce adoption may depend on more than an individual’s opinion of the platform. Expectations from managers and coworkers, availability of organizational support, training, and access to necessary resources may also influence whether employees incorporate Salesforce into their normal work routines. For AO2, UTAUT therefore provides a basis for examining both individual perceptions and organizational conditions associated with meaningful adoption.</p>
 <p>Task-Technology Fit provides another perspective by focusing on the relationship between technology and the work users are expected to perform. Goodhue and Thompson argue that technology is more likely to contribute to individual performance when its capabilities fit the tasks being performed <span class="citation" data-cites="goodhue1995">(<a href="#ref-goodhue1995" role="doc-biblioref">Goodhue and Thompson 1995</a>)</span>. In the CVRx context, this suggests examining whether Salesforce supports or complicates the workflows of commercial users. Workflow compatibility may function as a potential driver of adoption, while redundant processes, unnecessary administrative requirements, or poor alignment between Salesforce and established work routines may represent potential barriers. However, these relationships must be evaluated using CVRx-specific information rather than inferred from the framework alone.</p>
 <p>Research focused specifically on sales technologies provides additional support for examining these factors. Avlonitis and Panagopoulos studied CRM technology acceptance among salespeople and found that perceived usefulness was an important influence on acceptance, along with accurate expectations regarding system usage, salesperson innovativeness, perceived ease of use, and supervisor encouragement and support <span class="citation" data-cites="avlonitis2005">(<a href="#ref-avlonitis2005" role="doc-biblioref">Avlonitis and Panagopoulos 2005</a>)</span>. This research is particularly relevant to AO2 because it examines CRM acceptance within a sales-force environment rather than general technology adoption. Nevertheless, the study involved a different organization and CRM environment, so its findings identify candidate factors for CVRx rather than establishing which factors currently influence Salesforce adoption within the company.</p>
-<p>Research on sales force technology also highlights the importance of organizational support and training. Buehrer and colleagues examined reasons for using sales force technology, barriers to its use, and organizational support surrounding adoption <span class="citation" data-cites="buehrer2005">(<a href="#ref-buehrer2005" role="doc-biblioref">Buehrer et al. 2005</a>)</span>. Their findings provide a basis for examining factors such as training, management support, technical support, and perceived productivity benefits. For CVRx, these factors could help determine whether differences in meaningful Salesforce adoption are associated with users’ experiences with the system and the organizational environment surrounding its use.</p>
+<p>Research on sales force technology also highlights the importance of organizational support and training. Buehrer and colleagues examined reasons for using sales force technology, barriers to its use, and organizational support surrounding adoption <span class="citation" data-cites="buehrer2005">(<a href="#ref-buehrer2005" role="doc-biblioref">Buehrer, Senecal, and Pullins 2005</a>)</span>. Their findings provide a basis for examining factors such as training, management support, technical support, and perceived productivity benefits. For CVRx, these factors could help determine whether differences in meaningful Salesforce adoption are associated with users’ experiences with the system and the organizational environment surrounding its use.</p>
 <p>Job experience may also contribute to differences in technology perceptions. Guan and colleagues examined sales force automation acceptance across different levels of sales experience and found differences in areas such as perceived productivity and efficiency gains, perceptions of sales force automation as a micromanagement tool, and satisfaction with system functionality <span class="citation" data-cites="guan2004">(<a href="#ref-guan2004" role="doc-biblioref">Guan et al. 2004</a>)</span>. This suggests that employee characteristics and professional experience may be relevant when interpreting Salesforce adoption patterns. AO2 should therefore avoid assuming that all users experience Salesforce in the same way.</p>
-<p>Adoption should also be viewed as an ongoing process rather than a one-time decision. Jasperson and colleagues conceptualize post-adoptive behavior as the ways individuals continue, extend, and modify their use of information systems after implementation <span class="citation" data-cites="jasperson2005">(<a href="#ref-jasperson2005" role="doc-biblioref">Jasperson et al. 2005</a>)</span>. Evidence from sales organizations similarly indicates that initially favorable reactions toward sales force automation may change after employees begin using the technology in their actual work environment <span class="citation" data-cites="speier2002">(<a href="#ref-speier2002" role="doc-biblioref">Speier and Venkatesh 2002</a>)</span>. These findings support examining current Salesforce experiences rather than assuming that initial training or acceptance reflects sustained meaningful use.</p>
+<p>Adoption should also be viewed as an ongoing process rather than a one-time decision. Jasperson and colleagues conceptualize post-adoptive behavior as the ways individuals continue, extend, and modify their use of information systems after implementation <span class="citation" data-cites="jasperson2005">(<a href="#ref-jasperson2005" role="doc-biblioref">Jasperson, Carter, and Zmud 2005</a>)</span>. Evidence from sales organizations similarly indicates that initially favorable reactions toward sales force automation may change after employees begin using the technology in their actual work environment <span class="citation" data-cites="speier2002">(<a href="#ref-speier2002" role="doc-biblioref">Speier and Venkatesh 2002</a>)</span>. These findings support examining current Salesforce experiences rather than assuming that initial training or acceptance reflects sustained meaningful use.</p>
 <p>Research on sales technology further suggests that technology use can involve multiple work activities rather than a single measure of system activity. Hunter and Perreault examine how sales technology can support accessing, analyzing, and communicating information <span class="citation" data-cites="hunter2007">(<a href="#ref-hunter2007" role="doc-biblioref">Hunter and Perreault 2007</a>)</span>. Research in a pharmaceutical sales environment also links salesperson technology use with mechanisms involving customer service and adaptability <span class="citation" data-cites="ahearne2008">(<a href="#ref-ahearne2008" role="doc-biblioref">Ahearne et al. 2008</a>)</span>. These studies reinforce the importance of examining Salesforce within the context of commercial work. They do not establish that greater Salesforce use will automatically improve performance at CVRx, but they support investigating whether users perceive the system as valuable to their work and whether those perceptions are associated with the meaningful-adoption measures established in AO1.</p>
 <p>Together, the literature identifies several theoretically supported candidate drivers of meaningful Salesforce adoption, including perceived usefulness, ease of use, managerial support, training effectiveness, workflow compatibility, appropriate expectations, and perceived value of CRM information. Potential barriers include administrative burden, system complexity, insufficient support, redundant processes, perceptions of excessive monitoring, and poor alignment with established sales routines. AO2 will use these factors as a framework for investigation rather than treating them as existing findings about CVRx.</p>
 </section>
@@ -706,26 +708,37 @@ Wenting Jiang<br>
 </section>
 <section id="ao3-salesforce-user-segmentation-and-targeted-engagement-1" class="level3">
 <h3 class="anchored" data-anchor-id="ao3-salesforce-user-segmentation-and-targeted-engagement-1">AO3 — Salesforce User Segmentation and Targeted Engagement</h3>
-<section id="existing-research-and-models-2" class="level4">
-<h4 class="anchored" data-anchor-id="existing-research-and-models-2">Existing Research and Models</h4>
-<p>Research on CRM and sales force technologies indicates that adoption and usage can vary substantially among users. Studies of sales technology acceptance have identified perceived usefulness, ease of use, job experience, organizational support, training, and other individual or organizational characteristics as factors associated with technology adoption and usage <span class="citation" data-cites="avlonitis2005 guan2004 buehrer_sales_2005">(<a href="#ref-avlonitis2005" role="doc-biblioref">Avlonitis and Panagopoulos 2005</a>; <a href="#ref-guan2004" role="doc-biblioref">Guan et al. 2004</a>; <a href="#ref-buehrer_sales_2005" role="doc-biblioref"><strong>buehrer_sales_2005?</strong></a>)</span>. These findings suggest that a sales force should not necessarily be treated as a homogeneous group when evaluating CRM adoption.</p>
-<p>Behavioral segmentation provides one approach for identifying meaningful differences among technology users. Behavioral segmentation provides one approach for identifying meaningful differences among technology users. <span class="citation" data-cites="miller_segmenting_2022">(<a href="#ref-miller_segmenting_2022" role="doc-biblioref"><strong>miller_segmenting_2022?</strong></a>)</span> demonstrated that observed digital usage patterns could be used to identify distinct user segments, while <span class="citation" data-cites="namin_consumers_2026">(<a href="#ref-namin_consumers_2026" role="doc-biblioref"><strong>namin_consumers_2026?</strong></a>)</span> found behavioral and psychographic characteristics useful for explaining differences in technology acceptance. For CVRx, similar behavioral indicators could potentially include Salesforce activity frequency, timeliness of opportunity updates, record completeness, consistency of system use, and other approved measures of engagement.</p>
-<p>However, behavioral activity alone may not explain why users exhibit different adoption patterns. Technology acceptance research emphasizes factors such as performance expectancy, effort expectancy, social influence, facilitating conditions, task complexity, role perceptions, and organizational experiences <span class="citation" data-cites="speier_hidden_2002 venkatesh_user_2003 rangarajan_impact_2005">(<a href="#ref-speier_hidden_2002" role="doc-biblioref"><strong>speier_hidden_2002?</strong></a>; <a href="#ref-venkatesh_user_2003" role="doc-biblioref"><strong>venkatesh_user_2003?</strong></a>; <a href="#ref-rangarajan_impact_2005" role="doc-biblioref"><strong>rangarajan_impact_2005?</strong></a>)</span>. Therefore, two sales representatives displaying similar Salesforce activity could have different motivations or barriers underlying that behavior. Research also cautions that cluster-derived segments should not automatically be assumed to be stable or meaningful over time <span class="citation" data-cites="muller_stability_2014">(<a href="#ref-muller_stability_2014" role="doc-biblioref"><strong>muller_stability_2014?</strong></a>)</span>. A hybrid approach that combines segmentation with technology-adoption factors may therefore provide more interpretable and actionable user groups <span class="citation" data-cites="joshi_identifying_2023">(<a href="#ref-joshi_identifying_2023" role="doc-biblioref"><strong>joshi_identifying_2023?</strong></a>)</span>. #### Adequacy of Existing Information</p>
-<p>Existing research provides a strong foundation for understanding technology adoption, user heterogeneity, and potential approaches to segmentation. The literature identifies behavioral, perceptual, organizational, and contextual factors that may distinguish technology users and provides evidence that usage patterns can support meaningful segmentation. However, the existing research is not sufficient to determine which segments exist within CVRx specifically. Prior studies were conducted in different organizations, industries, technologies, and user populations, and several were not focused on CRM systems or medical-device sales organizations. Therefore, the literature can guide the selection of variables and analytical approaches, but it cannot substitute for analysis of CVRx’s own Salesforce users and organizational context.</p>
+<p><strong>AO3:</strong> Analyze Salesforce usage patterns to identify distinct user segments based on adoption behavior and determine how those segments can inform targeted engagement strategies.</p>
+<p><strong>R5:</strong> Which distinct user segments exist based on usage patterns, and do the segments differ in their drivers and barriers?</p>
+<section id="existence-of-well-established-models" class="level4">
+<h4 class="anchored" data-anchor-id="existence-of-well-established-models">Existence of Well-Established Models</h4>
+<p>Research on CRM and sales force technologies indicates that technology adoption and usage can vary substantially among users. Studies of sales technology acceptance have identified perceived usefulness, ease of use, job experience, organizational support, training, and other individual or organizational characteristics as factors associated with technology adoption and usage <span class="citation" data-cites="avlonitis2005 guan2004 buehrer2005">(<a href="#ref-avlonitis2005" role="doc-biblioref">Avlonitis and Panagopoulos 2005</a>; <a href="#ref-guan2004" role="doc-biblioref">Guan et al. 2004</a>; <a href="#ref-buehrer2005" role="doc-biblioref">Buehrer, Senecal, and Pullins 2005</a>)</span>. These findings suggest that Salesforce users should not necessarily be treated as a homogeneous group when evaluating adoption and designing engagement strategies.</p>
+<p>Behavioral segmentation provides one approach for identifying meaningful differences among technology users. <span class="citation" data-cites="miller_segmenting_2022">Miller et al. (<a href="#ref-miller_segmenting_2022" role="doc-biblioref">2022</a>)</span> demonstrated that observed digital usage patterns can be used to identify distinct behavioral user segments. Applied to CVRx, relevant behavioral measures may include opportunity-update timeliness, record completeness, documentation of customer interactions, workflow consistency, platform activity, and other approved measures developed through AO1. These measures are consistent with the behavioral components currently proposed for R5 in the project’s Construct and Measurement Table.</p>
+<p>Several analytical approaches could be considered for transforming these behavioral differences into user segments. A rule-based or adoption-maturity approach would classify users according to predefined indicators and cutoff values, such as relatively lower, moderate, or higher levels of meaningful adoption. This approach would be transparent and easy to communicate to decision-makers, but the selection of thresholds may be subjective and may oversimplify differences among users.</p>
+<p>Behavioral clustering provides a more empirical alternative. Rather than defining groups in advance, clustering uses multiple behavioral variables to identify users with similar patterns. Techniques such as k-means or hierarchical clustering could be considered depending on the size and structure of the available data. Cluster analysis can reveal patterns that predefined categories may miss, but results can depend on decisions involving variable selection, standardization, clustering procedure, and validation. Methodological research therefore emphasizes careful application and evaluation of cluster-based segmentation <span class="citation" data-cites="tuma_survey_2011">(<a href="#ref-tuma_survey_2011" role="doc-biblioref">Tuma, Decker, and Scholz 2011</a>)</span>. Segment stability should also be evaluated rather than assumed <span class="citation" data-cites="muller_stability_2014">(<a href="#ref-muller_stability_2014" role="doc-biblioref">Müller and Hamm 2014</a>)</span>.</p>
+<p>Behavioral patterns alone, however, may not explain why users differ. Technology-adoption research identifies factors such as performance expectancy, effort expectancy, social influence, facilitating conditions, perceived usefulness, training, organizational support, workflow characteristics, and other contextual experiences as potential influences on technology adoption <span class="citation" data-cites="venkatesh_user_2003 avlonitis2005 buehrer2005">(<a href="#ref-venkatesh_user_2003" role="doc-biblioref">Venkatesh et al. 2003</a>; <a href="#ref-avlonitis2005" role="doc-biblioref">Avlonitis and Panagopoulos 2005</a>; <a href="#ref-buehrer2005" role="doc-biblioref">Buehrer, Senecal, and Pullins 2005</a>)</span>. Two users displaying similar Salesforce activity could therefore have different motivations, barriers, or support needs underlying that behavior.</p>
+<p>A hybrid behavioral and adoption-driver framework is consequently the preliminary preferred approach for AO3. Under this framework, behavioral Salesforce measures from AO1 would first be used to identify candidate user groups through a transparent rule-based approach or, if the sample size and data quality permit, empirical clustering. Adoption barriers, drivers, needs, and contextual characteristics examined through AO2 could then be used to profile and interpret those groups. Research combining technology-acceptance factors with segmentation provides support for using adoption characteristics to understand heterogeneous user groups <span class="citation" data-cites="joshi_identifying_2023">(<a href="#ref-joshi_identifying_2023" role="doc-biblioref">Joshi and Chawla 2023</a>)</span>.</p>
+<p>This hybrid approach is preferred because it connects observed behavior with potential explanations for that behavior and creates a clearer path from segmentation to managerial action. The final segmentation method should therefore not be selected solely because it produces statistical separation. Candidate segments should also be evaluated for stability, interpretability, sufficient size, and practical usefulness before being used to develop differentiated engagement strategies. The specific segmentation technique should remain flexible until the CVRx sample size, available variables, and data quality are fully evaluated.</p>
+</section>
+<section id="adequateness-of-gathered-information" class="level4">
+<h4 class="anchored" data-anchor-id="adequateness-of-gathered-information">Adequateness of Gathered Information</h4>
+<p>The information gathered so far provides a defensible foundation for AO3 but is not sufficient to determine which user segments actually exist within CVRx. Existing research supports the use of behavioral measures to identify differences among technology users and identifies adoption barriers, drivers, and contextual characteristics that may help explain those differences. The project’s current measurement plan also identifies potential behavioral segmentation inputs from Salesforce and survey measures of perceived usefulness, ease of use, workflow compatibility, manager support, training effectiveness, trust in Salesforce data, administrative burden, and other barriers. However, the team still needs confirmation of the number of Salesforce users available for analysis, the completeness and comparability of the behavioral measures, and whether relevant AO2 survey information can be reliably linked with Salesforce data at the appropriate level. Existing literature can guide the framework and variable selection, but it cannot determine the CVRx-specific answer to R5.</p>
 </section>
 <section id="need-for-additional-analysis-2" class="level4">
 <h4 class="anchored" data-anchor-id="need-for-additional-analysis-2">Need for Additional Analysis</h4>
-<p>Additional analysis is needed to determine whether meaningful Salesforce user segments exist within CVRx and whether those segments can support differentiated engagement strategies. CVRx-specific Salesforce usage data should be examined to identify patterns in adoption behavior, while findings from the analysis of adoption barriers and drivers may provide additional context for interpreting those patterns. Relevant measures may include activity frequency, timeliness of updates, record completeness, consistency of system use, and other indicators available in the approved dataset. User or organizational characteristics may also be considered where appropriate. Because differences in workload, territory, opportunity volume, or job responsibilities could influence observed Salesforce activity, these factors should be evaluated before interpreting behavioral differences as differences in adoption.</p>
+<p>Additional analysis is required to determine whether meaningful and actionable Salesforce user segments exist within CVRx. The team should first evaluate the number of users available for segmentation and examine the quality, distribution, and comparability of candidate behavioral variables. Relevant measures should then be selected and standardized where appropriate. A transparent rule-based segmentation can be compared with empirical clustering if the sample size and data structure support it. Any clustering solution should be evaluated for quality and stability rather than accepted solely because an algorithm produces groups. The resulting segments should then be profiled using relevant barriers, drivers, needs, and contextual characteristics from AO2. Differences in workload, territory, opportunity volume, role, or other contextual factors should also be considered before behavioral differences are interpreted as differences in adoption. Finally, each retained segment should be evaluated for interpretability and practical usefulness and translated into an appropriate targeted engagement strategy.</p>
 </section>
-<section id="analytics-objective-assessment-2" class="level4">
-<h4 class="anchored" data-anchor-id="analytics-objective-assessment-2">Analytics Objective Assessment</h4>
-<p>Based on the literature reviewed, AO3 remains appropriate for supporting PO3 but should use a flexible analytical approach. Existing research supports examining Salesforce usage patterns to identify meaningful differences among users, while also showing that behavioral data alone may not fully explain technology adoption. Therefore, the analysis should initially identify candidate segments from available Salesforce usage measures and then incorporate relevant adoption barriers, drivers, and contextual characteristics when interpreting those groups. Any resulting segments should also be evaluated for stability, interpretability, and practical usefulness before they are used to develop targeted engagement strategies. The specific segmentation technique should remain flexible until the CVRx dataset, available variables, and sample size are fully evaluated.</p>
+<section id="assessment-and-affirmation-of-analytics-objectives" class="level4">
+<h4 class="anchored" data-anchor-id="assessment-and-affirmation-of-analytics-objectives">Assessment and Affirmation of Analytics Objectives</h4>
+<p>AO3 remains affirmed because existing research supports meaningful heterogeneity in technology adoption while leaving the CVRx-specific segmentation question unresolved. The literature indicates that observed behavioral patterns can provide a basis for identifying user groups, while technology-adoption factors can provide additional context for understanding why those groups may differ. This directly supports R5 and PO3 by providing a pathway from Salesforce usage patterns to differentiated engagement strategies.</p>
+<p>The preliminary preferred framework is a hybrid behavioral and adoption-driver segmentation approach. Behavioral measures developed through AO1 will provide the initial basis for identifying candidate segments, while barriers, drivers, needs, and contextual characteristics examined through AO2 will help profile and interpret those groups. The exact segmentation technique should remain flexible until the available sample size, behavioral variables, survey measures, and data quality are evaluated. If the data support stable empirical clustering, clustering may be used to identify candidate groups. If they do not, a transparent and defensible rule-based segmentation approach can provide a practical alternative. In either case, segments should be retained only when they are sufficiently stable, interpretable, and actionable to support targeted engagement under PO3 and the subsequent intervention evaluated in AO4.</p>
 </section>
 </section>
 <section id="ao4-implement-and-evaluate-an-engagement-campaign" class="level3">
 <h3 class="anchored" data-anchor-id="ao4-implement-and-evaluate-an-engagement-campaign">AO4 — Implement and evaluate an engagement campaign</h3>
-<section id="existing-research-and-models-3" class="level4">
-<h4 class="anchored" data-anchor-id="existing-research-and-models-3">Existing Research and Models</h4>
+<p>&lt;&lt;&lt;&lt;&lt;&lt;&lt; Updated upstream</p>
+<section id="existing-research-and-models-2" class="level4">
+<h4 class="anchored" data-anchor-id="existing-research-and-models-2">Existing Research and Models</h4>
 <p>Evaluating the impact of field engagement interventions requires measuring behavioral change, system adoption, and perceived utility over time <span class="citation" data-cites="rodriguez2020">(<a href="#ref-rodriguez2020" role="doc-biblioref">Rodriguez and Boyer 2020</a>)</span>. Research on change management and sales enablement suggests that targeted interventions—such as role-specific communications, workflow demonstrations, and manager toolkits—are most effective when aligned with specific user barriers <span class="citation" data-cites="abdillah2025 singh2019">(<a href="#ref-abdillah2025" role="doc-biblioref">Abdillah 2025</a>; <a href="#ref-singh2019" role="doc-biblioref"><strong>singh2019?</strong></a>)</span>. Speier and Venkatesh (2002) highlight that implementing sales force automation (SFA) technologies often reveals hidden adoption minefields, where early user resistance or perceived friction can negatively impact long-term technology integration <span class="citation" data-cites="speier2002">(<a href="#ref-speier2002" role="doc-biblioref">Speier and Venkatesh 2002</a>)</span>. In the age of digital transformation, sales professionals must adapt to increasingly complex tools; however, merely adopting SFA tools is insufficient for driving performance unless engagement strategies address individual, organizational, and contextual factors <span class="citation" data-cites="jelinek2006 jelinek2013 singh2019">(<a href="#ref-jelinek2006" role="doc-biblioref"><strong>jelinek2006?</strong></a>; <a href="#ref-jelinek2013" role="doc-biblioref"><strong>jelinek2013?</strong></a>; <a href="#ref-singh2019" role="doc-biblioref"><strong>singh2019?</strong></a>)</span>. Evaluation frameworks must therefore extend beyond raw usage volume, incorporating pre- and post-implementation comparisons of record completeness, data quality, and workflow adherence <span class="citation" data-cites="rodriguez2020 jelinek2006">(<a href="#ref-rodriguez2020" role="doc-biblioref">Rodriguez and Boyer 2020</a>; <a href="#ref-jelinek2006" role="doc-biblioref"><strong>jelinek2006?</strong></a>)</span>. Quasi-experimental designs that compare intervention groups with reference groups provide a robust method for isolating campaign effects and avoiding the “all pain, no gain” pitfall within active commercial environments <span class="citation" data-cites="abdillah2025 jelinek2013">(<a href="#ref-abdillah2025" role="doc-biblioref">Abdillah 2025</a>; <a href="#ref-jelinek2013" role="doc-biblioref"><strong>jelinek2013?</strong></a>)</span>.</p>
 </section>
 <section id="adequacy-of-existing-information-2" class="level4">
@@ -736,9 +749,26 @@ Wenting Jiang<br>
 <h4 class="anchored" data-anchor-id="need-for-additional-analysis-3">Need for Additional Analysis</h4>
 <p>Additional analysis is needed to operationalize and evaluate the engagement campaign. Prior to implementation, baseline metrics for targeted user segments must be established, and intervention activities must be mapped to identified barriers <span class="citation" data-cites="speier2002">(<a href="#ref-speier2002" role="doc-biblioref">Speier and Venkatesh 2002</a>)</span>. Following campaign execution, comparative analysis must be conducted to measure changes in meaningful adoption, data reliability, and workflow consistency <span class="citation" data-cites="jelinek2013">(<a href="#ref-jelinek2013" role="doc-biblioref"><strong>jelinek2013?</strong></a>)</span>. Where possible, differences between the intervention group and reference groups should be evaluated to confirm whether observed improvements can be attributed to the campaign rather than external factors.</p>
 </section>
+<section id="analytics-objective-assessment-2" class="level4">
+<h4 class="anchored" data-anchor-id="analytics-objective-assessment-2">Analytics Objective Assessment</h4>
+<p>I would keep A04 as written because evaluating engagement interventions is critical for translating diagnostic findings into actionable operational improvements. The literature review refines how A04 should be executed: addressing adoption minefields <span class="citation" data-cites="speier2002">(<a href="#ref-speier2002" role="doc-biblioref">Speier and Venkatesh 2002</a>)</span>, focusing on multi-dimensional evaluation (data quality, workflow adherence, and user perception), controlling for role differences <span class="citation" data-cites="singh2019">(<a href="#ref-singh2019" role="doc-biblioref"><strong>singh2019?</strong></a>)</span>, and using reference group comparisons where operationally feasible to validate campaign effectiveness <span class="citation" data-cites="jelinek2013">(<a href="#ref-jelinek2013" role="doc-biblioref"><strong>jelinek2013?</strong></a>)</span>.</p>
+<p>=======</p>
+</section>
+<section id="existing-research-and-models-3" class="level4">
+<h4 class="anchored" data-anchor-id="existing-research-and-models-3">Existing Research and Models</h4>
+<p>Evaluating the impact of field engagement interventions requires measuring behavioral change, system adoption, and perceived utility over time <span class="citation" data-cites="rodriguez2020">(<a href="#ref-rodriguez2020" role="doc-biblioref">Rodriguez and Boyer 2020</a>)</span>. Research on change management and sales enablement suggests that targeted interventions—such as role-specific communications, workflow demonstrations, and manager toolkits—are most effective when aligned with specific user barriers <span class="citation" data-cites="abdillah2025 singh2019">(<a href="#ref-abdillah2025" role="doc-biblioref">Abdillah 2025</a>; <a href="#ref-singh2019" role="doc-biblioref"><strong>singh2019?</strong></a>)</span>. Speier and Venkatesh (2002) highlight that implementing sales force automation (SFA) technologies often reveals hidden adoption minefields, where early user resistance or perceived friction can negatively impact long-term technology integration <span class="citation" data-cites="speier2002">(<a href="#ref-speier2002" role="doc-biblioref">Speier and Venkatesh 2002</a>)</span>. In the age of digital transformation, sales professionals must adapt to increasingly complex tools; however, merely adopting SFA tools is insufficient for driving performance unless engagement strategies address individual, organizational, and contextual factors <span class="citation" data-cites="jelinek2006 jelinek2013 singh2019">(<a href="#ref-jelinek2006" role="doc-biblioref"><strong>jelinek2006?</strong></a>; <a href="#ref-jelinek2013" role="doc-biblioref"><strong>jelinek2013?</strong></a>; <a href="#ref-singh2019" role="doc-biblioref"><strong>singh2019?</strong></a>)</span>. Evaluation frameworks must therefore extend beyond raw usage volume, incorporating pre- and post-implementation comparisons of record completeness, data quality, and workflow adherence <span class="citation" data-cites="rodriguez2020 jelinek2006">(<a href="#ref-rodriguez2020" role="doc-biblioref">Rodriguez and Boyer 2020</a>; <a href="#ref-jelinek2006" role="doc-biblioref"><strong>jelinek2006?</strong></a>)</span>. Quasi-experimental designs that compare intervention groups with reference groups provide a robust method for isolating campaign effects and avoiding the “all pain, no gain” pitfall within active commercial environments <span class="citation" data-cites="abdillah2025 jelinek2013">(<a href="#ref-abdillah2025" role="doc-biblioref">Abdillah 2025</a>; <a href="#ref-jelinek2013" role="doc-biblioref"><strong>jelinek2013?</strong></a>)</span>.</p>
+</section>
+<section id="adequacy-of-existing-information-3" class="level4">
+<h4 class="anchored" data-anchor-id="adequacy-of-existing-information-3">Adequacy of Existing Information</h4>
+<p>The gathered literature and change-management frameworks are sufficient to define the general evaluation approach for A04: identifying hidden adoption barriers <span class="citation" data-cites="speier2002">(<a href="#ref-speier2002" role="doc-biblioref">Speier and Venkatesh 2002</a>)</span>, comparing pre- and post-intervention behavioral metrics, measuring shifts in data quality, and contextualizing findings across user segments <span class="citation" data-cites="singh2019 jelinek2006">(<a href="#ref-singh2019" role="doc-biblioref"><strong>singh2019?</strong></a>; <a href="#ref-jelinek2006" role="doc-biblioref"><strong>jelinek2006?</strong></a>)</span>. However, existing research is not sufficient to determine the specific intervention tactics, campaign timeline, or target user groups for CVRx. Those choices depend directly on the specific adoption barriers and user segments identified in A01 through A03, as well as operational feasibility within CVRx’s commercial team.</p>
+</section>
+<section id="need-for-additional-analysis-4" class="level4">
+<h4 class="anchored" data-anchor-id="need-for-additional-analysis-4">Need for Additional Analysis</h4>
+<p>Additional analysis is needed to operationalize and evaluate the engagement campaign. Prior to implementation, baseline metrics for targeted user segments must be established, and intervention activities must be mapped to identified barriers <span class="citation" data-cites="speier2002">(<a href="#ref-speier2002" role="doc-biblioref">Speier and Venkatesh 2002</a>)</span>. Following campaign execution, comparative analysis must be conducted to measure changes in meaningful adoption, data reliability, and workflow consistency <span class="citation" data-cites="jelinek2013">(<a href="#ref-jelinek2013" role="doc-biblioref"><strong>jelinek2013?</strong></a>)</span>. Where possible, differences between the intervention group and reference groups should be evaluated to confirm whether observed improvements can be attributed to the campaign rather than external factors.</p>
+</section>
 <section id="analytics-objective-assessment-3" class="level4">
 <h4 class="anchored" data-anchor-id="analytics-objective-assessment-3">Analytics Objective Assessment</h4>
-<p>I would keep A04 as written because evaluating engagement interventions is critical for translating diagnostic findings into actionable operational improvements. The literature review refines how A04 should be executed: addressing adoption minefields <span class="citation" data-cites="speier2002">(<a href="#ref-speier2002" role="doc-biblioref">Speier and Venkatesh 2002</a>)</span>, focusing on multi-dimensional evaluation (data quality, workflow adherence, and user perception), controlling for role differences <span class="citation" data-cites="singh2019">(<a href="#ref-singh2019" role="doc-biblioref"><strong>singh2019?</strong></a>)</span>, and using reference group comparisons where operationally feasible to validate campaign effectiveness <span class="citation" data-cites="jelinek2013">(<a href="#ref-jelinek2013" role="doc-biblioref"><strong>jelinek2013?</strong></a>)</span>.</p>
+<p>I would keep A04 as written because evaluating engagement interventions is critical for translating diagnostic findings into actionable operational improvements. The literature review refines how A04 should be executed: addressing adoption minefields <span class="citation" data-cites="speier2002">(<a href="#ref-speier2002" role="doc-biblioref">Speier and Venkatesh 2002</a>)</span>, focusing on multi-dimensional evaluation (data quality, workflow adherence, and user perception), controlling for role differences <span class="citation" data-cites="singh2019">(<a href="#ref-singh2019" role="doc-biblioref"><strong>singh2019?</strong></a>)</span>, and using reference group comparisons where operationally feasible to validate campaign effectiveness <span class="citation" data-cites="jelinek2013">(<a href="#ref-jelinek2013" role="doc-biblioref"><strong>jelinek2013?</strong></a>)</span>. &gt;&gt;&gt;&gt;&gt;&gt;&gt; Stashed changes</p>
 <hr>
 </section>
 </section>
@@ -1002,7 +1032,7 @@ Wenting Jiang<br>
 </section>
 <section id="references" class="level1 unnumbered">
 <h1 class="unnumbered">References</h1>
-<div id="refs" class="references csl-bib-body hanging-indent" role="list">
+<div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list">
 <div id="ref-abdillah2025" class="csl-entry" role="listitem">
 Abdillah, Abdillah Nurul Bahri. 2025. <span>“The Phenomenon of Herding Behavior in Impulse Buying Against the Labubu Doll Trend: Analysis of Tabdzir Verse in the Tafsir Kementerian Agama RI.”</span> <em>Jurnal Semiotika-Q</em> 5 (1): 34–54. <a href="https://doi.org/10.19109/jsq.v5i1.26124">https://doi.org/10.19109/jsq.v5i1.26124</a>.
 </div>
@@ -1010,7 +1040,7 @@ Abdillah, Abdillah Nurul Bahri. 2025. <span>“The Phenomenon of Herding Behavio
 Ahearne, Michael, Eli Jones, Adam Rapp, and John Mathieu. 2008. <span>“High Touch Through High Tech: The Impact of Salesperson Technology Usage on Sales Performance via Mediating Mechanisms.”</span> <em>Management Science</em> 54 (4): 671–85. <a href="https://doi.org/10.1287/mnsc.1070.0783">https://doi.org/10.1287/mnsc.1070.0783</a>.
 </div>
 <div id="ref-avlonitis2005" class="csl-entry" role="listitem">
-Avlonitis, George J., and Nikolaos G. Panagopoulos. 2005. <span>“Antecedents and Consequences of <span>CRM</span> Technology Acceptance in the Sales Force.”</span> <em>Industrial Marketing Management</em>, Technology and the <span>Sales</span> <span>Force</span>, vol. 34 (4): 355–68. <a href="https://doi.org/10.1016/j.indmarman.2004.09.021">https://doi.org/10.1016/j.indmarman.2004.09.021</a>.
+Avlonitis, George J., and Nikolaos G. Panagopoulos. 2005. <span>“Antecedents and Consequences of <span>CRM</span> Technology Acceptance in the Sales Force.”</span> <em>Industrial Marketing Management</em>, Technology and the <span>Sales</span> <span>Force</span>, 34 (4): 355–68. <a href="https://doi.org/10.1016/j.indmarman.2004.09.021">https://doi.org/10.1016/j.indmarman.2004.09.021</a>.
 </div>
 <div id="ref-buehrer2005" class="csl-entry" role="listitem">
 Buehrer, Richard E., Sylvain Senecal, and Ellen Bolman Pullins. 2005. <span>“Sales Force Technology Usage—Reasons, Barriers, and Support: An Exploratory Investigation.”</span> <em>Industrial Marketing Management</em> 34 (4): 389–98. <a href="https://doi.org/10.1016/j.indmarman.2004.09.017">https://doi.org/10.1016/j.indmarman.2004.09.017</a>.
@@ -1030,11 +1060,26 @@ Hunter, Gary K., and William D. Perreault. 2007. <span>“Making Sales Technolog
 <div id="ref-jasperson2005" class="csl-entry" role="listitem">
 Jasperson, Jon, Pamela E. Carter, and Robert W. Zmud. 2005. <span>“A Comprehensive Conceptualization of Post-Adoptive Behaviors Associated with <span>IT</span>-Enabled Work Systems.”</span> <em>MIS Quarterly</em> 29 (3): 525–57. <a href="https://doi.org/10.2307/25148694">https://doi.org/10.2307/25148694</a>.
 </div>
+<div id="ref-joshi_identifying_2023" class="csl-entry" role="listitem">
+Joshi, Himanshu, and Deepak Chawla. 2023. <span>“Identifying Unobserved Heterogeneity in Mobile Wallet Adoption – <span>A</span> <span>FIMIX</span>-<span>PLS</span> Approach for User Segmentation.”</span> <em>International Journal of Bank Marketing</em> 41 (1): 210–36. <a href="https://doi.org/10.1108/IJBM-03-2022-0132">https://doi.org/10.1108/IJBM-03-2022-0132</a>.
+</div>
+<div id="ref-miller_segmenting_2022" class="csl-entry" role="listitem">
+Miller, Kate, Julie Rosenberg, Olivia Pickard, Rebecca Hawrusik, Ami Karlage, and Rebecca Weintraub. 2022. <span>“Segmenting <span>Clinicians</span>’ <span>Usage</span> <span>Patterns</span> of a <span>Digital</span> <span>Health</span> <span>Tool</span> in <span>Resource</span>-<span>Limited</span> <span>Settings</span>: <span>Clickstream</span> <span>Data</span> <span>Analysis</span> and <span>Survey</span> <span>Study</span>.”</span> <em>JMIR Formative Research</em> 6 (5): e30320–. <a href="https://doi.org/10.2196/30320">https://doi.org/10.2196/30320</a>.
+</div>
+<div id="ref-muller_stability_2014" class="csl-entry" role="listitem">
+Müller, Henriette, and Ulrich Hamm. 2014. <span>“Stability of Market Segmentation with Cluster Analysis – <span>A</span> Methodological Approach.”</span> <em>Food Quality and Preference</em> 34 (June): 70–78. <a href="https://doi.org/10.1016/j.foodqual.2013.12.004">https://doi.org/10.1016/j.foodqual.2013.12.004</a>.
+</div>
 <div id="ref-rodriguez2020" class="csl-entry" role="listitem">
 Rodriguez, Michael, and Stefanie Boyer. 2020. <span>“The Impact of Mobile Customer Relationship Management (<span class="nocase">mCRM</span>) on Sales Collaboration and Sales Performance.”</span> <em>Journal of Marketing Analytics</em> 8 (3): 137–48. <a href="https://doi.org/10.1057/s41270-020-00087-3">https://doi.org/10.1057/s41270-020-00087-3</a>.
 </div>
 <div id="ref-speier2002" class="csl-entry" role="listitem">
 Speier, Cheri, and Viswanath Venkatesh. 2002. <span>“The Hidden Minefields in the Adoption of Sales Force Automation Technologies.”</span> <em>Journal of Marketing</em> 66 (3): 98–111. <a href="https://doi.org/10.1509/jmkg.66.3.98.18510">https://doi.org/10.1509/jmkg.66.3.98.18510</a>.
+</div>
+<div id="ref-tuma_survey_2011" class="csl-entry" role="listitem">
+Tuma, Michael N, Reinhold Decker, and Sören W Scholz. 2011. <span>“A Survey of the Challenges and Pitfalls of Cluster Analysis Application in Market Segmentation.”</span> <em>International Journal of Market Research</em> 53 (3): 391. <a href="https://doi.org/10.2501/IJMR-53-3-391-414">https://doi.org/10.2501/IJMR-53-3-391-414</a>.
+</div>
+<div id="ref-venkatesh_user_2003" class="csl-entry" role="listitem">
+Venkatesh, Viswanath, Michael G. Morris, Gordon B. Davis, and Fred D. Davis. 2003. <span>“User <span>Acceptance</span> of <span>Information</span> <span>Technology</span>: <span>Toward</span> a <span>Unified</span> <span>View</span>.”</span> <em>MIS Quarterly</em> 27 (3): 425–78. <a href="https://doi.org/10.2307/30036540">https://doi.org/10.2307/30036540</a>.
 </div>
 </div>
 <hr>
@@ -1077,243 +1122,236 @@ Speier, Cheri, and Viswanath Venkatesh. 2002. <span>“The Hidden Minefields in 
 </main>
 <!-- /main column -->
 <script id="quarto-html-after-body" type="application/javascript">
-  window.document.addEventListener("DOMContentLoaded", function (event) {
-    const icon = "";
-    const anchorJS = new window.AnchorJS();
-    anchorJS.options = {
-      placement: 'right',
-      icon: icon
-    };
-    anchorJS.add('.anchored');
-    const isCodeAnnotation = (el) => {
-      for (const clz of el.classList) {
-        if (clz.startsWith('code-annotation-')) {                     
-          return true;
-        }
-      }
-      return false;
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
     }
-    const onCopySuccess = function(e) {
-      // button target
-      const button = e.trigger;
-      // don't keep focus
-      button.blur();
-      // flash "checked"
-      button.classList.add('code-copy-button-checked');
-      var currentTitle = button.getAttribute("title");
-      button.setAttribute("title", "Copied!");
-      let tooltip;
-      if (window.bootstrap) {
-        button.setAttribute("data-bs-toggle", "tooltip");
-        button.setAttribute("data-bs-placement", "left");
-        button.setAttribute("data-bs-title", "Copied!");
-        tooltip = new bootstrap.Tooltip(button, 
-          { trigger: "manual", 
-            customClass: "code-copy-button-tooltip",
-            offset: [0, -8]});
-        tooltip.show();    
-      }
-      setTimeout(function() {
-        if (tooltip) {
-          tooltip.hide();
-          button.removeAttribute("data-bs-title");
-          button.removeAttribute("data-bs-toggle");
-          button.removeAttribute("data-bs-placement");
-        }
-        button.setAttribute("title", currentTitle);
-        button.classList.remove('code-copy-button-checked');
-      }, 1000);
-      // clear code selection
-      e.clearSelection();
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
     }
-    const getTextToCopy = function(trigger) {
-      const outerScaffold = trigger.parentElement.cloneNode(true);
-      const codeEl = outerScaffold.querySelector('code');
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const onCopySuccess = function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  }
+  const getTextToCopy = function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
       for (const childEl of codeEl.children) {
         if (isCodeAnnotation(childEl)) {
           childEl.remove();
         }
       }
       return codeEl.innerText;
-    }
-    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
-      text: getTextToCopy
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+    text: getTextToCopy
+  });
+  clipboard.on('success', onCopySuccess);
+  if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+    const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+      text: getTextToCopy,
+      container: window.document.getElementById('quarto-embedded-source-code-modal')
     });
-    clipboard.on('success', onCopySuccess);
-    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
-      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
-        text: getTextToCopy,
-        container: window.document.getElementById('quarto-embedded-source-code-modal')
-      });
-      clipboardModal.on('success', onCopySuccess);
+    clipboardModal.on('success', onCopySuccess);
+  }
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+    var mailtoRegex = new RegExp(/^mailto:/);
+      var filterRegex = new RegExp('/' + window.location.host + '/');
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
     }
-      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
-      var mailtoRegex = new RegExp(/^mailto:/);
-        var filterRegex = new RegExp('/' + window.location.host + '/');
-      var isInternal = (href) => {
-          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
-      }
-      // Inspect non-navigation links and adorn them if external
-     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
-      for (var i=0; i<links.length; i++) {
-        const link = links[i];
-        if (!isInternal(link.href)) {
-          // undo the damage that might have been done by quarto-nav.js in the case of
-          // links that we want to consider external
-          if (link.dataset.originalHref !== undefined) {
-            link.href = link.dataset.originalHref;
-          }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+        // undo the damage that might have been done by quarto-nav.js in the case of
+        // links that we want to consider external
+        if (link.dataset.originalHref !== undefined) {
+          link.href = link.dataset.originalHref;
         }
       }
-    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
-      const config = {
-        allowHTML: true,
-        maxWidth: 500,
-        delay: 100,
-        arrow: false,
-        appendTo: function(el) {
-            return el.parentElement;
-        },
-        interactive: true,
-        interactiveBorder: 10,
-        theme: 'quarto',
-        placement: 'bottom-start',
-      };
-      if (contentFn) {
-        config.content = contentFn;
-      }
-      if (onTriggerFn) {
-        config.onTrigger = onTriggerFn;
-      }
-      if (onUntriggerFn) {
-        config.onUntrigger = onUntriggerFn;
-      }
-      window.tippy(el, config); 
     }
-    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
-    for (var i=0; i<noterefs.length; i++) {
-      const ref = noterefs[i];
-      tippyHover(ref, function() {
-        // use id or data attribute instead here
-        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
-        try { href = new URL(href).hash; } catch {}
-        const id = href.replace(/^#\/?/, "");
-        const note = window.document.getElementById(id);
-        if (note) {
-          return note.innerHTML;
-        } else {
-          return "";
-        }
-      });
+  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+    const config = {
+      allowHTML: true,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start',
+    };
+    if (contentFn) {
+      config.content = contentFn;
     }
-    const xrefs = window.document.querySelectorAll('a.quarto-xref');
-    const processXRef = (id, note) => {
-      // Strip column container classes
-      const stripColumnClz = (el) => {
-        el.classList.remove("page-full", "page-columns");
-        if (el.children) {
-          for (const child of el.children) {
-            stripColumnClz(child);
-          }
-        }
-      }
-      stripColumnClz(note)
-      if (id === null || id.startsWith('sec-')) {
-        // Special case sections, only their first couple elements
-        const container = document.createElement("div");
-        if (note.children && note.children.length > 2) {
-          container.appendChild(note.children[0].cloneNode(true));
-          for (let i = 1; i < note.children.length; i++) {
-            const child = note.children[i];
-            if (child.tagName === "P" && child.innerText === "") {
-              continue;
-            } else {
-              container.appendChild(child.cloneNode(true));
-              break;
-            }
-          }
-          if (window.Quarto?.typesetMath) {
-            window.Quarto.typesetMath(container);
-          }
-          return container.innerHTML
-        } else {
-          if (window.Quarto?.typesetMath) {
-            window.Quarto.typesetMath(note);
-          }
-          return note.innerHTML;
-        }
+    if (onTriggerFn) {
+      config.onTrigger = onTriggerFn;
+    }
+    if (onUntriggerFn) {
+      config.onUntrigger = onUntriggerFn;
+    }
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      if (note) {
+        return note.innerHTML;
       } else {
-        // Remove any anchor links if they are present
-        const anchorLink = note.querySelector('a.anchorjs-link');
-        if (anchorLink) {
-          anchorLink.remove();
+        return "";
+      }
+    });
+  }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  const processXRef = (id, note) => {
+    // Strip column container classes
+    const stripColumnClz = (el) => {
+      el.classList.remove("page-full", "page-columns");
+      if (el.children) {
+        for (const child of el.children) {
+          stripColumnClz(child);
         }
+      }
+    }
+    stripColumnClz(note)
+    if (id === null || id.startsWith('sec-')) {
+      // Special case sections, only their first couple elements
+      const container = document.createElement("div");
+      if (note.children && note.children.length > 2) {
+        container.appendChild(note.children[0].cloneNode(true));
+        for (let i = 1; i < note.children.length; i++) {
+          const child = note.children[i];
+          if (child.tagName === "P" && child.innerText === "") {
+            continue;
+          } else {
+            container.appendChild(child.cloneNode(true));
+            break;
+          }
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(container);
+        }
+        return container.innerHTML
+      } else {
         if (window.Quarto?.typesetMath) {
           window.Quarto.typesetMath(note);
         }
-        if (note.classList.contains("callout")) {
-          return note.outerHTML;
-        } else {
-          return note.innerHTML;
-        }
+        return note.innerHTML;
+      }
+    } else {
+      // Remove any anchor links if they are present
+      const anchorLink = note.querySelector('a.anchorjs-link');
+      if (anchorLink) {
+        anchorLink.remove();
+      }
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(note);
+      }
+      if (note.classList.contains("callout")) {
+        return note.outerHTML;
+      } else {
+        return note.innerHTML;
       }
     }
-    for (var i=0; i<xrefs.length; i++) {
-      const xref = xrefs[i];
-      tippyHover(xref, undefined, function(instance) {
-        instance.disable();
-        let url = xref.getAttribute('href');
-        let hash = undefined; 
-        if (url.startsWith('#')) {
-          hash = url;
-        } else {
-          try { hash = new URL(url).hash; } catch {}
-        }
-        if (hash) {
-          const id = hash.replace(/^#\/?/, "");
-          const note = window.document.getElementById(id);
-          if (note !== null) {
-            try {
-              const html = processXRef(id, note.cloneNode(true));
-              instance.setContent(html);
-            } finally {
-              instance.enable();
-              instance.show();
-            }
-          } else {
-            // See if we can fetch this
-            fetch(url.split('#')[0])
-            .then(res => res.text())
-            .then(html => {
-              const parser = new DOMParser();
-              const htmlDoc = parser.parseFromString(html, "text/html");
-              const note = htmlDoc.getElementById(id);
-              if (note !== null) {
-                const html = processXRef(id, note);
-                instance.setContent(html);
-              } 
-            }).finally(() => {
-              instance.enable();
-              instance.show();
-            });
+  }
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, undefined, function(instance) {
+      instance.disable();
+      let url = xref.getAttribute('href');
+      let hash = undefined; 
+      if (url.startsWith('#')) {
+        hash = url;
+      } else {
+        try { hash = new URL(url).hash; } catch {}
+      }
+      if (hash) {
+        const id = hash.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note !== null) {
+          try {
+            const html = processXRef(id, note.cloneNode(true));
+            instance.setContent(html);
+          } finally {
+            instance.enable();
+            instance.show();
           }
         } else {
-          // See if we can fetch a full url (with no hash to target)
-          // This is a special case and we should probably do some content thinning / targeting
-          fetch(url)
+          // See if we can fetch this
+          fetch(url.split('#')[0])
           .then(res => res.text())
           .then(html => {
             const parser = new DOMParser();
             const htmlDoc = parser.parseFromString(html, "text/html");
-            const note = htmlDoc.querySelector('main.content');
+            const note = htmlDoc.getElementById(id);
             if (note !== null) {
-              // This should only happen for chapter cross references
-              // (since there is no id in the URL)
-              // remove the first header
-              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
-                note.children[0].remove();
-              }
-              const html = processXRef(null, note);
+              const html = processXRef(id, note);
               instance.setContent(html);
             } 
           }).finally(() => {
@@ -1321,161 +1359,185 @@ Speier, Cheri, and Viswanath Venkatesh. 2002. <span>“The Hidden Minefields in 
             instance.show();
           });
         }
-      }, function(instance) {
-      });
-    }
-        let selectedAnnoteEl;
-        const selectorForAnnotation = ( cell, annotation) => {
-          let cellAttr = 'data-code-cell="' + cell + '"';
-          let lineAttr = 'data-code-annotation="' +  annotation + '"';
-          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
-          return selector;
-        }
-        const selectCodeLines = (annoteEl) => {
-          const doc = window.document;
-          const targetCell = annoteEl.getAttribute("data-target-cell");
-          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
-          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
-          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
-          const lineIds = lines.map((line) => {
-            return targetCell + "-" + line;
-          })
-          let top = null;
-          let height = null;
-          let parent = null;
-          if (lineIds.length > 0) {
-              //compute the position of the single el (top and bottom and make a div)
-              const el = window.document.getElementById(lineIds[0]);
-              top = el.offsetTop;
-              height = el.offsetHeight;
-              parent = el.parentElement.parentElement;
-            if (lineIds.length > 1) {
-              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
-              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
-              height = bottom - top;
-            }
-            if (top !== null && height !== null && parent !== null) {
-              // cook up a div (if necessary) and position it 
-              let div = window.document.getElementById("code-annotation-line-highlight");
-              if (div === null) {
-                div = window.document.createElement("div");
-                div.setAttribute("id", "code-annotation-line-highlight");
-                div.style.position = 'absolute';
-                parent.appendChild(div);
-              }
-              div.style.top = top - 2 + "px";
-              div.style.height = height + 4 + "px";
-              div.style.left = 0;
-              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
-              if (gutterDiv === null) {
-                gutterDiv = window.document.createElement("div");
-                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
-                gutterDiv.style.position = 'absolute';
-                const codeCell = window.document.getElementById(targetCell);
-                const gutter = codeCell.querySelector('.code-annotation-gutter');
-                gutter.appendChild(gutterDiv);
-              }
-              gutterDiv.style.top = top - 2 + "px";
-              gutterDiv.style.height = height + 4 + "px";
-            }
-            selectedAnnoteEl = annoteEl;
-          }
-        };
-        const unselectCodeLines = () => {
-          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
-          elementsIds.forEach((elId) => {
-            const div = window.document.getElementById(elId);
-            if (div) {
-              div.remove();
-            }
-          });
-          selectedAnnoteEl = undefined;
-        };
-          // Handle positioning of the toggle
-      window.addEventListener(
-        "resize",
-        throttle(() => {
-          elRect = undefined;
-          if (selectedAnnoteEl) {
-            selectCodeLines(selectedAnnoteEl);
-          }
-        }, 10)
-      );
-      function throttle(fn, ms) {
-      let throttle = false;
-      let timer;
-        return (...args) => {
-          if(!throttle) { // first call gets through
-              fn.apply(this, args);
-              throttle = true;
-          } else { // all the others get throttled
-              if(timer) clearTimeout(timer); // cancel #2
-              timer = setTimeout(() => {
-                fn.apply(this, args);
-                timer = throttle = false;
-              }, ms);
-          }
-        };
-      }
-        // Attach click handler to the DT
-        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
-        for (const annoteDlNode of annoteDls) {
-          annoteDlNode.addEventListener('click', (event) => {
-            const clickedEl = event.target;
-            if (clickedEl !== selectedAnnoteEl) {
-              unselectCodeLines();
-              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
-              if (activeEl) {
-                activeEl.classList.remove('code-annotation-active');
-              }
-              selectCodeLines(clickedEl);
-              clickedEl.classList.add('code-annotation-active');
-            } else {
-              // Unselect the line
-              unselectCodeLines();
-              clickedEl.classList.remove('code-annotation-active');
-            }
-          });
-        }
-    const findCites = (el) => {
-      const parentEl = el.parentElement;
-      if (parentEl) {
-        const cites = parentEl.dataset.cites;
-        if (cites) {
-          return {
-            el,
-            cites: cites.split(' ')
-          };
-        } else {
-          return findCites(el.parentElement)
-        }
       } else {
-        return undefined;
-      }
-    };
-    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
-    for (var i=0; i<bibliorefs.length; i++) {
-      const ref = bibliorefs[i];
-      const citeInfo = findCites(ref);
-      if (citeInfo) {
-        tippyHover(citeInfo.el, function() {
-          var popup = window.document.createElement('div');
-          citeInfo.cites.forEach(function(cite) {
-            var citeDiv = window.document.createElement('div');
-            citeDiv.classList.add('hanging-indent');
-            citeDiv.classList.add('csl-entry');
-            var biblioDiv = window.document.getElementById('ref-' + cite);
-            if (biblioDiv) {
-              citeDiv.innerHTML = biblioDiv.innerHTML;
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
             }
-            popup.appendChild(citeDiv);
-          });
-          return popup.innerHTML;
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
         });
       }
+    }, function(instance) {
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            div.style.left = 0;
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+        // Handle positioning of the toggle
+    window.addEventListener(
+      "resize",
+      throttle(() => {
+        elRect = undefined;
+        if (selectedAnnoteEl) {
+          selectCodeLines(selectedAnnoteEl);
+        }
+      }, 10)
+    );
+    function throttle(fn, ms) {
+    let throttle = false;
+    let timer;
+      return (...args) => {
+        if(!throttle) { // first call gets through
+            fn.apply(this, args);
+            throttle = true;
+        } else { // all the others get throttled
+            if(timer) clearTimeout(timer); // cancel #2
+            timer = setTimeout(() => {
+              fn.apply(this, args);
+              timer = throttle = false;
+            }, ms);
+        }
+      };
     }
-  });
-  </script>
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
 </div> <!-- /content -->
 
 
