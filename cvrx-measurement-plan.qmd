@@ -122,18 +122,17 @@ The team's proposal states that final index rules and weights depend on the data
 - **Data source:** SAI component scores (AO1); survey constructs (AO2).
 - **Assumptions/notes:** a segment is kept only if it is stable, interpretable, large enough to report (5 or more users), and leads to a different engagement action. Workload and role differences are checked before a behavioral gap is read as an adoption gap.
 
-### Q6. Did the engagement campaign improve adoption, data quality, and user perceptions enough to continue, modify, or expand it? (PO4, AO4)
+### Q6.Did the targeted field-engagement intervention improve meaningful Salesforce adoption, data quality, and user perceptions enough to continue, modify, or expand the campaign? (PO4, AO4)
 
-- **KPIs:** Target Behavior Lift; SAI Change; Perception Change; Campaign Reach.
+- **KPIs:** Target Behavior Lift, SAI Change, Data Quality Change, Perception Change, Campaign Reach.
 - **Definitions:**
-  - **Target Behavior Lift** = (intervention group rate after − before) − (reference group rate after − before), in percentage points, on the one or two priority behaviors selected from AO1–AO3.
+  - **Target Behavior Lift** = Change in the selected priority Salesforce behaviors for the intervention group compared with the reference group, when feasible.
   - **SAI Change** = the same before/after and intervention/reference comparison applied to the SAI and to the timeliness and completeness components.
   - **Perception Change** = post-campaign mean − pre-campaign mean for each driver/barrier score among intervention users.
   - **Campaign Reach** = intervention users who engaged with at least one campaign element (clicked a communication or completed a training or demonstration) ÷ intervention users × 100.
-- **Breakdowns:** intervention vs. reference group, month, role, segment, campaign element.
-- **Data source:** Salesforce dataset; pre/post survey; reports from the communication and training platforms CVRx approves.
-- **Assumptions/notes:** pilot runs at least 8 weeks, with an equal baseline window before launch. A reference group is used only when operationally feasible; otherwise the evaluation is before/after and the limitation is stated. CVRx approves user groups and measurement criteria before launch.
-
+- **Breakdowns:** Intervention vs. comparison group, month, role, segment, campaign element, and territory.
+- **Data source:** Approved Salesforce dataset, pre/post user survey, training records, and campaign tracking data.
+- **Assumptions/notes:** The intervention will be based on AO2 barrier findings and AO3 user segments. The pilot will run for at least eight weeks with an equivalent baseline period. A comparison group will be used when operationally feasible; otherwise, results will rely on a pre/post design and report the limitation.
 ## Still needed from CVRx
 
 1.  Approved Salesforce objects, fields, and history coverage.
