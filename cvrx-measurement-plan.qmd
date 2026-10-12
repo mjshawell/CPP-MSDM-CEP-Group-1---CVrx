@@ -36,14 +36,21 @@ Results are reported in aggregate. Nothing in this plan is used to evaluate indi
 
 ## Measurement rules that apply to every KPI
 
-| Rule | Definition |
-|------------------------------------|------------------------------------|
-| **Unit of analysis** | Deidentified **user-month**: one row per licensed field user per calendar month. |
-| **Licensed field user** | Active Salesforce user in a commercial field role on the CVRx-approved role list. Denominator for user-level rates. |
-| **Meaningful use vs. activity** | Logging in is platform activity, not adoption. Adoption is measured by task outcomes: timely updates, complete records, documented interactions, and required workflow steps. |
-| **Eligible work** | A component is scored only when the user had eligible records that month (for example, at least one open opportunity). With no eligible work the component is recorded as *not applicable*, not as zero, and the index is averaged over the remaining components. |
-| **Role-appropriate expectations** | Each measure applies only to roles for which CVRx confirms the task is required, so roles are compared like with like. |
-| **Reporting** | The overall index is always shown with its five component scores. Segments with fewer than 5 users are suppressed. |
++-----------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Rule                              | Definition                                                                                                                                                                                                                                                        |
++===================================+===================================================================================================================================================================================================================================================================+
+| **Unit of analysis**              | Deidentified **user-month**: one row per licensed field user per calendar month.                                                                                                                                                                                  |
++-----------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| **Licensed field user**           | Active Salesforce user in a commercial field role on the CVRx-approved role list. Denominator for user-level rates.                                                                                                                                               |
++-----------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| **Meaningful use vs. activity**   | Logging in is platform activity, not adoption. Adoption is measured by task outcomes: timely updates, complete records, documented interactions, and required workflow steps.                                                                                     |
++-----------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| **Eligible work**                 | A component is scored only when the user had eligible records that month (for example, at least one open opportunity). With no eligible work the component is recorded as *not applicable*, not as zero, and the index is averaged over the remaining components. |
++-----------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| **Role-appropriate expectations** | Each measure applies only to roles for which CVRx confirms the task is required, so roles are compared like with like.                                                                                                                                            |
++-----------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| **Reporting**                     | The overall index is always shown with its five component scores. Segments with fewer than 5 users are suppressed.                                                                                                                                                |
++-----------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
 ::: callout-important
 ## Provisional values
@@ -55,85 +62,90 @@ The team's proposal states that final index rules and weights depend on the data
 
 ### Q1. Where is Salesforce adoption strongest and weakest, so which roles, territories, or workflows should CVRx address first? (PO1, AO1)
 
-- **KPI:** Salesforce Adoption Index (SAI), 0–100, per user-month.
+-   **KPI:** Salesforce Adoption Index (SAI), 0–100, per user-month.
 
-- **Definition:** Weighted average of five component scores, each scaled 0–100:
+-   **Definition:** Weighted average of five component scores, each scaled 0–100:
 
-  | Component                              | Weight *(provisional)* | Defined in |
-  |-----------------------------------|---------------------|----------------|
-  | Opportunity update timeliness          | 30%                    | Q2         |
-  | Record completeness                    | 30%                    | Q2         |
-  | Documentation of customer interactions | 20%                    | Q3         |
-  | Workflow consistency                   | 15%                    | Q3         |
-  | Platform activity                      | 5%                     | below      |
+    +----------------------------------------+------------------------+----------------+
+    | Component                              | Weight *(provisional)* | Defined in     |
+    +========================================+========================+================+
+    | Opportunity update timeliness          | 30%                    | Q2             |
+    +----------------------------------------+------------------------+----------------+
+    | Record completeness                    | 30%                    | Q2             |
+    +----------------------------------------+------------------------+----------------+
+    | Documentation of customer interactions | 20%                    | Q3             |
+    +----------------------------------------+------------------------+----------------+
+    | Workflow consistency                   | 15%                    | Q3             |
+    +----------------------------------------+------------------------+----------------+
+    | Platform activity                      | 5%                     | below          |
+    +----------------------------------------+------------------------+----------------+
 
-  SAI = Σ (weight × component score) ÷ Σ (weights of applicable components).
+    SAI = Σ (weight × component score) ÷ Σ (weights of applicable components).
 
-  **Platform activity score** = 100 if the user logged in and completed at least one qualifying action (activity logged, or opportunity created or edited) in the month, otherwise 0. It is deliberately the smallest weight.
+    **Platform activity score** = 100 if the user logged in and completed at least one qualifying action (activity logged, or opportunity created or edited) in the month, otherwise 0. It is deliberately the smallest weight.
 
-- **Breakdowns:** Role, territory, month; component score; tenure band if approved.
+-   **Breakdowns:** Role, territory, month; component score; tenure band if approved.
 
-- **Data source:** Approved Salesforce dataset (user, login, activity, and opportunity records); reported in Power BI.
+-   **Data source:** Approved Salesforce dataset (user, login, activity, and opportunity records); reported in Power BI.
 
-- **Assumptions/notes:** The weights are preliminary and must be confirmed with CVRx after the available fields and required workflows are reviewed. A sensitivity check will recompute the index under alternative weights to confirm that the main conclusions do not depend on one weighting choice. Workload (count of eligible opportunities) is reported next to the index.
+-   **Assumptions/notes:** The weights are preliminary and must be confirmed with CVRx after the available fields and required workflows are reviewed. A sensitivity check will recompute the index under alternative weights to confirm that the main conclusions do not depend on one weighting choice. Workload (count of eligible opportunities) is reported next to the index.
 
 ### Q2. Is opportunity information current and complete enough for leadership to rely on it for commercial decisions? (PO1, AO1)
 
-- **KPIs:** Opportunity Update Timeliness; Record Completeness.
-- **Definitions:**
-  - **Opportunity Update Timeliness** = Open opportunities updated within the expected update period ÷ eligible open opportunities owned by the user that month × 100. An update is a change to a tracked field (stage, close date, amount, next step) or a linked activity. Expected update period: 14 days *(provisional)*.
-  - **Record Completeness** = Required fields that are filled ÷ required fields, across the user's eligible open opportunities × 100. Placeholder entries ("TBD", "N/A", ".") count as empty.
-- **Breakdowns:** Role, territory, month, opportunity stage, opportunity age band, individual field.
-- **Data source:** Salesforce opportunity records and opportunity field history.
-- **Assumptions/notes:** The required-field list and expected update period per role are missing today and must come from CVRx. A filled field is not proof the value is accurate, so completeness measures presence, not correctness. If field history is unavailable, last-modified date is the fallback (less precise).
+-   **KPIs:** Opportunity Update Timeliness; Record Completeness.
+-   **Definitions:**
+    -   **Opportunity Update Timeliness** = Open opportunities updated within the expected update period ÷ eligible open opportunities owned by the user that month × 100. An update is a change to a tracked field (stage, close date, amount, next step) or a linked activity. Expected update period: 14 days *(provisional)*.
+    -   **Record Completeness** = Required fields that are filled ÷ required fields, across the user's eligible open opportunities × 100. Placeholder entries ("TBD", "N/A", ".") count as empty.
+-   **Breakdowns:** Role, territory, month, opportunity stage, opportunity age band, individual field.
+-   **Data source:** Salesforce opportunity records and opportunity field history.
+-   **Assumptions/notes:** The required-field list and expected update period per role are missing today and must come from CVRx. A filled field is not proof the value is accurate, so completeness measures presence, not correctness. If field history is unavailable, last-modified date is the fallback (less precise).
 
 ### Q3. Are field users documenting customer interactions and following the defined workflow steps consistently? (PO1, AO1)
 
-- **KPIs:** Interaction Documentation; Workflow Consistency; Logging Lag (diagnostic).
-- **Definitions:**
-  - **Interaction Documentation** = Eligible active opportunities or accounts with at least one qualifying customer interaction documented during the expected period ÷ eligible active opportunities or accounts × 100. The qualifying interaction types and expected period are defined by CVRx for each role.
-  - **Workflow Consistency** = Required workflow steps completed ÷ required workflow steps triggered that month × 100 (for example, a next step recorded at each stage change).
-  - **Logging Lag** = Median days between the date an interaction happened and the date it was entered.
-- **Breakdowns:** Role, territory, month, activity type, workflow, device (desktop vs. mobile) if available.
-- **Data source:** Salesforce task and event records; opportunity field history.
-- **Assumptions/notes:** Automatically synced email and calendar records are excluded so the KPI reflects deliberate documentation. Work done outside Salesforce is invisible to this measure. The list of required workflow steps per role is a CVRx input.
+-   **KPIs:** Interaction Documentation; Workflow Consistency; Logging Lag (diagnostic).
+-   **Definitions:**
+    -   **Interaction Documentation** = Eligible active opportunities or accounts with at least one qualifying customer interaction documented during the expected period ÷ eligible active opportunities or accounts × 100. The qualifying interaction types and expected period are defined by CVRx for each role.
+    -   **Workflow Consistency** = Required workflow steps completed ÷ required workflow steps triggered that month × 100 (for example, a next step recorded at each stage change).
+    -   **Logging Lag** = Median days between the date an interaction happened and the date it was entered.
+-   **Breakdowns:** Role, territory, month, activity type, workflow, device (desktop vs. mobile) if available.
+-   **Data source:** Salesforce task and event records; opportunity field history.
+-   **Assumptions/notes:** Automatically synced email and calendar records are excluded so the KPI reflects deliberate documentation. Work done outside Salesforce is invisible to this measure. The list of required workflow steps per role is a CVRx input.
 
 ### Q4. Which factors help or prevent field users from keeping Salesforce current and useful, so what should the engagement strategy address? (PO2, AO2)
 
-- **KPIs:** Driver and Barrier Scores; Driver–Adoption Association; Top-Barrier Share; Survey Response Rate.
-- **Definitions:**
-  - **Driver/Barrier Score** = mean of the 5-point agreement items for each construct: perceived usefulness, ease of use, workflow compatibility, manager support, training effectiveness, trust in Salesforce data, and administrative burden.
-  - **Driver–Adoption Association** = direction, size, and statistical significance of the relationship between each construct score and the SAI (correlation first; regression coefficient with controls for role, tenure, and workload if the sample allows).
-  - **Top-Barrier Share** = respondents naming a barrier as their main obstacle ÷ all respondents × 100.
-  - **Survey Response Rate** = completed surveys ÷ users invited × 100.
-- **Breakdowns:** role, territory, tenure band, adoption segment.
-- **Data source:** field user survey export; coded interview and open-ended responses; SAI from the Salesforce dataset.
-- **Assumptions/notes:** individual-level linkage of survey to Salesforce records requires CVRx-approved identifiers and matching time periods. Without it, the two sources are analyzed separately and compared at role or territory level. Associations are not treated as proof of causation.
+-   **KPIs:** Driver and Barrier Scores; Driver–Adoption Association; Top-Barrier Share; Survey Response Rate.
+-   **Definitions:**
+    -   **Driver/Barrier Score** = mean of the 5-point agreement items for each construct: perceived usefulness, ease of use, workflow compatibility, manager support, training effectiveness, trust in Salesforce data, and administrative burden.
+    -   **Driver–Adoption Association** = direction, size, and statistical significance of the relationship between each construct score and the SAI (correlation first; regression coefficient with controls for role, tenure, and workload if the sample allows).
+    -   **Top-Barrier Share** = respondents naming a barrier as their main obstacle ÷ all respondents × 100.
+    -   **Survey Response Rate** = completed surveys ÷ users invited × 100.
+-   **Breakdowns:** role, territory, tenure band, adoption segment.
+-   **Data source:** field user survey export; coded interview and open-ended responses; SAI from the Salesforce dataset.
+-   **Assumptions/notes:** individual-level linkage of survey to Salesforce records requires CVRx-approved identifiers and matching time periods. Without it, the two sources are analyzed separately and compared at role or territory level. Associations are not treated as proof of causation.
 
 ### Q5. Do field users fall into distinct groups with different adoption patterns and needs, so which group should receive which support? (PO3, AO3)
 
-- **KPIs:** Segment Share; Segment Profile; Segment Stability.
-- **Definitions:**
-  - **Segment assignment** (rule-based starting point): Low = SAI below 40, Moderate = 40 to 69, High = 70 or above *(provisional)*, using the user's average SAI over the baseline period. Empirical clustering on the five component scores replaces these rules if sample size and data quality support it.
-  - **Segment Share** = users in a segment ÷ all users segmented × 100.
-  - **Segment Profile** = mean of each component score and each driver/barrier score within the segment.
-  - **Segment Stability** = users assigned to the same segment in two consecutive periods ÷ users segmented in both × 100.
-- **Breakdowns:** role, territory, tenure band, workload band.
-- **Data source:** SAI component scores (AO1); survey constructs (AO2).
-- **Assumptions/notes:** a segment is kept only if it is stable, interpretable, large enough to report (5 or more users), and leads to a different engagement action. Workload and role differences are checked before a behavioral gap is read as an adoption gap.
+-   **KPIs:** Segment Share; Segment Profile; Segment Stability.
+-   **Definitions:**
+    -   **Segment assignment** (rule-based starting point): Low = SAI below 40, Moderate = 40 to 69, High = 70 or above *(provisional)*, using the user's average SAI over the baseline period. Empirical clustering on the five component scores replaces these rules if sample size and data quality support it.
+    -   **Segment Share** = Percentage of eligible Salesforce users assigned to each identified segment during the analysis period. Formula: (Number of users in segment ÷ Total eligible users assigned to segments) × 100.
+    -   **Segment Profile** = Comparison of Salesforce adoption measures and, where available, survey-based adoption drivers, barriers, and support needs across identified user segments. Relevant measures may include average Adoption Index scores, perceived usefulness, ease of use, workflow compatibility, training effectiveness, managerial support, trust in Salesforce data, and administrative burden.
+    -   **Segment Stability** = Degree to which identified user segments remain consistent across reporting periods or reasonable changes in segmentation assumptions. Stability may be evaluated through changes in segment membership, segment size, and defining characteristics, provided sufficient repeated observations are available.
+-   **Breakdowns:** role, territory, tenure band, workload band.
+-   **Data source:** Approved CVRx Salesforce CRM user-level activity and adoption measures developed under AO1 (update timeliness, record completeness, interaction documentation, workflow consistency, and platform activity); approved AO2 survey measures of adoption drivers and barriers, where permitted and linkable; and derived segment assignments and profiles.
+-   **Assumptions/notes:** Salesforce adoption components developed under AO1 will serve as the initial segmentation inputs. A transparent rule-based approach will be compared with empirical clustering if sample size and data quality permit. AO2 survey measures will be used to profile segments only when appropriate data access and approved user-level linkage are available. Segment usefulness will be evaluated based on interpretability, stability, sufficient size, and potential for targeted engagement
 
 ### Q6.Did the targeted field-engagement intervention improve meaningful Salesforce adoption, data quality, and user perceptions enough to continue, modify, or expand the campaign? (PO4, AO4)
 
-- **KPIs:** Target Behavior Lift, SAI Change, Data Quality Change, Perception Change, Campaign Reach.
-- **Definitions:**
-  - **Target Behavior Lift** = Change in the selected priority Salesforce behaviors for the intervention group compared with the reference group, when feasible.
-  - **SAI Change** = the same before/after and intervention/reference comparison applied to the SAI and to the timeliness and completeness components.
-  - **Perception Change** = post-campaign mean − pre-campaign mean for each driver/barrier score among intervention users.
-  - **Campaign Reach** = intervention users who engaged with at least one campaign element (clicked a communication or completed a training or demonstration) ÷ intervention users × 100.
-- **Breakdowns:** Intervention vs. comparison group, month, role, segment, campaign element, and territory.
-- **Data source:** Approved Salesforce dataset, pre/post user survey, training records, and campaign tracking data.
-- **Assumptions/notes:** The intervention will be based on AO2 barrier findings and AO3 user segments. The pilot will run for at least eight weeks with an equivalent baseline period. A comparison group will be used when operationally feasible; otherwise, results will rely on a pre/post design and report the limitation.
-## Still needed from CVRx
+-   **KPIs:** Target Behavior Lift, SAI Change, Data Quality Change, Perception Change, Campaign Reach.
+-   **Definitions:**
+    -   **Target Behavior Lift** = Change in the selected priority Salesforce behaviors for the intervention group compared with the reference group, when feasible.
+    -   **SAI Change** = the same before/after and intervention/reference comparison applied to the SAI and to the timeliness and completeness components.
+    -   **Perception Change** = post-campaign mean − pre-campaign mean for each driver/barrier score among intervention users.
+    -   **Campaign Reach** = intervention users who engaged with at least one campaign element (clicked a communication or completed a training or demonstration) ÷ intervention users × 100.
+-   **Breakdowns:** Intervention vs. comparison group, month, role, segment, campaign element, and territory.
+-   **Data source:** Approved Salesforce dataset, pre/post user survey, training records, and campaign tracking data.
+-   **Assumptions/notes:** The intervention will be based on AO2 barrier findings and AO3 user segments. The pilot will run for at least eight weeks with an equivalent baseline period. A comparison group will be used when operationally feasible; otherwise, results will rely on a pre/post design and report the limitation. \## Still needed from CVRx
 
 1.  Approved Salesforce objects, fields, and history coverage.
 2.  Required fields, required workflow steps, and expected update periods by role.
@@ -183,18 +195,29 @@ The first four branches feed the index directly. Enablers & Barriers does not en
 
 Event names are the consistent labels used in the analytical dataset and dashboard. Each is derived from a Salesforce object rather than fired by a tag.
 
-| KPI / question | Event name | Trigger definition | Required parameters | Notes / edge cases |
-|---------------|---------------|---------------|---------------|---------------|
-| Meaningful Active Rate, SAI (Q1) | `sf_login` | Row in `LoginHistory` with a successful status | `user_id` (hashed), `login_time`, `platform`, `application`, `login_type` | Exclude API and integration logins. SSO can produce several rows per session, so dedupe to one per user per day. Salesforce keeps login history for about 6 months, so exports must start early to build a baseline. |
-| Activity Logging Rate, Logging Lag (Q3) | `sf_activity_logged` | `Task` or `Event` record created by a field user | `user_id`, `activity_id`, `activity_type`, `activity_date`, `created_date`, `related_object` | Exclude auto-synced email/calendar records. Bulk-created records at the same timestamp count once. |
-| Meaningful Active Rate (Q1) | `sf_opportunity_created` | `Opportunity` record created | `user_id`, `opportunity_id`, `created_date`, `stage`, `territory` | Exclude records created by data loads or admins. |
-| Pipeline Freshness (Q2) | `sf_opportunity_updated` | Row in `OpportunityFieldHistory` for a tracked field | `user_id`, `opportunity_id`, `field_name`, `changed_date` | Requires field history tracking. Edits by someone other than the owner are attributed to the editor. Old and new values are not exported unless CVRx approves. |
-| Stage-Update Timeliness (Q2) | `sf_stage_changed` | `OpportunityFieldHistory` row where the field is stage | `opportunity_id`, `old_stage`, `new_stage`, `changed_date` | Subset of `sf_opportunity_updated`; do not double count when summing actions. |
-| Field Completeness (Q4) | `sf_record_snapshot` | Weekly snapshot of open opportunities | `opportunity_id`, `snapshot_date`, `owner_role`, `territory`, one null/non-null flag per priority field | Snapshot, not an action. Flags only, so no confidential field content leaves Salesforce. |
-| Barrier Scores, response rate (Q5) | `survey_start` / `survey_complete` | Respondent opens the survey / submits the final page | `response_id`, `role`, `tenure_band`, `device`, `completion_time` | Anonymous; no user ID. Partial responses kept for response-rate math but excluded from scores. |
-| Pilot Reach (Q6) | `pilot_comm_click` | Click on a UTM-tagged link in a pilot email or message | `utm_source`, `utm_medium`, `utm_campaign`, `utm_content`, `click_date` | Email security scanners can generate false clicks. Opens are unreliable because of privacy protection, so clicks are the primary signal. |
-| Pilot Reach (Q6) | `training_complete` | Pilot user finishes the training module | `user_id` (hashed), `module_id`, `completed_date`, `pilot_group` | Source depends on the platform CVRx approves. |
-| All cuts | `user_dim` (dimension table) | One row per licensed field user, refreshed weekly | `user_id` (hashed), `role`, `team`, `territory`, `tenure_band`, `is_active`, `pilot_group` | Role and territory changes mid-period: use the value as of each week. |
++-----------------------------------------+------------------------------------+--------------------------------------------------------+---------------------------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| KPI / question                          | Event name                         | Trigger definition                                     | Required parameters                                                                                     | Notes / edge cases                                                                                                                                                                                                   |
++=========================================+====================================+========================================================+=========================================================================================================+======================================================================================================================================================================================================================+
+| Meaningful Active Rate, SAI (Q1)        | `sf_login`                         | Row in `LoginHistory` with a successful status         | `user_id` (hashed), `login_time`, `platform`, `application`, `login_type`                               | Exclude API and integration logins. SSO can produce several rows per session, so dedupe to one per user per day. Salesforce keeps login history for about 6 months, so exports must start early to build a baseline. |
++-----------------------------------------+------------------------------------+--------------------------------------------------------+---------------------------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Activity Logging Rate, Logging Lag (Q3) | `sf_activity_logged`               | `Task` or `Event` record created by a field user       | `user_id`, `activity_id`, `activity_type`, `activity_date`, `created_date`, `related_object`            | Exclude auto-synced email/calendar records. Bulk-created records at the same timestamp count once.                                                                                                                   |
++-----------------------------------------+------------------------------------+--------------------------------------------------------+---------------------------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Meaningful Active Rate (Q1)             | `sf_opportunity_created`           | `Opportunity` record created                           | `user_id`, `opportunity_id`, `created_date`, `stage`, `territory`                                       | Exclude records created by data loads or admins.                                                                                                                                                                     |
++-----------------------------------------+------------------------------------+--------------------------------------------------------+---------------------------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Pipeline Freshness (Q2)                 | `sf_opportunity_updated`           | Row in `OpportunityFieldHistory` for a tracked field   | `user_id`, `opportunity_id`, `field_name`, `changed_date`                                               | Requires field history tracking. Edits by someone other than the owner are attributed to the editor. Old and new values are not exported unless CVRx approves.                                                       |
++-----------------------------------------+------------------------------------+--------------------------------------------------------+---------------------------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Stage-Update Timeliness (Q2)            | `sf_stage_changed`                 | `OpportunityFieldHistory` row where the field is stage | `opportunity_id`, `old_stage`, `new_stage`, `changed_date`                                              | Subset of `sf_opportunity_updated`; do not double count when summing actions.                                                                                                                                        |
++-----------------------------------------+------------------------------------+--------------------------------------------------------+---------------------------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Field Completeness (Q4)                 | `sf_record_snapshot`               | Weekly snapshot of open opportunities                  | `opportunity_id`, `snapshot_date`, `owner_role`, `territory`, one null/non-null flag per priority field | Snapshot, not an action. Flags only, so no confidential field content leaves Salesforce.                                                                                                                             |
++-----------------------------------------+------------------------------------+--------------------------------------------------------+---------------------------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Barrier Scores, response rate (Q5)      | `survey_start` / `survey_complete` | Respondent opens the survey / submits the final page   | `response_id`, `role`, `tenure_band`, `device`, `completion_time`                                       | Anonymous; no user ID. Partial responses kept for response-rate math but excluded from scores.                                                                                                                       |
++-----------------------------------------+------------------------------------+--------------------------------------------------------+---------------------------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Pilot Reach (Q6)                        | `pilot_comm_click`                 | Click on a UTM-tagged link in a pilot email or message | `utm_source`, `utm_medium`, `utm_campaign`, `utm_content`, `click_date`                                 | Email security scanners can generate false clicks. Opens are unreliable because of privacy protection, so clicks are the primary signal.                                                                             |
++-----------------------------------------+------------------------------------+--------------------------------------------------------+---------------------------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Pilot Reach (Q6)                        | `training_complete`                | Pilot user finishes the training module                | `user_id` (hashed), `module_id`, `completed_date`, `pilot_group`                                        | Source depends on the platform CVRx approves.                                                                                                                                                                        |
++-----------------------------------------+------------------------------------+--------------------------------------------------------+---------------------------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| All cuts                                | `user_dim` (dimension table)       | One row per licensed field user, refreshed weekly      | `user_id` (hashed), `role`, `team`, `territory`, `tenure_band`, `is_active`, `pilot_group`              | Role and territory changes mid-period: use the value as of each week.                                                                                                                                                |
++-----------------------------------------+------------------------------------+--------------------------------------------------------+---------------------------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
 # 4. Validation Checklist and Test Cases
 
@@ -204,51 +227,64 @@ Test cases are run in a CVRx sandbox or by a CVRx admin with a designated test u
 
 **Collection (Salesforce setup)**
 
-- [ ] Field history tracking is on for stage, close date, amount, and next step
-- [ ] Integration, API, and admin users are identified and on the exclusion list
-- [ ] Auto-sync sources for email/calendar activities are identifiable by a field or record type
-- [ ] Login history export is scheduled before the 6-month retention window cuts into the baseline
+-   [ ] Field history tracking is on for stage, close date, amount, and next step
+-   [ ] Integration, API, and admin users are identified and on the exclusion list
+-   [ ] Auto-sync sources for email/calendar activities are identifiable by a field or record type
+-   [ ] Login history export is scheduled before the 6-month retention window cuts into the baseline
 
 **Extract (approved analytical dataset)**
 
-- [ ] Row counts per object match a Salesforce report for the same date range (within 1%)
-- [ ] No duplicate primary IDs; user IDs are hashed consistently across all tables
-- [ ] Timestamps are in one timezone and week boundaries are Mon–Sun
-- [ ] Every user in fact tables joins to `user_dim` (no orphan rows)
+-   [ ] Row counts per object match a Salesforce report for the same date range (within 1%)
+-   [ ] No duplicate primary IDs; user IDs are hashed consistently across all tables
+-   [ ] Timestamps are in one timezone and week boundaries are Mon–Sun
+-   [ ] Every user in fact tables joins to `user_dim` (no orphan rows)
 
 **Reporting sanity (Power BI)**
 
-- [ ] Role, team, territory, and device populate with no blank category above 2% of rows
-- [ ] Each KPI recomputed by hand in R for one team and one week matches the dashboard
-- [ ] Rates stay between 0 and 100%; segments under 5 users are suppressed
-- [ ] Totals across territories equal the overall figure
+-   [ ] Role, team, territory, and device populate with no blank category above 2% of rows
+-   [ ] Each KPI recomputed by hand in R for one team and one week matches the dashboard
+-   [ ] Rates stay between 0 and 100%; segments under 5 users are suppressed
+-   [ ] Totals across territories equal the overall figure
 
 **Survey and pilot tracking**
 
-- [ ] Survey test response appears in the export with all items and segment fields
-- [ ] Every pilot link carries all four UTM parameters, using one naming convention
+-   [ ] Survey test response appears in the export with all items and segment fields
+-   [ ] Every pilot link carries all four UTM parameters, using one naming convention
 
 ## Test cases
 
-| \# | Steps to perform | Expected events | Expected parameters / dimensions |
-|------------------|------------------|------------------|------------------|
-| 1 | Test rep logs in on desktop browser and logs out without doing anything | 1 `sf_login` | `platform` = desktop browser; user is **not** counted as meaningfully active that week |
-| 2 | Test rep logs in on the Salesforce mobile app and logs a call against an account, dated yesterday | 1 `sf_login`, 1 `sf_activity_logged` | `platform` = mobile; `activity_type` = call; Logging Lag = 1 day; user counted as meaningfully active |
-| 3 | Test rep changes an open opportunity's stage and close date in one save | 2 `sf_opportunity_updated`, 1 `sf_stage_changed` | `field_name` = stage and close date; `old_stage`/`new_stage` populated; counts as 1 qualifying action; opportunity flips from stale to fresh |
-| 4 | Leave a test opportunity untouched for 15 days | No events | Opportunity flagged stale in the next weekly snapshot; Pipeline Freshness for that territory drops accordingly |
-| 5 | Create an opportunity with two priority fields blank and one set to "TBD" | 1 `sf_opportunity_created`, 1 `sf_record_snapshot` at week end | Three priority-field flags = empty; Field Completeness for the record matches hand calculation |
-| 6 | An integration user or admin bulk-updates 50 opportunities | Rows exist in raw history | All excluded from `sf_opportunity_updated`; no change in any user's Meaningful Active status |
-| 7 | Sync a calendar meeting and an email automatically to Salesforce | Raw `Event`/`Task` rows | Excluded from `sf_activity_logged`; Activity Logging Rate unchanged |
-| 8 | Open the survey on a phone, answer page 1, quit; then complete it fully on desktop as a second response | 2 `survey_start`, 1 `survey_complete` | `device` = mobile and desktop; partial excluded from Barrier Scores; response rate counts 1 complete |
-| 9 | Click the link in a pilot test email, then the same link in a pilot Teams post | 2 `pilot_comm_click` | `utm_medium` = email vs teams; `utm_campaign` identical; `utm_content` identifies the asset |
-| 10 | Move the test rep to a different territory mid-week, then log an activity | 1 `sf_activity_logged` | Activity attributed to the territory in effect that week per `user_dim`; no duplicate user row |
++-----------------+-------------------------------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| \#              | Steps to perform                                                                                                        | Expected events                                                                 | Expected parameters / dimensions                                                                                                                                        |
++=================+=========================================================================================================================+=================================================================================+=========================================================================================================================================================================+
+| 1               | Test rep logs in on desktop browser and logs out without doing anything                                                 | 1 `sf_login`                                                                    | `platform` = desktop browser; user is **not** counted as meaningfully active that week                                                                                  |
++-----------------+-------------------------------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| 2               | Test rep logs in on the Salesforce mobile app and logs a call against an account, dated yesterday                       | 1 `sf_login`, 1 `sf_activity_logged`                                            | `platform` = mobile; `activity_type` = call; Logging Lag = 1 day; user counted as meaningfully active                                                                   |
++-----------------+-------------------------------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| 3               | Test rep changes an open opportunity's stage and close date in one save                                                 | 2 `sf_opportunity_updated`, 1 `sf_stage_changed`                                | `field_name` = stage and close date; `old_stage`/`new_stage` populated; counts as 1 qualifying action; opportunity flips from stale to fresh                            |
++-----------------+-------------------------------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| 4               | Leave a test opportunity untouched for 15 days                                                                          | No events                                                                       | Opportunity flagged stale in the next weekly snapshot; Pipeline Freshness for that territory drops accordingly                                                          |
++-----------------+-------------------------------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| 5               | Create an opportunity with two priority fields blank and one set to "TBD"                                               | 1 `sf_opportunity_created`, 1 `sf_record_snapshot` at week end                  | Three priority-field flags = empty; Field Completeness for the record matches hand calculation                                                                          |
++-----------------+-------------------------------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| 6               | An integration user or admin bulk-updates 50 opportunities                                                              | Rows exist in raw history                                                       | All excluded from `sf_opportunity_updated`; no change in any user's Meaningful Active status                                                                            |
++-----------------+-------------------------------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| 7               | Sync a calendar meeting and an email automatically to Salesforce                                                        | Raw `Event`/`Task` rows                                                         | Excluded from `sf_activity_logged`; Activity Logging Rate unchanged                                                                                                     |
++-----------------+-------------------------------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| 8               | Open the survey on a phone, answer page 1, quit; then complete it fully on desktop as a second response                 | 2 `survey_start`, 1 `survey_complete`                                           | `device` = mobile and desktop; partial excluded from Barrier Scores; response rate counts 1 complete                                                                    |
++-----------------+-------------------------------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| 9               | Click the link in a pilot test email, then the same link in a pilot Teams post                                          | 2 `pilot_comm_click`                                                            | `utm_medium` = email vs teams; `utm_campaign` identical; `utm_content` identifies the asset                                                                             |
++-----------------+-------------------------------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| 10              | Move the test rep to a different territory mid-week, then log an activity                                               | 1 `sf_activity_logged`                                                          | Activity attributed to the territory in effect that week per `user_dim`; no duplicate user row                                                                          |
++-----------------+-------------------------------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| 11              | Run the approved segmentation procedure on a test dataset containing users with different Salesforce adoption patterns. | No new Salesforce event; derived segment assignments generated during analysis. | Each eligible user receives exactly one segment assignment; segment counts equal the total number of eligible users; segment shares total 100% (allowing for rounding). |
++-----------------+-------------------------------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
 # Appendix
 
 ## Links
 
-- [GitHub repo](https://github.com/mjshawell/CPP-MSDM-CEP-Group-1---CVrx)
-- [GitHub Page](https://mjshawell.github.io/CPP-MSDM-CEP-Group-1---CVrx/cvrx-measurement-plan.html)
+-   [GitHub repo](https://github.com/mjshawell/CPP-MSDM-CEP-Group-1---CVrx)
+-   [GitHub Page](https://mjshawell.github.io/CPP-MSDM-CEP-Group-1---CVrx/cvrx-measurement-plan.html)
 
 ## Open items for CVRx
 
