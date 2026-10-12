@@ -57,46 +57,46 @@ The team's proposal states that final index rules and weights depend on the data
 
 - **KPI:** Salesforce Adoption Index (SAI), 0–100, per user-month.
 
-- **Definition:** weighted average of five component scores, each scaled 0–100:
+- **Definition:** Weighted average of five component scores, each scaled 0–100:
 
   | Component                              | Weight *(provisional)* | Defined in |
-  |----------------------------------------|------------------------|------------|
-  | Opportunity update timeliness          | 25%                    | Q2         |
-  | Record completeness                    | 25%                    | Q2         |
+  |-----------------------------------|---------------------|----------------|
+  | Opportunity update timeliness          | 30%                    | Q2         |
+  | Record completeness                    | 30%                    | Q2         |
   | Documentation of customer interactions | 20%                    | Q3         |
-  | Workflow consistency                   | 20%                    | Q3         |
-  | Platform activity                      | 10%                    | below      |
+  | Workflow consistency                   | 15%                    | Q3         |
+  | Platform activity                      | 5%                     | below      |
 
   SAI = Σ (weight × component score) ÷ Σ (weights of applicable components).
 
   **Platform activity score** = 100 if the user logged in and completed at least one qualifying action (activity logged, or opportunity created or edited) in the month, otherwise 0. It is deliberately the smallest weight.
 
-- **Breakdowns:** role, territory, month; component score; tenure band if approved.
+- **Breakdowns:** Role, territory, month; component score; tenure band if approved.
 
-- **Data source:** approved Salesforce dataset (user, login, activity, and opportunity records); reported in Power BI.
+- **Data source:** Approved Salesforce dataset (user, login, activity, and opportunity records); reported in Power BI.
 
-- **Assumptions/notes:** sensitivity check required, recomputing the index under alternative weights to confirm conclusions do not depend on the weighting. Workload (count of eligible opportunities) is reported next to the index.
+- **Assumptions/notes:** The weights are preliminary and must be confirmed with CVRx after the available fields and required workflows are reviewed. A sensitivity check will recompute the index under alternative weights to confirm that the main conclusions do not depend on one weighting choice. Workload (count of eligible opportunities) is reported next to the index.
 
 ### Q2. Is opportunity information current and complete enough for leadership to rely on it for commercial decisions? (PO1, AO1)
 
 - **KPIs:** Opportunity Update Timeliness; Record Completeness.
 - **Definitions:**
-  - **Opportunity Update Timeliness** = open opportunities updated within the expected update period ÷ eligible open opportunities owned by the user that month × 100. An update is a change to a tracked field (stage, close date, amount, next step) or a linked activity. Expected update period: 14 days *(provisional)*.
-  - **Record Completeness** = required fields that are filled ÷ required fields, across the user's eligible open opportunities × 100. Placeholder entries ("TBD", "N/A", ".") count as empty.
-- **Breakdowns:** role, territory, month, opportunity stage, opportunity age band, individual field.
+  - **Opportunity Update Timeliness** = Open opportunities updated within the expected update period ÷ eligible open opportunities owned by the user that month × 100. An update is a change to a tracked field (stage, close date, amount, next step) or a linked activity. Expected update period: 14 days *(provisional)*.
+  - **Record Completeness** = Required fields that are filled ÷ required fields, across the user's eligible open opportunities × 100. Placeholder entries ("TBD", "N/A", ".") count as empty.
+- **Breakdowns:** Role, territory, month, opportunity stage, opportunity age band, individual field.
 - **Data source:** Salesforce opportunity records and opportunity field history.
-- **Assumptions/notes:** the required-field list and expected update period per role are missing today and must come from CVRx. A filled field is not proof the value is accurate, so completeness measures presence, not correctness. If field history is unavailable, last-modified date is the fallback (less precise).
+- **Assumptions/notes:** The required-field list and expected update period per role are missing today and must come from CVRx. A filled field is not proof the value is accurate, so completeness measures presence, not correctness. If field history is unavailable, last-modified date is the fallback (less precise).
 
 ### Q3. Are field users documenting customer interactions and following the defined workflow steps consistently? (PO1, AO1)
 
 - **KPIs:** Interaction Documentation; Workflow Consistency; Logging Lag (diagnostic).
 - **Definitions:**
-  - **Interaction Documentation** = min(activities logged in the month ÷ expected activities for the role, 1) × 100. Expected activities: 12 per month *(provisional)*.
-  - **Workflow Consistency** = required workflow steps completed ÷ required workflow steps triggered that month × 100 (for example, a next step recorded at each stage change).
-  - **Logging Lag** = median days between the date an interaction happened and the date it was entered.
-- **Breakdowns:** role, territory, month, activity type, workflow, device (desktop vs. mobile) if available.
+  - **Interaction Documentation** = Eligible active opportunities or accounts with at least one qualifying customer interaction documented during the expected period ÷ eligible active opportunities or accounts × 100. The qualifying interaction types and expected period are defined by CVRx for each role.
+  - **Workflow Consistency** = Required workflow steps completed ÷ required workflow steps triggered that month × 100 (for example, a next step recorded at each stage change).
+  - **Logging Lag** = Median days between the date an interaction happened and the date it was entered.
+- **Breakdowns:** Role, territory, month, activity type, workflow, device (desktop vs. mobile) if available.
 - **Data source:** Salesforce task and event records; opportunity field history.
-- **Assumptions/notes:** automatically synced email and calendar records are excluded so the KPI reflects deliberate documentation. Work done outside Salesforce is invisible to this measure. The list of required workflow steps per role is a CVRx input.
+- **Assumptions/notes:** Automatically synced email and calendar records are excluded so the KPI reflects deliberate documentation. Work done outside Salesforce is invisible to this measure. The list of required workflow steps per role is a CVRx input.
 
 ### Q4. Which factors help or prevent field users from keeping Salesforce current and useful, so what should the engagement strategy address? (PO2, AO2)
 
