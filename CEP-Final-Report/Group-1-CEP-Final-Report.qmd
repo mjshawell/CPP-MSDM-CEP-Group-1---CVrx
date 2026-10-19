@@ -9,6 +9,8 @@ bibliography: references.bib
 format:
   html:
     toc: true
+    toc-depth: 4
+    number-sections: true
 ---
 
 # Title Page {.unnumbered}
@@ -56,7 +58,9 @@ Wenting Jiang\
 
 ## Tim Arana
 
-\[Insert contribution summary.\]
+Contributed to the development of AO3, Salesforce User Segmentation and Targeted Engagement, including the formulation of the analytics objective and its alignment with PO3. Conducted a literature review examining CRM adoption, behavioral segmentation, technology acceptance, and user engagement strategies. Developed the proposed hybrid segmentation methodology, incorporating Salesforce adoption measures and survey-based drivers and barriers to identify meaningful user groups.
+
+Also contributed to Chapter 3 by developing the proposed survey and secondary-data analytical methods for AO3, along with the secondary-data source, population, sampling frame, and sampling method sections. Assisted with updating Chapter 3 to align with the revised MSDM CEP report template and collaborated with team members through GitHub.
 
 ## Luis Berumen
 
@@ -643,8 +647,37 @@ I would keep A04 as written because evaluating engagement interventions is criti
 
 #### AO3 — Salesforce User Segmentation and Targeted Engagement (Tim Arana)
 
-[Describe proposed survey analytical methods for AO3.]
+**Method**
 
+Survey data will be analyzed using descriptive statistics and group comparisons to examine differences in Salesforce adoption perceptions, barriers, and engagement needs among CVRx commercial field users. The analysis will build on the adoption-related constructs examined in AO2, including perceived usefulness, ease of use, workflow compatibility, manager support, training effectiveness, trust in Salesforce data, and administrative burden.
+
+Survey responses will first be summarized using frequencies, percentages, means, and measures of variation, as appropriate for each variable. These summaries will help identify common experiences and potential differences across respondents. Where sample size permits, comparisons may be conducted across relevant employee characteristics, such as job role, tenure, or territory.
+
+If CVRx approves the use of consistent de-identified identifiers, survey responses may also be linked to Salesforce adoption measures developed under AO1 and the behavioral user segments identified through AO3. This would allow the analysis to examine whether users within different behavioral segments report different adoption barriers, perceptions, or support needs.
+
+If individual-level linkage is not permitted, survey responses will be analyzed separately and interpreted at an aggregate level. The final analytical procedures will depend on survey participation, available variables, and CVRx's data-sharing approvals.
+
+**Justification**
+
+This approach supports AO3 by providing additional context for understanding differences in Salesforce adoption behavior. Although Salesforce records can reveal how frequently users complete required activities or maintain customer information, these records cannot directly explain employees' perceptions or experiences with the platform.
+
+Survey analysis can help identify whether different user groups experience challenges related to training, administrative workload, managerial support, or perceived usefulness. For example, users with similar adoption patterns may report different reasons for using Salesforce consistently or inconsistently.
+
+Examining these differences will help CVRx develop engagement recommendations that address the needs of specific user segments rather than applying identical communications or training to all employees.
+
+The proposed approach is consistent with the hybrid behavioral and adoption-driver segmentation framework established in Chapter 2. Behavioral measures will provide the primary basis for identifying segments, while survey findings will help interpret those groups and determine which engagement strategies may be appropriate.
+
+The resulting recommendations will also support AO4 by informing the selection of engagement tactics for the proposed intervention.
+
+**Variables**
+
+The primary survey variables will include perceived usefulness, ease of use, workflow compatibility, manager support, training effectiveness, trust in Salesforce data, and administrative burden. These constructs will be measured using relevant survey questions developed under AO2.
+
+Additional variables may include employee role, tenure, territory, training experience, and other approved characteristics relevant to Salesforce adoption.
+
+Where individual-level data linkage is approved, the Salesforce Adoption Index developed under AO1 and behavioral segment membership established under AO3 may be incorporated into group comparisons.
+
+The final selection of variables will depend on the approved survey instrument, response rates, and the completeness and quality of the collected data.
 #### AO4 — Implement and Evaluate an Engagement Campaign (Wenting Jiang)
 
 [Describe proposed survey analytical methods for AO4.]
@@ -653,19 +686,39 @@ I would keep A04 as written because evaluating engagement interventions is criti
 
 ### Data Source
 
-[Describe the Salesforce data sources.]
+The secondary data for this project will consist of existing Salesforce CRM records maintained by CVRx as part of its commercial operations. These records may include account and opportunity information, customer interaction documentation, Salesforce activity history, workflow completion records, and relevant user characteristics such as role, team, territory, and tenure.
+
+The research team will request access to approved, de-identified Salesforce exports containing the information necessary to evaluate meaningful adoption and user engagement. Potential data elements include opportunity update timeliness, record completeness, interaction documentation, workflow consistency, and platform activity. These measures will support the Salesforce Adoption Index developed under AO1 and the behavioral segmentation analysis proposed under AO3.
+
+Data availability, historical coverage, and the specific Salesforce objects and fields included in the analysis will depend on CVRx's approval and data-sharing requirements. The team will analyze only authorized information within a CVRx-approved environment and report findings in aggregate to protect employee confidentiality.
 
 ### Population
 
-[Describe the population represented in the Salesforce data.]
+The target population for the secondary data analysis will consist of CVRx commercial field employees who are expected to use Salesforce as part of their regular job responsibilities. This may include territory managers, area sales directors, and other approved commercial personnel whose responsibilities involve documenting customer interactions, managing opportunities, maintaining account information, or completing relevant Salesforce workflows.
+
+The analysis will focus on employees whose Salesforce usage can be evaluated through the meaningful adoption measures developed under AO1. These measures may include record completeness, opportunity update timeliness, customer interaction documentation, workflow consistency, and platform activity.
+
+The final population will depend on CVRx's confirmation of eligible employee roles, Salesforce access permissions, and available historical records. Users whose responsibilities do not require the same Salesforce activities may need to be evaluated separately to ensure that adoption comparisons are appropriate across different roles.
 
 ### Sampling Frame
 
-[Describe the eligible Salesforce users and records.]
+The sampling frame for the secondary data analysis will consist of the approved Salesforce user records and associated CRM activity records provided by CVRx. The frame will include eligible commercial field employees whose Salesforce responsibilities and activities fall within the scope of the study.
+
+Eligible records may include opportunity updates, account information, documented customer interactions, workflow completion history, and platform activity. Where available, de-identified user identifiers will be used to connect relevant Salesforce records across datasets and time periods without revealing individual employee identities.
+
+The final sampling frame will depend on the completeness of the Salesforce exports, the historical period covered, and the user roles authorized by CVRx. Records with missing identifiers, insufficient activity history, or incompatible reporting periods will be evaluated before inclusion. Users with no eligible activity will not automatically be excluded, since inactivity may be relevant to measuring Salesforce adoption.
+
+The research team will document any exclusions to ensure transparency and consistency in the analytical process.
 
 ### Sampling Method
 
-[Explain how the Salesforce records will be selected.]
+The secondary data analysis will use a non-probability, purposive sampling approach based on the Salesforce records approved and provided by CVRx. The study will focus on commercial field employees whose job responsibilities require meaningful Salesforce usage and whose records fall within the authorized study period.
+
+Where feasible, the research team will seek to include all eligible Salesforce users within the approved population, effectively conducting a census of the relevant field organization rather than selecting a smaller sample. This approach is appropriate because CVRx has a relatively limited commercial field organization, and including all eligible users would provide a more complete understanding of adoption patterns.
+
+The final analytical sample will depend on the availability, completeness, and quality of the approved Salesforce records. Users will be evaluated according to consistent eligibility criteria, including their job responsibilities, relevant Salesforce workflows, and the availability of records during the study period.
+
+The team will document any exclusions and assess whether differences in roles, territories, workloads, or employment tenure may affect comparisons between users. The sampling approach will prioritize comprehensive coverage of the eligible population while maintaining employee confidentiality through de-identified records and aggregate reporting.
 
 ### Data Wrangling
 
@@ -735,7 +788,35 @@ I would keep A04 as written because evaluating engagement interventions is criti
 
 #### AO3 — Salesforce User Segmentation and Targeted Engagement (Tim Arana)
 
-[Describe proposed secondary-data analytical methods for AO3.]
+**Method**
+
+AO3 will use a hybrid behavioral segmentation approach to identify groups of CVRx Salesforce users with similar adoption patterns. The analysis will primarily use approved, de-identified Salesforce CRM records and the meaningful adoption measures developed under AO1. The objective is to determine whether distinct groups of users demonstrate different patterns of Salesforce engagement and whether those differences can inform targeted support strategies.
+
+The analysis will begin by examining the distribution, completeness, and comparability of relevant Salesforce activity measures. Descriptive statistics will be used to summarize adoption behaviors across users and identify potential differences in record completeness, update timeliness, interaction documentation, workflow consistency, and platform activity. Differences in role-specific responsibilities and workloads will be considered to avoid treating lower activity as evidence of weaker adoption when fewer activities are required.
+
+If the available sample size and data quality support statistical clustering, hierarchical clustering or K-means clustering may be explored. Variables will be standardized where appropriate to prevent differences in measurement scales from disproportionately influencing the results. Candidate clustering solutions will be evaluated for stability, interpretability, and practical usefulness.
+
+If clustering is not appropriate due to limited sample size, missing information, or insufficient variation, rule-based segmentation will be used instead. This method will classify users according to documented adoption patterns and clearly defined thresholds. The resulting groups will then be profiled using approved organizational characteristics and relevant findings from AO2.
+
+**Justification**
+
+Hybrid behavioral segmentation is appropriate for AO3 because Salesforce users may demonstrate different adoption behaviors and experience different challenges when using the platform. Identifying these differences can help CVRx move beyond a single engagement strategy for its entire commercial field organization.
+
+Cluster analysis may reveal behavioral patterns that would not be apparent through predefined categories. However, statistical clustering may produce unstable or difficult-to-interpret groups when the dataset is small or contains limited behavioral variation. Rule-based segmentation provides a more transparent alternative that can be implemented consistently when clustering is not suitable.
+
+This approach is consistent with the research framework established in Chapter 2, which emphasizes combining observed technology usage with adoption-related factors to better understand differences among users.
+
+The resulting segments will help CVRx identify groups that may benefit from different forms of training, communication, managerial support, or workflow assistance. These recommendations will inform the targeted engagement intervention developed and evaluated under AO4.
+
+**Variables**
+
+The primary segmentation variables will include opportunity update timeliness, record completeness, customer interaction documentation, workflow consistency, and platform activity. These measures will be derived from the approved Salesforce records and the adoption measurement framework developed under AO1.
+
+The overall Salesforce Adoption Index may also be examined when interpreting the resulting segments. However, overlapping measures will be evaluated to avoid assigning excessive influence to the same adoption characteristics during clustering.
+
+Additional profiling variables may include employee role, team, territory, tenure, and other approved organizational characteristics. Where authorized, survey measures from AO2 describing perceived usefulness, training effectiveness, manager support, workflow compatibility, and administrative burden may also be incorporated to interpret differences between segments.
+
+The final selection of variables and segmentation methods will depend on the quality, completeness, and availability of the approved Salesforce dataset.
 
 #### AO4 — Implement and Evaluate an Engagement Campaign (Wenting Jiang)
 
