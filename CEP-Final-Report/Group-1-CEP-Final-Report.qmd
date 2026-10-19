@@ -565,98 +565,181 @@ I would keep A04 as written because evaluating engagement interventions is criti
 
 # Chapter 3: Methods
 
-## Data and Sampling
+## Survey Data
 
 ### Population
 
-\[Define the population.\]
+[Describe the target population for the survey.]
 
 ### Sampling Frame
 
-\[Describe the sampling frame.\]
+[Describe the list or source of eligible survey participants.]
 
 ### Sampling Method
 
-\[Describe the sampling method.\]
+[Explain how survey participants will be selected.]
 
-## Data Collection
+### Data Collection
 
-\[Explain where the data originated and how it was collected.\]
+[Describe the planned survey collection process.]
 
-## Data Wrangling
+### Sample Characteristics
 
-### Data Import
+#### Age
 
-\[Describe the data import process.\]
+[To be completed.]
 
-### Data Cleaning and Tidying
+#### Gender
 
-\[Describe cleaning, missing values, variable transformations, and other preparation.\]
+[To be completed.]
 
-### Data Integration
+#### Race/Ethnicity
 
-\[Describe joins or integrations if multiple datasets are used.\]
+[To be completed.]
 
-## Understanding the Data
+#### Education
 
-### Data Transformation
+[To be completed.]
 
-\[Describe transformations and derived variables.\]
+#### Income
 
-### Exploratory Visualization
+[To be completed.]
 
-\[Insert relevant exploratory visualizations.\]
+#### Occupation
 
-## Programming and Analytical Environment
+[To be completed.]
 
-\[Describe R, Positron, Quarto, packages, GitHub, and other tools used in the analytical workflow.\]
+#### Relevant Behavioral Variables
 
-## Sample Characteristics
+[To be completed.]
 
-\[Describe the final analytical sample.\]
+#### Product Usage Variables
 
-## Measures
+[To be completed.]
 
-### Independent Variables
+### Measures
 
-\[Insert variables.\]
+#### Independent Variables
 
-### Dependent Variables
+[Identify independent variables, if applicable.]
 
-\[Insert variables.\]
+#### Dependent Variables
 
-### Control Variables
+[Identify dependent variables, if applicable.]
 
-\[Insert variables.\]
+#### Control Variables
 
-## Analytics Methods
+[Identify control variables, if applicable.]
 
-### AO1 — \[Title\]
+### Analytics Methods to Employ
 
-#### Method
+#### AO1 — Measure Meaningful Salesforce Adoption (Luis Berumen)
 
-\[Describe the analytical method.\]
+[Describe proposed survey analytical methods for AO1, if applicable.]
 
-#### Justification
+#### AO2 — Identify Drivers and Barriers of Meaningful Salesforce Adoption (Mickyas Shawel)
 
-\[Explain why the method addresses AO1.\]
+[Describe proposed survey analytical methods for AO2.]
 
-#### Variables
+#### AO3 — Salesforce User Segmentation and Targeted Engagement (Tim Arana)
 
-\[Identify variables used.\]
+[Describe proposed survey analytical methods for AO3.]
 
-### AO2 — \[Title\]
+#### AO4 — Implement and Evaluate an Engagement Campaign (Wenting Jiang)
 
-\[Repeat.\]
+[Describe proposed survey analytical methods for AO4.]
 
-### AO3 — \[Title\]
+## Secondary Data
 
-\[Repeat.\]
+### Data Source
 
-### AO4 — \[Title\]
+[Describe the Salesforce data sources.]
 
-\[Repeat.\]
+### Population
 
+[Describe the population represented in the Salesforce data.]
+
+### Sampling Frame
+
+[Describe the eligible Salesforce users and records.]
+
+### Sampling Method
+
+[Explain how the Salesforce records will be selected.]
+
+### Data Wrangling
+
+#### Import
+
+[Describe the data import process.]
+
+#### Tidying
+
+[Describe cleaning, missing values, and data preparation.]
+
+#### Joining the Data
+
+[Describe how Salesforce datasets will be joined.]
+
+### Understanding the Data
+
+#### Transform
+
+[Describe planned transformations.]
+
+#### Visualize
+
+[Describe planned exploratory visualizations.]
+
+### Programming
+
+[Describe R, RStudio, Quarto, and analytical packages.]
+
+### Sample Characteristics
+
+#### Relevant Demographic Variables
+
+[Describe relevant user characteristics.]
+
+#### Relevant Behavioral Variables
+
+[Describe Salesforce adoption behaviors.]
+
+#### Product Usage Variables
+
+[Describe Salesforce usage measures.]
+
+### Measures
+
+#### Independent Variables
+
+[Identify independent variables, if applicable.]
+
+#### Dependent Variables
+
+[Identify dependent variables, if applicable.]
+
+#### Control Variables
+
+[Identify control variables, if applicable.]
+
+### Analytics Methods to Employ
+
+#### AO1 — Measure Meaningful Salesforce Adoption (Luis Berumen)
+
+[Describe proposed secondary-data analytical methods for AO1.]
+
+#### AO2 — Identify Drivers and Barriers of Meaningful Salesforce Adoption (Mickyas Shawel)
+
+[Describe proposed secondary-data analytical methods for AO2.]
+
+#### AO3 — Salesforce User Segmentation and Targeted Engagement (Tim Arana)
+
+[Describe proposed secondary-data analytical methods for AO3.]
+
+#### AO4 — Implement and Evaluate an Engagement Campaign (Wenting Jiang)
+
+[Describe proposed secondary-data analytical methods for AO4.]
 ------------------------------------------------------------------------
 
 # Chapter 4: Analysis, Modeling, and Results
