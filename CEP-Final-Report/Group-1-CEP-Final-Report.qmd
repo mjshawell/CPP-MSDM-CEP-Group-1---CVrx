@@ -261,7 +261,6 @@ For healthcare professionals and institutions, loyalty is more closely associate
 
 Traditional repeat-purchase metrics alone would therefore provide an incomplete view of loyalty. More relevant measures could include continued physician engagement, referral activity, active treatment-center participation, patient satisfaction, advocacy, follow-up engagement, and sustained utilization among healthcare organizations offering Barostim.
 
-
 ## Analytics Infrastructure
 
 CVRx's analytics environment for this CEP is centered on Salesforce, which serves as an important source of commercial and customer-relationship data. Salesforce can provide behavioral information about how members of the commercial organization document and manage activities, accounts, opportunities, and other relevant workflow processes. For this project, these records provide a potential foundation for measuring meaningful Salesforce adoption rather than relying only on self-reported system usage.
@@ -290,7 +289,7 @@ Competition within this market extends beyond products with identical mechanisms
 
 Heart failure represents a large global healthcare burden. CVRx estimates that approximately 64 million people worldwide have heart failure, including approximately 6.7 million people in the United States and 10.5 million across Germany, France, Italy, Spain, and the United Kingdom.
 
-Within its currently addressed HFrEF population, CVRx estimates an annual market opportunity of approximately $2.2 billion in the United States and $2.8 billion across those five European markets. These estimates reflect the population the company believes may be eligible for Barostim under its current commercial strategy and regulatory indications.
+Within its currently addressed HFrEF population, CVRx estimates an annual market opportunity of approximately \$2.2 billion in the United States and \$2.8 billion across those five European markets. These estimates reflect the population the company believes may be eligible for Barostim under its current commercial strategy and regulatory indications.
 
 The longer-term opportunity could expand if Barostim receives evidence and regulatory support for broader patient populations. CVRx's BENEFIT-HF clinical program is evaluating Barostim in an expanded heart-failure population. The company has estimated that a successful expansion could increase its prevalence-based U.S. addressable population from approximately 339,000 to approximately 983,000 patients. Because that potential expansion depends on future clinical, regulatory, reimbursement, and commercialization outcomes, it should be considered a prospective opportunity rather than part of the currently addressable market.
 
@@ -385,14 +384,14 @@ Other threats include regulatory uncertainty, dependence on continued clinical e
 ### SWOT Summary
 
 | **Strengths** | **Weaknesses** |
-|---|---|
+|------------------------------------|------------------------------------|
 | Differentiated neuromodulation technology | Heavy dependence on Barostim |
 | FDA-approved therapy with specialized indication | Smaller scale than major medtech competitors |
 | Specialized clinical and commercial support | Commercial execution depends on effective field adoption |
 | Patient and professional education ecosystem | Salesforce adoption and data-quality gaps require evaluation |
 
 | **Opportunities** | **Threats** |
-|---|---|
+|------------------------------------|------------------------------------|
 | Large underpenetrated HFrEF market | Competing and emerging heart-failure therapies |
 | Expansion of treatment centers and referral networks | Larger competitors with greater resources |
 | Digital patient identification and education | Reimbursement and access uncertainty |
@@ -525,7 +524,7 @@ AO3 remains affirmed because existing research supports meaningful heterogeneity
 
 The preliminary preferred framework is a hybrid behavioral and adoption-driver segmentation approach. Behavioral measures developed through AO1 will provide the initial basis for identifying candidate segments, while barriers, drivers, needs, and contextual characteristics examined through AO2 will help profile and interpret those groups. The exact segmentation technique should remain flexible until the available sample size, behavioral variables, survey measures, and data quality are evaluated. If the data support stable empirical clustering, clustering may be used to identify candidate groups. If they do not, a transparent and defensible rule-based segmentation approach can provide a practical alternative. In either case, segments should be retained only when they are sufficiently stable, interpretable, and actionable to support targeted engagement under PO3 and the subsequent intervention evaluated in AO4.
 
-### AO4 —  Implement and evaluate an engagement campaign
+### AO4 — Implement and evaluate an engagement campaign
 
 #### Existing Research and Models
 
@@ -579,14 +578,14 @@ The survey will be administered online through Qualtrics as a self-administered 
 
 The questionnaire is organized into the following sections:
 
--   **Screening (Q1):** current use of Salesforce in a field role.
--   **Adoption constructs (Q2–Q24):** perceived usefulness, perceived ease of use, workflow compatibility, manager support, training effectiveness, trust in Salesforce data and administrative burden, measured on five-point Likert scales.
--   **Barriers (Q25):** reasons records are not kept current (check all that apply).
--   **Overall perception (Q26):** satisfaction with Salesforce, repeated after the pilot.
--   **Pilot feedback (Q27–Q29):** intervention group only, after the pilot.
--   **Usage behavior (B1–B4):** update frequency, update timing, primary device and weekly hours in Salesforce.
--   **Background (C1–C7):** role, tenure, medical device sales experience, prior CRM experience, region, comfort with new technology and age group.
--   **Open-ended items (O1–O2):** suggested improvements and other feedback.
+- **Screening (Q1):** current use of Salesforce in a field role.
+- **Adoption constructs (Q2–Q24):** perceived usefulness, perceived ease of use, workflow compatibility, manager support, training effectiveness, trust in Salesforce data and administrative burden, measured on five-point Likert scales.
+- **Barriers (Q25):** reasons records are not kept current (check all that apply).
+- **Overall perception (Q26):** satisfaction with Salesforce, repeated after the pilot.
+- **Pilot feedback (Q27–Q29):** intervention group only, after the pilot.
+- **Usage behavior (B1–B4):** update frequency, update timing, primary device and weekly hours in Salesforce.
+- **Background (C1–C7):** role, tenure, medical device sales experience, prior CRM experience, region, comfort with new technology and age group.
+- **Open-ended items (O1–O2):** suggested improvements and other feedback.
 
 Before launch, the instrument will be pretested with the faculty lead and two or three CVRx reviewers to check wording, length and fit with field roles. CVRx will distribute the survey link through an internal channel, accompanied by a note from commercial leadership encouraging participation. The baseline survey is planned for Spring 2027 after CVRx approves the final instrument, and the follow-up survey for AO4 will be administered after the pilot ends in Summer 2027.
 
@@ -618,11 +617,11 @@ Income will not be collected. Compensation is confidential to CVRx and is not re
 
 All respondents will be CVRx commercial field employees. Occupation will be described through the following variables:
 
--   Job role (C1).
--   Tenure at CVRx (C2), recoded into newer (18 months or less) and tenured (more than 18 months).
--   Region (C5).
--   Total medical device sales experience (C3).
--   Prior Salesforce or CRM experience (C4).
+- Job role (C1).
+- Tenure at CVRx (C2), recoded into newer (18 months or less) and tenured (more than 18 months).
+- Region (C5).
+- Total medical device sales experience (C3).
+- Prior Salesforce or CRM experience (C4).
 
 The respondent distribution on these variables will be compared with the sampling frame.
 
@@ -630,53 +629,53 @@ The respondent distribution on these variables will be compared with the samplin
 
 Relevant self-reported behaviors will include:
 
--   How often the respondent updates Salesforce records in a typical week (B1).
--   When the respondent usually records a customer interaction (B2).
--   Reasons records are not kept current (Q25).
--   Comfort with learning new software tools (C6).
+- How often the respondent updates Salesforce records in a typical week (B1).
+- When the respondent usually records a customer interaction (B2).
+- Reasons records are not kept current (Q25).
+- Comfort with learning new software tools (C6).
 
 #### Product Usage Variables
 
 Relevant Salesforce usage characteristics will include:
 
--   Hours per week spent entering or updating Salesforce information (B4).
--   Primary device used to update Salesforce (B3).
--   Overall satisfaction with Salesforce (Q26).
--   Pilot participation and pilot feedback (Q27–Q29), for AO4 respondents.
+- Hours per week spent entering or updating Salesforce information (B4).
+- Primary device used to update Salesforce (B3).
+- Overall satisfaction with Salesforce (Q26).
+- Pilot participation and pilot feedback (Q27–Q29), for AO4 respondents.
 
 ### Measures
 
 #### Independent Variables
 
--   **Perceived usefulness (Q2–Q5):** the degree to which a user believes Salesforce improves job performance. Adapted from Davis (1989).
--   **Perceived ease of use (Q6–Q9):** the degree to which using Salesforce is free of effort. Adapted from Davis (1989).
--   **Workflow compatibility (Q10–Q12):** the degree to which Salesforce fits how field users work. Adapted from Goodhue and Thompson (1995).
--   **Manager support (Q13–Q15):** the degree to which the user's manager encourages and uses Salesforce. Adapted from Avlonitis and Panagopoulos (2005) and Venkatesh et al. (2003).
--   **Training effectiveness (Q16–Q18):** the degree to which training and resources prepared the user. Adapted from Venkatesh et al. (2003).
--   **Trust in Salesforce data (Q19–Q21):** the degree to which the user believes Salesforce information is accurate and current. Adapted from DeLone and McLean (2003).
--   **Administrative burden (Q22–Q24):** the degree to which Salesforce adds time-consuming or duplicate work. Developed by the team.
--   **Measurement period and intervention-group status (AO4):** baseline versus follow-up, and intervention versus comparison group.
+- **Perceived usefulness (Q2–Q5):** the degree to which a user believes Salesforce improves job performance. Adapted from Davis (1989).
+- **Perceived ease of use (Q6–Q9):** the degree to which using Salesforce is free of effort. Adapted from Davis (1989).
+- **Workflow compatibility (Q10–Q12):** the degree to which Salesforce fits how field users work. Adapted from Goodhue and Thompson (1995).
+- **Manager support (Q13–Q15):** the degree to which the user's manager encourages and uses Salesforce. Adapted from Avlonitis and Panagopoulos (2005) and Venkatesh et al. (2003).
+- **Training effectiveness (Q16–Q18):** the degree to which training and resources prepared the user. Adapted from Venkatesh et al. (2003).
+- **Trust in Salesforce data (Q19–Q21):** the degree to which the user believes Salesforce information is accurate and current. Adapted from DeLone and McLean (2003).
+- **Administrative burden (Q22–Q24):** the degree to which Salesforce adds time-consuming or duplicate work. Developed by the team.
+- **Measurement period and intervention-group status (AO4):** baseline versus follow-up, and intervention versus comparison group.
 
 Each construct is measured on a five-point Likert scale (1 = Strongly disagree, 5 = Strongly agree). Items will be averaged into a composite score when Cronbach's alpha is 0.70 or higher.
 
 #### Dependent Variables
 
--   **Meaningful Salesforce adoption (AO2):** the AO1 Salesforce Adoption Index for the survey period, if CVRx approves linking survey responses to Salesforce records.
--   **Self-reported update frequency (B1) and overall satisfaction (Q26):** used as the AO2 outcomes if linkage is not approved.
--   **Overall satisfaction (Q26) and construct scores at follow-up (AO4):** used to evaluate changes in perceptions after the pilot.
--   **Pilot feedback (Q27–Q29):** evaluation of the intervention by pilot participants.
+- **Meaningful Salesforce adoption (AO2):** the AO1 Salesforce Adoption Index for the survey period, if CVRx approves linking survey responses to Salesforce records.
+- **Self-reported update frequency (B1) and overall satisfaction (Q26):** used as the AO2 outcomes if linkage is not approved.
+- **Overall satisfaction (Q26) and construct scores at follow-up (AO4):** used to evaluate changes in perceptions after the pilot.
+- **Pilot feedback (Q27–Q29):** evaluation of the intervention by pilot participants.
 
 #### Control Variables
 
--   Job role (C1).
--   Tenure group (C2).
--   Region (C5).
--   Medical device sales experience (C3).
--   Prior CRM experience (C4).
--   Comfort with new technology (C6).
--   Age group (C7).
--   Primary device (B3).
--   Hours per week in Salesforce (B4).
+- Job role (C1).
+- Tenure group (C2).
+- Region (C5).
+- Medical device sales experience (C3).
+- Prior CRM experience (C4).
+- Comfort with new technology (C6).
+- Age group (C7).
+- Primary device (B3).
+- Hours per week in Salesforce (B4).
 
 The number of controls in any model will be limited by the final sample size (see AO2).
 
@@ -684,7 +683,29 @@ The number of controls in any model will be limited by the final sample size (se
 
 #### AO1 — Measure Meaningful Salesforce Adoption (Luis Berumen)
 
-[Describe proposed survey analytical methods for AO1, if applicable.]
+**Method**
+
+Survey data will not be the main source used to calculate the Salesforce Adoption Index. AO1 will primarily measure adoption through approved Salesforce records because those records show whether required updates, fields, interactions, and workflow steps were completed. Survey responses may still be used to provide context for the behavioral results and to check whether employees' descriptions of their Salesforce use are consistent with the patterns found in the system data.
+
+The survey analysis for AO1 will begin with descriptive statistics such as response counts, percentages, means, and response distributions. Questions related to self-reported Salesforce use, update habits, and workflow completion may be summarized for the overall sample and, when the sample size permits, compared across approved roles or groups.
+
+If CVRx approves de-identified identifiers that can be used across both data sources, survey responses may be matched with the Salesforce Adoption Index for the same user and time period. The analysis may then compare self-reported use with the overall index and its separate components. If individual-level matching is not approved, the survey and Salesforce results will remain separate and will only be compared at an aggregate level.
+
+**Justification**
+
+This approach keeps AO1 focused on observed Salesforce behavior instead of relying only on what employees report about their own use. A user may believe that Salesforce is being used regularly even when required records are incomplete or updates are entered too late. At the same time, Salesforce records cannot show how users view the system or why a particular adoption pattern exists.
+
+This distinction is supported by research showing that system usage should be measured in relation to the user, system, and task rather than through one general activity measure [@burtonjones2006]. The Information Systems Success Model also treats system use and information quality as related but separate parts of system success [@delone2003]. For AO1, the survey therefore provides supporting evidence, while the approved Salesforce records provide the primary behavioral measures.
+
+Using the survey as a supporting source can help determine whether the behavioral baseline and users' descriptions of their own use show a similar pattern. The results may also help identify areas that should be examined more closely under AO2. AO1 will measure what the adoption pattern looks like, while AO2 will examine the barriers and drivers that may explain that pattern.
+
+**Variables**
+
+Survey variables relevant to AO1 may include self-reported frequency of Salesforce use, timeliness of updates, completion of required fields, documentation of customer interactions, and consistency with required workflows. Approved user characteristics such as role, territory, tenure, and training experience may be used to describe the survey sample or support fair group comparisons.
+
+If data linkage is approved, the Salesforce Adoption Index and its five component scores may be included as behavioral comparison measures. The final variables and comparisons will depend on the approved survey questions, response rate, available Salesforce fields, and CVRx's data-sharing requirements.
+
+Self-reported frequency and agreement questions will generally be treated as ordinal measures unless a question requests a numerical count. Role and territory will be nominal variables, while tenure may be measured as a ratio variable when it is recorded in months or years. The Salesforce Adoption Index will be treated as a continuous composite index from 0 to 100. For AO1, the index and its component scores are the outcome measures, while approved user characteristics are comparison or control variables. AO2 will use the perception and experience measures to examine possible adoption drivers and barriers.
 
 #### AO2 — Identify Drivers and Barriers of Meaningful Salesforce Adoption (Mickyas Shawel)
 
@@ -693,8 +714,11 @@ The number of controls in any model will be limited by the final sample size (se
 AO2 will use the survey to identify which perceptions and organizational conditions are associated with stronger or weaker Salesforce adoption. The analysis will follow five steps.
 
 1.  **Reliability and scoring.** The internal consistency of each multi-item construct will be assessed with Cronbach's alpha. Constructs that meet the 0.70 threshold will be scored as the mean of their items. Constructs below the threshold will be examined at the item level.
+
 2.  **Descriptive analysis.** Construct scores will be summarized with means, standard deviations and response distributions. Barrier frequencies from Q25 will be reported as percentages of respondents.
+
 3.  **Group comparisons.** Construct scores will be compared across role, region and tenure group using independent-samples t-tests or one-way ANOVA. Mann-Whitney U or Kruskal-Wallis tests will be used if assumptions are not met.
+
 4.  **Correlation and regression.** Pearson correlations will examine bivariate relationships between each construct and adoption. A multiple linear regression will then estimate the association between each construct and adoption while holding the others constant:
 
     $$
@@ -702,6 +726,7 @@ AO2 will use the survey to identify which perceptions and organizational conditi
     $$
 
     H1 will be supported if the coefficient for perceived usefulness (β~1~) is positive and statistically significant. H2 will be supported if the coefficient for administrative burden (β~7~) is negative and statistically significant. Multicollinearity will be checked with variance inflation factors. A common guideline calls for roughly 10 to 15 responses per predictor. If the final sample is too small for the full model, the analysis will focus on the hypothesized constructs (perceived usefulness and administrative burden) with a limited set of controls, and the results will be reported as exploratory.
+
 5.  **Qualitative analysis.** Open-ended responses (O1, O2) will be coded thematically to explain the quantitative results and identify barriers not captured by the closed-ended items.
 
 The adoption outcome will depend on CVRx's data-sharing approval. If linkage is approved, the dependent variable will be each respondent's Salesforce Adoption Index from AO1. If linkage is not approved, self-reported update frequency (B1) and overall satisfaction (Q26) will serve as the dependent variables, and the analysis will be interpreted at the perception level.
@@ -714,9 +739,9 @@ Salesforce records show what users do but not why. The survey measures the perce
 
 **Variables**
 
--   **Dependent:** the Salesforce Adoption Index (SF1) if linked; otherwise update frequency (B1) and overall satisfaction (Q26).
--   **Independent:** perceived usefulness, perceived ease of use, workflow compatibility, manager support, training effectiveness, trust in Salesforce data and administrative burden (Q2–Q24); barrier indicators (Q25).
--   **Control:** role, tenure group, region, medical device sales experience, prior CRM experience, comfort with new technology, primary device and weekly hours in Salesforce.
+- **Dependent:** the Salesforce Adoption Index (SF1) if linked; otherwise update frequency (B1) and overall satisfaction (Q26).
+- **Independent:** perceived usefulness, perceived ease of use, workflow compatibility, manager support, training effectiveness, trust in Salesforce data and administrative burden (Q2–Q24); barrier indicators (Q25).
+- **Control:** role, tenure group, region, medical device sales experience, prior CRM experience, comfort with new technology, primary device and weekly hours in Salesforce.
 
 #### AO3 — Salesforce User Segmentation and Targeted Engagement (Tim Arana)
 
@@ -816,40 +841,34 @@ The team will document any exclusions and assess whether differences in roles, t
 
 #### Import
 
-Authorized Salesforce data will be obtained from CVRx after the required approvals are received. Depending on availability, the data may include user activity, opportunity records, customer-interaction records, workflow activities, modification dates and intervention-participation records. The exact datasets and fields will be determined after CVRx confirms the approved data scope.
-The original files will be maintained as read-only source files, and all cleaning and transformation procedures will be performed on working copies. Personal identifiers will be removed or replaced with anonymous study identifiers before analysis.
+Authorized Salesforce data will be obtained from CVRx after the required approvals are received. Depending on availability, the data may include user activity, opportunity records, customer-interaction records, workflow activities, modification dates and intervention-participation records. The exact datasets and fields will be determined after CVRx confirms the approved data scope. The original files will be maintained as read-only source files, and all cleaning and transformation procedures will be performed on working copies. Personal identifiers will be removed or replaced with anonymous study identifiers before analysis.
 
 #### Tidying
 
-The data will be examined for duplicate records, missing values, inconsistent categories, invalid dates and possible outliers. Date formats, role classifications, regions and record statuses will be standardized when necessary.
-Missing information will be distinguished from fields that are not required or applicable to a particular user, role or workflow. For example, a user will not receive a lower completeness score for a field that was not required for the relevant record. All cleaning and exclusion decisions will be documented.
+The data will be examined for duplicate records, missing values, inconsistent categories, invalid dates and possible outliers. Date formats, role classifications, regions and record statuses will be standardized when necessary. Missing information will be distinguished from fields that are not required or applicable to a particular user, role or workflow. For example, a user will not receive a lower completeness score for a field that was not required for the relevant record. All cleaning and exclusion decisions will be documented.
 
 #### Joining the Data
 
-If multiple Salesforce datasets are provided, they will be joined using approved anonymous user IDs, record IDs and relevant dates. Potential datasets may include user information, opportunity records, customer interactions, workflow records and intervention-exposure records.
-Before and after each join, record counts will be checked to prevent the accidental duplication or loss of observations. Intervention records will only be linked to individual Salesforce outcomes when such linkage is authorized.
+If multiple Salesforce datasets are provided, they will be joined using approved anonymous user IDs, record IDs and relevant dates. Potential datasets may include user information, opportunity records, customer interactions, workflow records and intervention-exposure records. Before and after each join, record counts will be checked to prevent the accidental duplication or loss of observations. Intervention records will only be linked to individual Salesforce outcomes when such linkage is authorized.
 
 ### Understanding the Data
 
 #### Transform
 
-After cleaning, Salesforce records will be summarized at an appropriate level, such as one observation per user per week or month. The final analytical unit will depend on the frequency and completeness of the available data.
-Planned transformations include calculating record completeness, update timeliness, workflow adherence, customer-interaction documentation and platform activity. Observations will also be classified into baseline, intervention and follow-up periods. Where appropriate, measures will be adjusted for eligible work volume so that users with different workloads can be compared more fairly.
-If the available fields support a composite meaningful-adoption score, the research team may combine several behavioral and data-quality measures. However, each component will also be reported separately to avoid hiding specific Salesforce adoption problems.
+After cleaning, Salesforce records will be summarized at an appropriate level, such as one observation per user per week or month. The final analytical unit will depend on the frequency and completeness of the available data. Planned transformations include calculating record completeness, update timeliness, workflow adherence, customer-interaction documentation and platform activity. Observations will also be classified into baseline, intervention and follow-up periods. Where appropriate, measures will be adjusted for eligible work volume so that users with different workloads can be compared more fairly. If the available fields support a composite meaningful-adoption score, the research team may combine several behavioral and data-quality measures. However, each component will also be reported separately to avoid hiding specific Salesforce adoption problems.
 
 #### Visualize
 
-Exploratory visualizations will be used to examine missing data, variable distributions, outliers and changes over time. Planned visualizations include histograms, box plots, trend charts and group-comparison charts.
-If intervention and comparison groups are available, their baseline and follow-up patterns will be plotted separately. Pre-intervention trends will also be examined when multiple baseline periods are available. These visualizations will support data understanding and model selection but will not be treated as sufficient evidence of causation.
+Exploratory visualizations will be used to examine missing data, variable distributions, outliers and changes over time. Planned visualizations include histograms, box plots, trend charts and group-comparison charts. If intervention and comparison groups are available, their baseline and follow-up patterns will be plotted separately. Pre-intervention trends will also be examined when multiple baseline periods are available. These visualizations will support data understanding and model selection but will not be treated as sufficient evidence of causation.
 
 ### Programming
 
-Data cleaning and analysis will be conducted in a reproducible statistical programming environment. Python or R will be used for data preparation, variable construction, statistical analysis and visualization. SQL may also be used if the Salesforce data require database extraction or aggregation. The final software, versions and packages will be documented after the analysis environment is confirmed.
-Raw data, cleaned data, analytical datasets, code and generated outputs will be stored separately. The code will document the treatment of missing data, eligibility rules, variable definitions and exclusions. Quality checks will include duplicate detection, verification of date ranges and comparisons of record counts before and after data joins. Relevant programming code and technical documentation will be included in the report appendix or approved team storage.
+Data cleaning and analysis will be conducted in a reproducible statistical programming environment. Python or R will be used for data preparation, variable construction, statistical analysis and visualization. SQL may also be used if the Salesforce data require database extraction or aggregation. The final software, versions and packages will be documented after the analysis environment is confirmed. Raw data, cleaned data, analytical datasets, code and generated outputs will be stored separately. The code will document the treatment of missing data, eligibility rules, variable definitions and exclusions. Quality checks will include duplicate detection, verification of date ranges and comparisons of record counts before and after data joins. Relevant programming code and technical documentation will be included in the report appendix or approved team storage.
 
 ### Sample Characteristics
 
 #### Relevant Demographic Variables
+
 Relevant user characteristics may include:
 
 - User role;
@@ -899,7 +918,6 @@ Relevant Salesforce usage characteristics may include:
 - **Platform activity:** Number of approved Salesforce activities or record updates.
 - **Meaningful Salesforce adoption:** A possible composite of completeness, timeliness, workflow adherence, and interaction documentation.
 
-
 #### Control Variables
 
 Potential control variables may include:
@@ -918,7 +936,35 @@ The final definitions and calculation rules will be confirmed after CVRx provide
 
 #### AO1 — Measure Meaningful Salesforce Adoption (Luis Berumen)
 
-[Describe proposed secondary-data analytical methods for AO1.]
+**Method**
+
+AO1 will use composite-index construction and descriptive comparative analysis with approved, de-identified Salesforce records. A monthly Salesforce Adoption Index will be created for each eligible field user. The proposed index will combine five measures: opportunity update timeliness, record completeness, customer-interaction documentation, workflow consistency, and platform activity. Each measure will first be calculated and reviewed separately before the measures are combined into one score from 0 to 100.
+
+The preliminary weights are 30% for update timeliness, 30% for record completeness, 20% for interaction documentation, 15% for workflow consistency, and 5% for platform activity. Timeliness and completeness receive the most weight because current and complete information is important for business decisions. Platform activity receives the least weight because logging in or creating activity does not always mean that Salesforce is being used effectively. These weights are proposed and will be reviewed after CVRx confirms the required fields, workflows, actions, and available data.
+
+Each component will be calculated as a percentage of eligible work. For example, update timeliness will be based on the percentage of eligible opportunities updated within the approved timeframe, while completeness will be based on the percentage of applicable required fields containing valid information. Interaction documentation will measure the percentage of eligible accounts or opportunities with a qualifying documented interaction. Workflow consistency will measure the percentage of required steps completed when due, and platform activity will measure eligible work periods with both access and at least one meaningful action.
+
+The analysis will summarize the overall index and each component using counts, means, medians, ranges, and distributions. Results may be compared across approved roles, territories, and time periods. Trend charts and group-comparison charts will be used to show where adoption is consistent and where records or workflows may need attention. These comparisons will be descriptive and will not be treated as evidence that a role, territory, or manager caused an adoption difference.
+
+**Justification**
+
+This method supports AO1 because meaningful Salesforce adoption involves more than login frequency. The index combines whether users keep information current, complete required records, document customer interactions, and follow the workflows connected to their work. Reporting each component with the overall score will prevent one combined number from hiding a specific problem.
+
+The method also follows research that defines system usage through the relationship among the user, the system, and the task [@burtonjones2006]. This supports measuring required Salesforce work instead of treating every login or action as equally meaningful. Separating platform activity from record and information quality is also consistent with the Information Systems Success Model [@delone2003].
+
+The user-month is the proposed unit of analysis because it allows the team to examine changes over time without relying on a single snapshot. Users will be compared with others who have similar responsibilities, and the measures will account for eligible work volume. A user with fewer active opportunities should not receive a lower score simply because there was less work to enter.
+
+Missing information will be separated from work that was not required. If a component does not apply to a user-month, the remaining weights will be rescaled rather than assigning a zero. If a required component is unavailable because the data were not provided, the score will be marked as incomplete and will not be compared as if it were fully observed. Low, moderate, and high adoption categories will not be finalized until the baseline distribution is reviewed. Any comparison with an external industry benchmark will only be made when the benchmark uses a similar population, definition, and measurement period.
+
+**Variables**
+
+The primary outcome will be the Salesforce Adoption Index, calculated as:
+
+**Salesforce Adoption Index = (Update Timeliness × .30) + (Record Completeness × .30) + (Interaction Documentation × .20) + (Workflow Consistency × .15) + (Platform Activity × .05).**
+
+The five component scores will also be treated as separate outcomes. Comparison variables may include user role, territory or region, team, tenure, workload or opportunity volume, and calendar period when those fields are available and approved. The final calculation rules, time windows, and eligibility requirements will be confirmed with CVRx after the approved dataset is reviewed.
+
+The five component percentages will be continuous ratio-scale measures because they have a meaningful zero and are calculated from eligible records or tasks. The overall 0-to-100 score will be treated as a continuous composite index. User role, territory, region, and team will be nominal grouping variables. Tenure and workload will be ratio-scale control variables when recorded as numerical amounts, and calendar period will be used as an ordered time variable. Because AO1 is intended to establish a baseline, the index and component scores will serve as the dependent or outcome measures rather than evidence of a causal relationship.
 
 #### AO2 — Identify Drivers and Barriers of Meaningful Salesforce Adoption (Mickyas Shawel)
 
@@ -936,10 +982,10 @@ Some drivers of adoption are organizational rather than attitudinal. Workload, r
 
 **Variables**
 
--   **Dependent:** the Salesforce Adoption Index (SF1) and selected components.
--   **Independent:** role, region, tenure group, workload or opportunity volume, and manager identifier and manager tenure if available.
--   **Linked survey variables:** the seven adoption constructs (Q2–Q24), if linkage is approved.
--   **Control:** calendar period and baseline adoption.
+- **Dependent:** the Salesforce Adoption Index (SF1) and selected components.
+- **Independent:** role, region, tenure group, workload or opportunity volume, and manager identifier and manager tenure if available.
+- **Linked survey variables:** the seven adoption constructs (Q2–Q24), if linkage is approved.
+- **Control:** calendar period and baseline adoption.
 
 #### AO3 — Salesforce User Segmentation and Targeted Engagement (Tim Arana)
 
@@ -975,7 +1021,6 @@ The final selection of variables and segmentation methods will depend on the qua
 
 #### AO4 — Implement and Evaluate an Engagement Campaign (Wenting Jiang)
 
-
 **Method Used**
 
 AO4 will use a longitudinal pre/post design to evaluate changes in Salesforce adoption, data quality and workflow behavior after the targeted engagement intervention. The preferred analytical method will depend on whether a credible comparison group is available.
@@ -1000,41 +1045,24 @@ The principal outcomes will include record completeness, update timeliness, work
 
 The primary explanatory variables will be intervention-group status, baseline versus post-intervention period, the Intervention × Post interaction and intervention exposure. Potential control variables will include role, region, tenure, workload, opportunity volume and baseline adoption. All final definitions and analytical periods will be confirmed after CVRx provides the approved data.
 
-
-------------------------------------------------------------------------
-# Chapter 4: Analysis, Modeling, and Results
-
-## AO1 — \[Title\]
-
-### Introduction
-
-\[Insert content.\]
-
-### Descriptive Analysis
-
-\[Insert analysis, tables, and visualizations.\]
-
-### Predictive or Inferential Analysis
-
-\[Insert model and results.\]
-
-### Key Findings
-
-\[Summarize findings.\]
-
-## AO2 — \[Title\]
-
-\[Repeat analysis framework.\]
-
-## AO3 — \[Title\]
-
-\[Repeat analysis framework.\]
-
-## AO4 — \[Title\]
-
-\[Repeat analysis framework.\]
-
-------------------------------------------------------------------------
+|                                                  |
+|:-------------------------------------------------|
+| \# Chapter 4: Analysis, Modeling, and Results    |
+| \## AO1 — \[Title\]                              |
+| \### Introduction                                |
+| \[Insert content.\]                              |
+| \### Descriptive Analysis                        |
+| \[Insert analysis, tables, and visualizations.\] |
+| \### Predictive or Inferential Analysis          |
+| \[Insert model and results.\]                    |
+| \### Key Findings                                |
+| \[Summarize findings.\]                          |
+| \## AO2 — \[Title\]                              |
+| \[Repeat analysis framework.\]                   |
+| \## AO3 — \[Title\]                              |
+| \[Repeat analysis framework.\]                   |
+| \## AO4 — \[Title\]                              |
+| \[Repeat analysis framework.\]                   |
 
 # Chapter 5: Data-Informed Marketing Strategy and Conclusion
 
