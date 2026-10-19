@@ -10,7 +10,7 @@ format:
   html:
     toc: true
     toc-depth: 4
-    number-sections: true
+    number-sections: false
 ---
 
 # Title Page {.unnumbered}
@@ -656,19 +656,27 @@ Additional variables may include employee role, tenure, territory, training expe
 Where individual-level data linkage is approved, the Salesforce Adoption Index developed under AO1 and behavioral segment membership established under AO3 may be incorporated into group comparisons.
 
 The final selection of variables will depend on the approved survey instrument, response rates, and the completeness and quality of the collected data.
+
 #### AO4 — Implement and Evaluate an Engagement Campaign (Wenting Jiang)
 
-#### Method Used
+**Method Used**
+
 Survey responses collected before and after the targeted engagement intervention will be compared to evaluate changes in users’ Salesforce perceptions and experiences. Multi-item constructs will be created by averaging related five-point Likert-scale items. When the final sample size is sufficient, Cronbach’s alpha will be used to examine the internal consistency of each construct before a composite score is calculated.
+
 The analysis will begin with descriptive statistics, including response counts, means, standard deviations and response distributions. If the same respondents can be confidentially matched across the two periods, paired-samples tests will be used. If individual responses cannot be matched, baseline and follow-up responses will be treated as independent samples. Nonparametric alternatives will be considered when the sample size or data distribution does not support a t-test.
+
 If an intervention group and a credible comparison group are available, a difference-in-differences analysis will be considered. Open-ended responses will also be reviewed to identify recurring barriers, recommendations and user concerns.
 
-#### Justification for the Method
+**Justification for the Method**
+
 A pre/post survey design is appropriate because AO4 examines whether the intervention changes users’ perceptions of Salesforce, the support they receive and their willingness to follow recommended Salesforce practices. Previous research indicates that technology adoption may be influenced by perceived usefulness, ease of use, training, managerial support and workflow compatibility.
+
 Survey results will be interpreted together with Salesforce behavioral data because self-reported responses may be affected by recall error, social-desirability bias and common-method bias. Combining survey and behavioral data will provide a more complete evaluation of the intervention.
 
-#### Variables
+**Variables**
+
 The primary survey outcomes will include perceived usefulness, perceived ease of use, workflow compatibility, information quality, managerial support, training adequacy, administrative burden and overall satisfaction. Self-reported update frequency and timeliness may also be examined.
+
 The main independent variables will be the measurement period, intervention-group status and, when applicable, the interaction between intervention-group status and the post-intervention period. Role, tenure, prior CRM experience, region and comfort with learning new software may be considered as contextual variables if the final sample size permits.
 
 ## Secondary Data
@@ -855,19 +863,29 @@ The final selection of variables and segmentation methods will depend on the qua
 
 #### AO4 — Implement and Evaluate an Engagement Campaign (Wenting Jiang)
 
-#### Method Used
+
+**Method Used**
+
 AO4 will use a longitudinal pre/post design to evaluate changes in Salesforce adoption, data quality and workflow behavior after the targeted engagement intervention. The preferred analytical method will depend on whether a credible comparison group is available.
+
 If both an intervention group and a comparison group are available, difference-in-differences analysis will compare the baseline-to-follow-up change in the intervention group with the corresponding change in the comparison group. The interaction between intervention-group status and the post-intervention period will represent the primary estimate of intervention effectiveness.
+
 If a comparison group is unavailable, a single-group pre/post analysis will be used. When the same users appear in both periods, paired-samples tests or their nonparametric alternatives will compare user-level outcomes. The analysis will report baseline and follow-up values, absolute and percentage changes, effect sizes and confidence intervals.
+
 Regression models may be used to control for relevant differences in role, region, workload, opportunity volume and baseline adoption. The final model type will depend on whether the outcome is continuous, proportional, binary or a count.
 
-#### Justification for the Method
+**Justification for the Method**
+
 A longitudinal design is appropriate because AO4 seeks to determine whether Salesforce behavior changes following the intervention. Existing research suggests that training, user support and workflow integration may influence sales-technology adoption and that adoption patterns can change over time.
+
 A comparison group and difference-in-differences design are preferred because a simple pre/post change could result from seasonality, policy changes, workload changes or other organizational events. If no comparison group is available, the results will be described as changes observed after the intervention rather than definitive causal effects.
+
 Salesforce adoption will not be evaluated through login frequency alone. The analysis will emphasize task-relevant measures such as record completeness, update timeliness, customer-interaction documentation and workflow adherence. Survey results from Section 3.1.7 will be used to help explain why behavioral changes did or did not occur.
 
-#### Variables
+**Variables**
+
 The principal outcomes will include record completeness, update timeliness, workflow adherence, customer-interaction documentation and platform activity. A meaningful-adoption composite may also be considered if its scoring rules can be justified.
+
 The primary explanatory variables will be intervention-group status, baseline versus post-intervention period, the Intervention × Post interaction and intervention exposure. Potential control variables will include role, region, tenure, workload, opportunity volume and baseline adoption. All final definitions and analytical periods will be confirmed after CVRx provides the approved data.
 
 
