@@ -147,6 +147,116 @@ Meaningful Salesforce adoption is important to CVRx because reliable and timely 
 
 # Chapter 2: Background and Analytics Objectives
 
+## Current Digital Marketing Programs 
+
+## Client (Company) Background
+
+### Company Mission/Vision
+
+CVRx, Inc. is a commercial-stage medical technology company focused on developing and commercializing neuromodulation therapies for cardiovascular disease. Its primary commercial product, Barostim™, uses Baroreflex Activation Therapy (BAT) to stimulate baroreceptors in the carotid artery and modulate autonomic nervous system activity. The therapy is intended for appropriately indicated patients with heart failure with reduced ejection fraction (HFrEF).
+
+CVRx's mission emphasizes partnering with clinicians to advance innovative device therapies and improve the lives of people with chronic disease. Its broader commercial vision is to expand access to Barostim for patients who may benefit from the therapy. The company's patient-centered orientation requires coordination among clinical, commercial, market-access, and operational stakeholders.
+
+**Connection to the CEP.** CVRx's commercial organization needs reliable information about accounts, opportunities, customer interactions, and field activities. Salesforce supports the management of this information. The CEP therefore examines meaningful CRM adoption as a potential enabler of consistent commercial information, not as an end in itself.
+
+### Core Competencies
+
+**Neuromodulation technology.** CVRx's proprietary Barostim platform uses an implantable device to stimulate the baroreflex pathway, differentiating its mechanism from conventional pharmaceutical therapies and devices that directly pace or signal the heart.
+
+**Clinical research and evidence development.** The company supports clinical research and evidence dissemination relevant to evaluating Barostim's safety, effectiveness, and appropriate use. Clinical evidence informs physician and institutional decision-making.
+
+**Physician education and clinical support.** CVRx supports physician training, patient identification, and procedural education. Field Clinical Specialists provide clinical and technical support, while Account Managers cultivate relationships with healthcare organizations and clinicians.
+
+**Market development and reimbursement support.** Commercialization requires treatment-center development, patient-identification resources, and navigation of coverage and reimbursement processes.
+
+**Commercial relationship management.** These competencies involve repeated interactions among field users, clinicians, hospitals, and internal teams. Reliable Salesforce records can help authorized stakeholders coordinate account development and engagement, subject to the company's actual workflows and data policies.
+
+### Value Propositions
+
+**For patients:** Barostim provides an additional device-based treatment option for appropriately indicated patients with HFrEF who remain symptomatic despite guideline-directed medical therapy. Patient-facing value emphasizes potential improvements in symptoms, functional status, exercise capacity, and quality of life; eligibility and expected outcomes require individualized clinical assessment.
+
+**For healthcare professionals:** CVRx offers a differentiated therapeutic approach alongside clinical evidence, patient-selection resources, procedural education, and clinical support.
+
+**For healthcare institutions:** The offering includes the implantable technology plus training, implementation support, patient-identification resources, and reimbursement assistance relevant to operating a Barostim program.
+
+The overall value proposition therefore combines medical technology with specialized clinical, educational, and operational support. Salesforce is an internal commercial tool, rather than a component of the therapeutic value proposition itself.
+
+### Business Objectives
+
+CVRx's business priorities include expanding Barostim commercialization, increasing physician and patient awareness, developing treatment-center and referral relationships, supporting patient access and reimbursement, generating additional clinical evidence, and strengthening commercial execution.
+
+These priorities require coordinated engagement across a specialized healthcare market. Salesforce may support visibility into account and opportunity development, customer interactions, and field activities, but the benefits of improved CRM adoption must be tested rather than assumed.
+
+The CEP addresses this information-management challenge through four linked analytics objectives: **AO1** measures meaningful adoption; **AO2** identifies associated drivers and barriers; **AO3** segments users to inform targeted engagement; and **AO4** implements and evaluates a feasible intervention.
+
+## Description of the Client's Current Marketing Program
+
+###  Marketing Team and Expertise
+
+CVRx's commercialization model requires coordination across marketing, field sales, clinical education, and market-access functions. In contrast with a conventional direct-to-consumer purchase, the Barostim treatment journey involves multiple healthcare decision-makers and a specialized clinical setting.
+
+**Account Managers** develop relationships with healthcare institutions and clinicians and support account and opportunity development. **Field Clinical Specialists** provide technical and procedural education relevant to clinical implementation. **Marketing and patient-education functions** communicate the therapy's patient-centered and clinical value to distinct audiences. **Market-access functions** support coverage and reimbursement-related education and processes.
+
+These descriptions reflect functions discussed in the team's existing materials; the precise organizational chart, staffing, reporting lines, marketing competencies, and division of Salesforce responsibilities **require client confirmation**.
+
+**CEP connection:** Role-specific Salesforce expectations must be validated before comparing adoption scores. An activity relevant to an Account Manager may not be required of a Field Clinical Specialist.
+
+### Current Target Market
+
+CVRx operates in a multi-stakeholder healthcare market. **Patients** with potentially eligible HFrEF are the ultimate beneficiaries of Barostim, but eligibility is determined clinically. **Healthcare professionals**, including heart-failure specialists, cardiologists, implanting physicians, and referral providers, influence identification, evaluation, referral, and treatment. **Hospitals and cardiovascular treatment centers** are important institutional purchasers and implementation sites. **Payers** influence access through coverage and reimbursement decisions.
+
+These groups require different messages. Patients need accessible explanations of eligibility, benefits, risks, and next steps; clinicians need evidence and patient-selection information; institutions need clinical and operational support; and payers require relevant coverage and evidence information. The resulting market is neither purely business-to-business nor purely direct-to-consumer.
+
+### Current Positioning and Perceptual Map
+
+CVRx positions Barostim as a differentiated device-based option for appropriately indicated patients with HFrEF, emphasizing its autonomic neuromodulation mechanism, clinical evidence, and patient-centered outcomes. Barostim complements guideline-directed medical therapy rather than replacing it.
+
+Cardiac resynchronization therapy (CRT) uses cardiac pacing to coordinate ventricular contractions. Cardiac contractility modulation (CCM), including Impulse Dynamics' Optimizer system, uses electrical signals directed to cardiac tissue. These options differ in mechanism and patient eligibility; they should not be portrayed as clinically interchangeable.
+
+#### Current Perceptual Map — Conceptual Framework
+
+
+
+### Current Products/Services
+
+CVRx's primary commercial product is **Barostim**, an implantable system delivering Baroreflex Activation Therapy for appropriately indicated patients with HFrEF. Its commercial offering also includes physician education, clinical and procedural support, patient-identification resources, treatment-center development, clinical evidence materials, and reimbursement-related assistance.
+
+This combination of product and support services reflects the complexity of introducing an implantable therapy into established care pathways. The CEP is focused on commercial CRM workflows rather than assessing clinical efficacy or changing treatment recommendations.
+
+### Current Pricing
+
+Pricing for an implantable medical device must distinguish **manufacturer selling price**, **hospital acquisition cost**, **procedure-related charges**, **payer reimbursement**, and **patient financial responsibility**. These amounts are not interchangeable. Contractual arrangements, coverage policies, and hospital economics can affect the commercial environment.
+
+The team's available material does not establish a verified, current Barostim net selling price or a complete institution-level pricing schedule. Accordingly, this draft **does not report a specific device price**. A stronger final section should draw on client-approved pricing context and applicable reimbursement documentation, while respecting confidentiality.
+
+**Evidence needed:** Verified pricing approach (if disclosable), relevant reimbursement mechanisms, and how hospital economics influence account development. These are background considerations; pricing optimization is outside the current four analytics objectives.
+
+### 2.2.6 Current Marketing Channels
+
+**Website and digital education.** Barostim's patient-facing materials explain the therapy, treatment journey, patient experiences, and potential next steps. Healthcare-professional resources emphasize clinical evidence, patient selection, procedural education, and reimbursement.
+
+**Organic search and SEO.** Public-facing educational content addresses heart failure, HFrEF, Barostim, and related treatment questions. Search rankings, traffic, and internal keyword strategy cannot be inferred from website content alone.
+
+**Social media.** Patient education, stories, and company or clinical developments can support awareness. The team's current materials do not establish channel-level reach, engagement, or conversion performance.
+
+**Email and direct communication.** Follow-up education may be part of the patient journey, but platform, frequency, segmentation, and campaign outcomes require internal confirmation.
+
+**Field sales and professional engagement.** Account Managers, Field Clinical Specialists, physician education, and professional events support relationships and implementation in clinical settings.
+
+**Paid media.** Paid search, social, or display may be relevant channels, but the current evidence does not verify the scale, budgets, or effectiveness of CVRx's paid advertising. These should not be described as established major channels without additional records.
+
+### Current Integrated Marketing Communications
+
+Integrated Marketing Communications (IMC) concerns the consistency and coordination of messages across audiences and channels. CVRx's observable communications address several distinct stakeholders while maintaining a shared focus on Barostim's differentiated mechanism and potential value for appropriately indicated patients.
+
+**Patient-facing communications** use accessible explanations, patient experiences, and education about the treatment journey. **Healthcare-professional communications** emphasize clinical evidence, patient selection, procedure-related information, and appropriate use. **Institutional and commercial communications** address treatment-center development, support capabilities, and operational or reimbursement considerations.
+
+This dual- and multi-audience approach is consistent with the complexity of the Barostim commercialization model. However, the existence of related messages across channels does **not** by itself establish that CVRx has a formally integrated campaign-management or attribution system. Internal campaign calendars, message guidelines, audience plans, performance reports, and marketing-system integration details would be required to assess IMC effectiveness.
+
+**Connection to the CEP.** Salesforce may support documentation and coordination of selected commercial interactions. The extent of its integration with marketing automation, patient-facing campaigns, and attribution systems remains unverified. The CEP will measure approved role-specific CRM behaviors and avoid assuming that all marketing channels are connected to Salesforce.
+
+
+
 ## Current Digital Marketing Practices
 
 ### Brand Persona
@@ -1154,7 +1264,7 @@ The primary explanatory variables will be intervention-group status, baseline ve
 
 ## Conclusion and Recommendations
 
-\[Insert final conclusions and recommendations.\]
+\[Insert final conclusions and recommendations.\] 
 
 ## Limitations
 
@@ -1169,7 +1279,7 @@ The primary explanatory variables will be intervention-group status, baseline ve
 ## Future Directions
 
 ### Future Research
-
+  
 \[Insert content.\]
 
 ### Future Marketing Efforts
