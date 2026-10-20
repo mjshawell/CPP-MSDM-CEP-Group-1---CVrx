@@ -147,7 +147,6 @@ Meaningful Salesforce adoption is important to CVRx because reliable and timely 
 
 # Chapter 2: Background and Analytics Objectives
 
-## Current Digital Marketing Programs 
 
 ## Client (Company) Background
 
