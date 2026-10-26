@@ -1,0 +1,16 @@
+---
+title: "Improving Salesforce Adoption and Field Engagement at CVRx"
+subtitle: "MSDM Culminating Experience Project · Initial Proposal Presentation"
+author: "Mickyas Shawel, Luis Berumen, Tim Arana, Wenting Jiang"
+date: 2026-10-20
+---
+
+## Presentation slides
+
+::: slides-embed
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vTMbYDFM32-6_8Tr9wAIk7dtQTX9ldFSaElkSkgqGJlCJOipVmH1fDpsRjBgrYFyhuSph7Dpb3VA4To/pubembed?start=false&amp;loop=false&amp;delayms=3000" frameborder="0" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true">
+
+</iframe>
+:::
+
+[Open the slides in a new tab](https://docs.google.com/presentation/d/e/2PACX-1vTMbYDFM32-6_8Tr9wAIk7dtQTX9ldFSaElkSkgqGJlCJOipVmH1fDpsRjBgrYFyhuSph7Dpb3VA4To/pub?start=false&loop=false&delayms=3000){target="_blank"}
