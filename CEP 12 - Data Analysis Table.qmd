@@ -1,0 +1,189 @@
+---
+title: "CEP 12 Data Analysis Table"
+subtitle: "CVRx CRM Adoption Project"
+author: "Group 1: Mickyas Shawel, Tim Arana, Luis Berumen, and Wenting Jiang"
+date: today
+format:
+  html:
+    toc: true
+    toc-depth: 2
+    number-sections: true
+    code-fold: false
+    code-tools: false
+    code-overflow: wrap
+    embed-resources: true
+execute:
+  warning: false
+  message: false
+  echo: false
+---
+
+## Purpose
+
+This report gives our proposed data analysis table for the CVRx CRM adoption project. We used the five internal Salesforce tables that CVRx provided and connected them to the four analytics objectives in our CEP report. The goal is to decide how adoption should be measured and what statistical tests can answer each research question.
+
+```{r}
+#| label: setup
+
+library(tibble)
+library(gt)
+```
+
+## Current data inventory
+
+The workbook contains Opportunity records, stage history, field-change history, login history, and the employee roster. The Opportunity ID joins worked well: all 21,604 Opportunity IDs in the stage and field histories matched the Opps table. Employee-level joins need more care because login history contains system and integration accounts in addition to field users.
+
+```{r}
+#| label: data-inventory
+
+data_inventory <- tribble(
+  ~Source, ~Records, ~Coverage, ~`Main fields or measures`, ~`Use in the project`,
+  "Opps",
+  "21,604",
+  "Jan. 20, 2020-July 3, 2026",
+  "Opportunity creator and owner, stage, status, qualification, completeness flags, units, and sales",
+  "Opportunity creation, data completeness, pipeline outcome, and business outcome measures",
+
+  "OppStageHistory",
+  "70,346",
+  "21,604 Opportunities; 100% matched to Opps",
+  "Stage, main stage, stage start/end dates, stage order, and current-stage flag",
+  "Stage progression, number of stages, and time spent in each stage",
+
+  "OppFieldHist",
+  "294,212",
+  "21,604 Opportunities; 100% matched to Opps",
+  "Editor alias, change date, field name, and data type for 19 tracked fields",
+  "Field-update activity, workflow activity, and update timing",
+
+  "UserLoginHist",
+  "371,152",
+  "Jan. 4-July 4, 2026; 289 aliases including system accounts",
+  "Application, login time, user ID, and alias",
+  "Direct user logins after automated integrations are excluded",
+
+  "roster",
+  "253",
+  "216 aliases; 97 active employees",
+  "Role, region, hire and role dates, tenure, latest-record flag, and employment status",
+  "Sampling frame, role/region comparisons, employment period, and control variables",
+
+  "Employee survey",
+  "Not collected in this workbook",
+  "Planned",
+  "Usefulness, ease of use, workflow fit, support, training, trust, burden, barriers, and satisfaction",
+  "Explain why adoption differs across users"
+)
+
+data_inventory |>
+  gt() |>
+  tab_header(title = "Data Sources for the CVRx Analysis")
+```
+
+The raw login count should not be used as the adoption score because many records came from integrations such as ADF, API Proxy, and activity-sync tools. For a direct-login measure, we defined user-facing applications as Browser, Salesforce for iOS, Salesforce for Android, and Insights. The direct-login event and active-alias counts should be recalculated using this four-application definition before the final analysis. Among the 97 active roster aliases, 90 had at least one field change and 85 had created at least one Opportunity during the available history.
+
+## Research questions and hypotheses
+
+The table uses the following questions and hypotheses based on our CEP objectives and the fields in the internal workbook.
+
+1.  **RQ1:** What is the current level of meaningful Salesforce adoption, and does it differ by role, region, or tenure?
+2.  **RQ2:** Which employee perceptions and organizational factors are related to operational Salesforce adoption?
+3.  **H1:** Perceived usefulness is positively related to operational Salesforce adoption.
+4.  **H2:** Administrative burden is negatively related to operational Salesforce adoption.
+5.  **RQ3:** Is stronger operational adoption associated with more complete Opportunity records and better pipeline progression?
+6.  **H3:** Users with higher operational adoption have higher Opportunity-completeness rates and more consistent stage progression.
+7.  **RQ4:** Can CVRx users be grouped into useful segments based on direct logins, field updates, Opportunity creation, role, and survey responses?
+8.  **RQ5:** Do operational adoption and data quality improve after the targeted engagement intervention?
+9.  **H4:** Post-intervention operational adoption is higher than baseline adoption.
+10. **H5:** The intervention group improves more than the comparison group from baseline to follow-up.
+
+## Data analysis table
+
+```{r}
+#| label: analysis-table
+
+analysis_plan <- tribble(
+  ~`Hypothesis / RQ`, ~`Constructs and their roles`, ~`Operationalization of the constructs`, ~Scale, ~`Statistical test`,
+
+  "RQ1",
+  "Operational adoption (DV); role, region, and tenure (grouping variables)",
+  "User-month counts of direct Browser/iOS/Android/Insights logins, field changes, Opportunities created, and stage updates. Link role and region from the roster record active on the event date.",
+  "Activity measures are ratio counts; role and region are nominal; tenure months is ratio and tenure group is ordinal",
+  "Descriptive statistics and charts by month. Compare groups with ANOVA or Kruskal-Wallis. Count regression can be used when activity is highly skewed.",
+
+  "RQ2",
+  "Operational adoption (DV); usefulness, ease of use, workflow fit, manager support, training, data trust, and burden (IVs); role, region, and tenure (controls)",
+  "Operational adoption uses the Salesforce activity measures above. Survey composites use Q2-Q24 after reliability is checked. Link survey and Salesforce data only through an approved de-identified key.",
+  "Survey items are ordinal; reliable composite scores may be treated as continuous; activity measures are ratio counts",
+  "Cronbach's alpha, correlations, group comparisons, and multiple or count regression. Reduce the number of predictors if the survey sample is small.",
+
+  "H1",
+  "Perceived usefulness (IV); operational adoption (DV)",
+  "Mean of Q2-Q5 when reliability is at least .70; direct-login, field-change, and Opportunity-creation measures during the same period",
+  "Composite treated as continuous; adoption components are ratio counts",
+  "Pearson or Spearman correlation and the usefulness coefficient in a regression model",
+
+  "H2",
+  "Administrative burden (IV); operational adoption (DV)",
+  "Mean of Q22-Q24 when reliability is at least .70; direct-login, field-change, and Opportunity-creation measures during the same period",
+  "Composite treated as continuous; adoption components are ratio counts",
+  "Pearson or Spearman correlation and the burden coefficient in a regression model",
+
+  "RQ3",
+  "Operational adoption (IV); Opportunity completeness and progression (DVs); role, region, tenure, Opportunity age, and coverage type (controls)",
+  "Adoption from direct logins and field changes. Completeness uses hasCPAS, hasPatient, isQualified, and hasRelatedProcedure. Progression uses STAGE_MAIN, number of stages, time in stage, and final OPP_STATUS.",
+  "Adoption and time are ratio; completeness flags are binary; stage is ordinal; status is nominal",
+  "Cross-tabulations and chi-square tests for binary outcomes, logistic regression for completeness, and correlation or regression for stage count/time. Results show association, not causation.",
+
+  "H3",
+  "Operational adoption (IV); completeness and progression (DVs)",
+  "Compare user-month adoption measures with the percentage of owned or created Opportunities that are complete, qualified, and move beyond early stages",
+  "Adoption is ratio; percentages are continuous; individual flags are binary",
+  "Correlation and regression, with role, region, tenure, and Opportunity age as controls",
+
+  "RQ4",
+  "User segment (result); login, field-update, and Opportunity activity (inputs); survey and roster variables (profile variables)",
+  "Standardize the operational measures within the same observation period. Add Q2-Q24 scores and Q25 barriers when survey responses are available.",
+  "Mostly continuous activity/composite measures; profile variables are nominal or ordinal",
+  "Start with rule-based segments. Cluster analysis may be used if the sample is large enough, followed by descriptive profiles and group comparisons.",
+
+  "RQ5 / H4",
+  "Measurement period (IV); operational adoption and data quality (DVs)",
+  "Create equal baseline and follow-up windows around the intervention date. Compare direct logins, field updates, Opportunity creation, completeness, and progression for the same users. Record whether each observation falls within the Q4 2026 SPIF period because the SPIF separately rewards qualified new-Opportunity creation.",
+  "Period is nominal; activity is ratio; completeness rates are continuous",
+  "Paired t-test or Wilcoxon signed-rank test. Use monthly trend plots to check whether the change was already happening before the intervention.",
+
+  "H5",
+  "Period, intervention group, and their interaction (IVs); Q4 2026 SPIF exposure (control); operational adoption and data quality (DVs)",
+  "Baseline/follow-up indicator, intervention/comparison indicator, their interaction, and an indicator for Q4 2026 SPIF exposure. Where possible, the primary AO4 outcome should be a behavior not directly rewarded by the SPIF, such as timely stage updates.",
+  "Indicators are nominal; outcomes are counts, rates, or continuous scores",
+  "Difference-in-differences regression with Q4 2026 SPIF exposure included as a control when the study window overlaps the contest. The period-by-group interaction is the main intervention estimate."
+)
+
+analysis_plan |>
+  gt() |>
+  tab_header(title = "Data Analysis Table for the CVRx CRM Adoption Project")
+```
+
+## Data preparation notes
+
+The roster has more rows than unique aliases because some people changed roles. For a current snapshot, we would use records marked ACTIVE and latest. For historical analysis, we would match each activity date to the role record whose ROLE_START_DT and ROLE_END_DT contain that date. This avoids assigning an old activity to a person's newest role.
+
+We would not count all 371,152 login records as employee activity because many were created by integrations. Direct user logins should be limited to Browser, Salesforce for iOS, Salesforce for Android, and Insights unless CVRx supplies a different approved definition. Field updates and Opportunity creation are useful additional behaviors because a login by itself does not prove meaningful use.
+
+The activity measures are on different scales, so they should not be added as raw counts. We would first summarize them by user-month, check their distributions and correlations, and then standardize them if the team decides to create an Adoption Index. The component measures should also remain visible so the index is understandable.
+
+## Limitations
+
+The login history only covers January through July 2026, while Opportunity history begins in 2020. Analyses that combine login and Opportunity activity must use the shorter common period. The workbook also does not identify the intervention date or intervention/comparison groups, so the pre/post tests cannot be completed until those fields are supplied.
+
+The Q4 2026 SPIF may confound the AO4 intervention evaluation because it independently rewards qualified new-Opportunity creation. If the pilot overlaps the SPIF, the analysis should record SPIF exposure, avoid attributing changes in qualified-opportunity creation solely to the pilot, and preferably use a primary outcome that the SPIF does not directly reward, such as timely stage updates.
+
+The survey responses are not included in this workbook. H1 and H2 therefore remain analysis plans rather than tests that can be run now. A full regression with many survey predictors may not work well with a small sample. Role expectations may also differ, so activity comparisons should use behaviors that are expected for each role.
+
+This report uses only aggregate information. It does not display employee aliases, patient information, account identifiers, Opportunity IDs, or individual records.
+
+## Appendix
+
+-   \[GitHub repository\]
+-   \[GitHub Pages\]
