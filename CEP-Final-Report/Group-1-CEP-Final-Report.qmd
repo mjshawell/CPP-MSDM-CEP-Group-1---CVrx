@@ -11,13 +11,14 @@ format:
     toc: true
     toc-depth: 4
     number-sections: false
+    embed-resources: true
 ---
 
 # Title Page {.unnumbered}
 
 **MSDM Culminating Experience Project**
 
-## \[Final CVRx Project Title\]
+## Improving Salesforce Adoption and Field Engagement at CVRx
 
 **Client:** CVRx
 
@@ -190,7 +191,7 @@ The CEP addresses this information-management challenge through four linked anal
 
 ## Description of the Client's Current Marketing Program
 
-###  Marketing Team and Expertise
+### Marketing Team and Expertise
 
 CVRx's commercialization model requires coordination across marketing, field sales, clinical education, and market-access functions. In contrast with a conventional direct-to-consumer purchase, the Barostim treatment journey involves multiple healthcare decision-makers and a specialized clinical setting.
 
@@ -213,8 +214,6 @@ CVRx positions Barostim as a differentiated device-based option for appropriatel
 Cardiac resynchronization therapy (CRT) uses cardiac pacing to coordinate ventricular contractions. Cardiac contractility modulation (CCM), including Impulse Dynamics' Optimizer system, uses electrical signals directed to cardiac tissue. These options differ in mechanism and patient eligibility; they should not be portrayed as clinically interchangeable.
 
 #### Current Perceptual Map — Conceptual Framework
-
-
 
 ### Current Products/Services
 
@@ -253,8 +252,6 @@ Integrated Marketing Communications (IMC) concerns the consistency and coordinat
 This dual- and multi-audience approach is consistent with the complexity of the Barostim commercialization model. However, the existence of related messages across channels does **not** by itself establish that CVRx has a formally integrated campaign-management or attribution system. Internal campaign calendars, message guidelines, audience plans, performance reports, and marketing-system integration details would be required to assess IMC effectiveness.
 
 **Connection to the CEP.** Salesforce may support documentation and coordination of selected commercial interactions. The extent of its integration with marketing automation, patient-facing campaigns, and attribution systems remains unverified. The CEP will measure approved role-specific CRM behaviors and avoid assuming that all marketing channels are connected to Salesforce.
-
-
 
 ## Current Digital Marketing Practices
 
@@ -687,14 +684,14 @@ The survey will be administered online through Qualtrics as a self-administered 
 
 The questionnaire is organized into the following sections:
 
-- **Screening (Q1):** current use of Salesforce in a field role.
-- **Adoption constructs (Q2–Q24):** perceived usefulness, perceived ease of use, workflow compatibility, manager support, training effectiveness, trust in Salesforce data and administrative burden, measured on five-point Likert scales.
-- **Barriers (Q25):** reasons records are not kept current (check all that apply).
-- **Overall perception (Q26):** satisfaction with Salesforce, repeated after the pilot.
-- **Pilot feedback (Q27–Q29):** intervention group only, after the pilot.
-- **Usage behavior (B1–B4):** update frequency, update timing, primary device and weekly hours in Salesforce.
-- **Background (C1–C7):** role, tenure, medical device sales experience, prior CRM experience, region, comfort with new technology and age group.
-- **Open-ended items (O1–O2):** suggested improvements and other feedback.
+-   **Screening (Q1):** current use of Salesforce in a field role.
+-   **Adoption constructs (Q2–Q24):** perceived usefulness, perceived ease of use, workflow compatibility, manager support, training effectiveness, trust in Salesforce data and administrative burden, measured on five-point Likert scales.
+-   **Barriers (Q25):** reasons records are not kept current (check all that apply).
+-   **Overall perception (Q26):** satisfaction with Salesforce, repeated after the pilot.
+-   **Pilot feedback (Q27–Q29):** intervention group only, after the pilot.
+-   **Usage behavior (B1–B4):** update frequency, update timing, primary device and weekly hours in Salesforce.
+-   **Background (C1–C7):** role, tenure, medical device sales experience, prior CRM experience, region, comfort with new technology and age group.
+-   **Open-ended items (O1–O2):** suggested improvements and other feedback.
 
 Before launch, the instrument will be pretested with the faculty lead and two or three CVRx reviewers to check wording, length and fit with field roles. CVRx will distribute the survey link through an internal channel, accompanied by a note from commercial leadership encouraging participation. The baseline survey is planned for Spring 2027 after CVRx approves the final instrument, and the follow-up survey for AO4 will be administered after the pilot ends in Summer 2027.
 
@@ -726,11 +723,11 @@ Income will not be collected. Compensation is confidential to CVRx and is not re
 
 All respondents will be CVRx commercial field employees. Occupation will be described through the following variables:
 
-- Job role (C1).
-- Tenure at CVRx (C2), recoded into newer (18 months or less) and tenured (more than 18 months).
-- Region (C5).
-- Total medical device sales experience (C3).
-- Prior Salesforce or CRM experience (C4).
+-   Job role (C1).
+-   Tenure at CVRx (C2), recoded into newer (18 months or less) and tenured (more than 18 months).
+-   Region (C5).
+-   Total medical device sales experience (C3).
+-   Prior Salesforce or CRM experience (C4).
 
 The respondent distribution on these variables will be compared with the sampling frame.
 
@@ -738,53 +735,53 @@ The respondent distribution on these variables will be compared with the samplin
 
 Relevant self-reported behaviors will include:
 
-- How often the respondent updates Salesforce records in a typical week (B1).
-- When the respondent usually records a customer interaction (B2).
-- Reasons records are not kept current (Q25).
-- Comfort with learning new software tools (C6).
+-   How often the respondent updates Salesforce records in a typical week (B1).
+-   When the respondent usually records a customer interaction (B2).
+-   Reasons records are not kept current (Q25).
+-   Comfort with learning new software tools (C6).
 
 #### Product Usage Variables
 
 Relevant Salesforce usage characteristics will include:
 
-- Hours per week spent entering or updating Salesforce information (B4).
-- Primary device used to update Salesforce (B3).
-- Overall satisfaction with Salesforce (Q26).
-- Pilot participation and pilot feedback (Q27–Q29), for AO4 respondents.
+-   Hours per week spent entering or updating Salesforce information (B4).
+-   Primary device used to update Salesforce (B3).
+-   Overall satisfaction with Salesforce (Q26).
+-   Pilot participation and pilot feedback (Q27–Q29), for AO4 respondents.
 
 ### Measures
 
 #### Independent Variables
 
-- **Perceived usefulness (Q2–Q5):** the degree to which a user believes Salesforce improves job performance. Adapted from Davis (1989).
-- **Perceived ease of use (Q6–Q9):** the degree to which using Salesforce is free of effort. Adapted from Davis (1989).
-- **Workflow compatibility (Q10–Q12):** the degree to which Salesforce fits how field users work. Adapted from Goodhue and Thompson (1995).
-- **Manager support (Q13–Q15):** the degree to which the user's manager encourages and uses Salesforce. Adapted from Avlonitis and Panagopoulos (2005) and Venkatesh et al. (2003).
-- **Training effectiveness (Q16–Q18):** the degree to which training and resources prepared the user. Adapted from Venkatesh et al. (2003).
-- **Trust in Salesforce data (Q19–Q21):** the degree to which the user believes Salesforce information is accurate and current. Adapted from DeLone and McLean (2003).
-- **Administrative burden (Q22–Q24):** the degree to which Salesforce adds time-consuming or duplicate work. Developed by the team.
-- **Measurement period and intervention-group status (AO4):** baseline versus follow-up, and intervention versus comparison group.
+-   **Perceived usefulness (Q2–Q5):** the degree to which a user believes Salesforce improves job performance. Adapted from Davis (1989).
+-   **Perceived ease of use (Q6–Q9):** the degree to which using Salesforce is free of effort. Adapted from Davis (1989).
+-   **Workflow compatibility (Q10–Q12):** the degree to which Salesforce fits how field users work. Adapted from Goodhue and Thompson (1995).
+-   **Manager support (Q13–Q15):** the degree to which the user's manager encourages and uses Salesforce. Adapted from Avlonitis and Panagopoulos (2005) and Venkatesh et al. (2003).
+-   **Training effectiveness (Q16–Q18):** the degree to which training and resources prepared the user. Adapted from Venkatesh et al. (2003).
+-   **Trust in Salesforce data (Q19–Q21):** the degree to which the user believes Salesforce information is accurate and current. Adapted from DeLone and McLean (2003).
+-   **Administrative burden (Q22–Q24):** the degree to which Salesforce adds time-consuming or duplicate work. Developed by the team.
+-   **Measurement period and intervention-group status (AO4):** baseline versus follow-up, and intervention versus comparison group.
 
 Each construct is measured on a five-point Likert scale (1 = Strongly disagree, 5 = Strongly agree). Items will be averaged into a composite score when Cronbach's alpha is 0.70 or higher.
 
 #### Dependent Variables
 
-- **Meaningful Salesforce adoption (AO2):** the AO1 Salesforce Adoption Index for the survey period, if CVRx approves linking survey responses to Salesforce records.
-- **Self-reported update frequency (B1) and overall satisfaction (Q26):** used as the AO2 outcomes if linkage is not approved.
-- **Overall satisfaction (Q26) and construct scores at follow-up (AO4):** used to evaluate changes in perceptions after the pilot.
-- **Pilot feedback (Q27–Q29):** evaluation of the intervention by pilot participants.
+-   **Meaningful Salesforce adoption (AO2):** the AO1 Salesforce Adoption Index for the survey period, if CVRx approves linking survey responses to Salesforce records.
+-   **Self-reported update frequency (B1) and overall satisfaction (Q26):** used as the AO2 outcomes if linkage is not approved.
+-   **Overall satisfaction (Q26) and construct scores at follow-up (AO4):** used to evaluate changes in perceptions after the pilot.
+-   **Pilot feedback (Q27–Q29):** evaluation of the intervention by pilot participants.
 
 #### Control Variables
 
-- Job role (C1).
-- Tenure group (C2).
-- Region (C5).
-- Medical device sales experience (C3).
-- Prior CRM experience (C4).
-- Comfort with new technology (C6).
-- Age group (C7).
-- Primary device (B3).
-- Hours per week in Salesforce (B4).
+-   Job role (C1).
+-   Tenure group (C2).
+-   Region (C5).
+-   Medical device sales experience (C3).
+-   Prior CRM experience (C4).
+-   Comfort with new technology (C6).
+-   Age group (C7).
+-   Primary device (B3).
+-   Hours per week in Salesforce (B4).
 
 The number of controls in any model will be limited by the final sample size (see AO2).
 
@@ -848,9 +845,9 @@ Salesforce records show what users do but not why. The survey measures the perce
 
 **Variables**
 
-- **Dependent:** the Salesforce Adoption Index (SF1) if linked; otherwise update frequency (B1) and overall satisfaction (Q26).
-- **Independent:** perceived usefulness, perceived ease of use, workflow compatibility, manager support, training effectiveness, trust in Salesforce data and administrative burden (Q2–Q24); barrier indicators (Q25).
-- **Control:** role, tenure group, region, medical device sales experience, prior CRM experience, comfort with new technology, primary device and weekly hours in Salesforce.
+-   **Dependent:** the Salesforce Adoption Index (SF1) if linked; otherwise update frequency (B1) and overall satisfaction (Q26).
+-   **Independent:** perceived usefulness, perceived ease of use, workflow compatibility, manager support, training effectiveness, trust in Salesforce data and administrative burden (Q2–Q24); barrier indicators (Q25).
+-   **Control:** role, tenure group, region, medical device sales experience, prior CRM experience, comfort with new technology, primary device and weekly hours in Salesforce.
 
 #### AO3 — Salesforce User Segmentation and Targeted Engagement (Tim Arana)
 
@@ -980,64 +977,64 @@ Data cleaning and analysis will be conducted in a reproducible statistical progr
 
 Relevant user characteristics may include:
 
-- User role;
-- Region or territory;
-- Tenure at CVRx;
-- Prior Salesforce or CRM experience; and
-- Intervention or comparison-group membership.
+-   User role;
+-   Region or territory;
+-   Tenure at CVRx;
+-   Prior Salesforce or CRM experience; and
+-   Intervention or comparison-group membership.
 
 #### Relevant Behavioral Variables
 
 Relevant Salesforce-related behaviors may include:
 
-- Number of opportunities;
-- Number of customer interactions;
-- Frequency of record updates;
-- Timeliness of record updates;
-- Record completeness;
-- Customer-interaction documentation; and
-- Completion of required workflow steps.
+-   Number of opportunities;
+-   Number of customer interactions;
+-   Frequency of record updates;
+-   Timeliness of record updates;
+-   Record completeness;
+-   Customer-interaction documentation; and
+-   Completion of required workflow steps.
 
 #### Product Usage Variables
 
 Relevant Salesforce usage characteristics may include:
 
-- Salesforce activity frequency;
-- Number of records created or updated;
-- Use of relevant Salesforce features;
-- Frequency of documenting customer interactions;
-- Use of required Salesforce workflows; and
-- Participation in intervention-related activities, if available.
+-   Salesforce activity frequency;
+-   Number of records created or updated;
+-   Use of relevant Salesforce features;
+-   Frequency of documenting customer interactions;
+-   Use of required Salesforce workflows; and
+-   Participation in intervention-related activities, if available.
 
 ### Measures
 
 #### Independent Variables
 
-- **Intervention-group status:** Indicates whether a user belongs to the intervention or comparison group.
-- **Post-intervention period:** Distinguishes follow-up observations from baseline observations.
-- **Intervention × Post:** Measures whether the intervention group experienced a greater change than the comparison group.
-- **Intervention exposure:** May include receipt of intervention materials, training attendance, or participation in intervention activities.
+-   **Intervention-group status:** Indicates whether a user belongs to the intervention or comparison group.
+-   **Post-intervention period:** Distinguishes follow-up observations from baseline observations.
+-   **Intervention × Post:** Measures whether the intervention group experienced a greater change than the comparison group.
+-   **Intervention exposure:** May include receipt of intervention materials, training attendance, or participation in intervention activities.
 
 #### Dependent Variables
 
-- **Record completeness:** Percentage of applicable required Salesforce fields containing valid information.
-- **Update timeliness:** Time between an eligible activity and its Salesforce update, or the percentage of records updated within the approved period.
-- **Workflow adherence:** Percentage of applicable required workflow steps completed.
-- **Customer-interaction documentation:** Number or percentage of eligible customer interactions documented in Salesforce.
-- **Platform activity:** Number of approved Salesforce activities or record updates.
-- **Meaningful Salesforce adoption:** A possible composite of completeness, timeliness, workflow adherence, and interaction documentation.
+-   **Record completeness:** Percentage of applicable required Salesforce fields containing valid information.
+-   **Update timeliness:** Time between an eligible activity and its Salesforce update, or the percentage of records updated within the approved period.
+-   **Workflow adherence:** Percentage of applicable required workflow steps completed.
+-   **Customer-interaction documentation:** Number or percentage of eligible customer interactions documented in Salesforce.
+-   **Platform activity:** Number of approved Salesforce activities or record updates.
+-   **Meaningful Salesforce adoption:** A possible composite of completeness, timeliness, workflow adherence, and interaction documentation.
 
 #### Control Variables
 
 Potential control variables may include:
 
-- User role;
-- Region or territory;
-- Tenure at CVRx;
-- Workload or opportunity volume;
-- Baseline Salesforce adoption;
-- Prior CRM experience; and
-- Calendar period.
+-   User role;
+-   Region or territory;
+-   Tenure at CVRx;
+-   Workload or opportunity volume;
+-   Baseline Salesforce adoption;
+-   Prior CRM experience; and
+-   Calendar period.
 
 The final definitions and calculation rules will be confirmed after CVRx provides the approved Salesforce data.
 
@@ -1091,10 +1088,10 @@ Some drivers of adoption are organizational rather than attitudinal. Workload, r
 
 **Variables**
 
-- **Dependent:** the Salesforce Adoption Index (SF1) and selected components.
-- **Independent:** role, region, tenure group, workload or opportunity volume, and manager identifier and manager tenure if available.
-- **Linked survey variables:** the seven adoption constructs (Q2–Q24), if linkage is approved.
-- **Control:** calendar period and baseline adoption.
+-   **Dependent:** the Salesforce Adoption Index (SF1) and selected components.
+-   **Independent:** role, region, tenure group, workload or opportunity volume, and manager identifier and manager tenure if available.
+-   **Linked survey variables:** the seven adoption constructs (Q2–Q24), if linkage is approved.
+-   **Control:** calendar period and baseline adoption.
 
 #### AO3 — Salesforce User Segmentation and Targeted Engagement (Tim Arana)
 
@@ -1263,7 +1260,7 @@ The primary explanatory variables will be intervention-group status, baseline ve
 
 ## Conclusion and Recommendations
 
-\[Insert final conclusions and recommendations.\] 
+\[Insert final conclusions and recommendations.\]
 
 ## Limitations
 
@@ -1278,7 +1275,7 @@ The primary explanatory variables will be intervention-group status, baseline ve
 ## Future Directions
 
 ### Future Research
-  
+
 \[Insert content.\]
 
 ### Future Marketing Efforts
